@@ -179,7 +179,7 @@ export const rampartCreatures: Array<Creature> = [
     },
     {
       id: "25",
-      name: "War Unicorn ",
+      name: "War Unicorn",
       level: "6+",
       attack: 15,
       defense: 14,
