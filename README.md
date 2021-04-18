@@ -28,10 +28,11 @@ denon start
 
 ```text
   Method GET: /creature --> All creatures
-  Method GET: /creature/castle --> Return all castle creatures 
-  Method GET: /creature/rampart --> Return all rampart creatures 
-  Method GET: /creature/tower --> Return all tower creatures 
-  Method GET: /creature/inferno --> Return all inferno creatures 
+  Method GET: /creature/castle --> Return all castle creatures
+  Method GET: /creature/rampart --> Return all rampart creatures
+  Method GET: /creature/tower --> Return all tower creatures
+  Method GET: /creature/inferno --> Return all inferno creatures
+  Method GET: /creature/necropolis --> Return all inferno creatures
 ```
 
 ## Try in API client
@@ -44,4 +45,5 @@ Method GET:
   http://51.15.192.116:4500/creature/rampart
   http://51.15.192.116:4500/creature/tower
   http://51.15.192.116:4500/creature/inferno
+  http://51.15.192.116:4500/creature/necropolis
 ```
