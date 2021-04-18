@@ -6,3 +6,4 @@
 - Add the end point about Tower's creatures.
 - Add the end point about Inferno's creatures.
 - Add the end point about Necropolis's creatures.
+- Add the end point about Dungeon's creatures.

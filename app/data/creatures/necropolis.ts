@@ -142,7 +142,7 @@ export const necropolisCreatures: Array<Creature> = [
       shots: 12,
       growth: "3",
       aiValue: 848,
-      valueMoney: 5500,
+      valueMoney: 550,
       specialAbilities: "Undead, Ranged attack, Death cloud",
     },
     {

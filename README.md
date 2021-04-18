@@ -33,6 +33,7 @@ denon start
   Method GET: /creature/tower --> Return all tower creatures
   Method GET: /creature/inferno --> Return all inferno creatures
   Method GET: /creature/necropolis --> Return all inferno creatures
+  Method GET: /creature/dungeon --> Return all dungeon creatures
 ```
 
 ## Try in API client
@@ -46,4 +47,5 @@ Method GET:
   http://51.15.192.116:4500/creature/tower
   http://51.15.192.116:4500/creature/inferno
   http://51.15.192.116:4500/creature/necropolis
+  http://51.15.192.116:4500/creature/dungeon
 ```
