@@ -4,3 +4,4 @@
 - Add the end point about Castle's creatures.
 - Add the end point about Rampart's creatures.
 - Add the end point about Tower's creatures.
+- Add the end point about Inferno's creatures.
