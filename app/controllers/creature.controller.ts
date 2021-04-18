@@ -1,12 +1,14 @@
 import { Creature } from "../models/Creature.ts";
 import { castleCreatures } from "../data/creatures/castle.ts";
 import { rampartCreatures } from "../data/creatures/rampart.ts";
+import { towerCreatures } from "../data/creatures/tower.ts";
 
 let creatures: any;
 
 const factories: any = { 
     'castle': castleCreatures,
     'rampart': rampartCreatures,
+    'tower': towerCreatures,
 };
 
 const setFactory = (factory: string) => {
