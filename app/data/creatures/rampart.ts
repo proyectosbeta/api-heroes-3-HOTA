@@ -1,4 +1,4 @@
-import { Creature } from "../types/creature.ts";
+import { Creature } from "../../types/creature.ts";
 
 export const rampartCreatures: Array<Creature> = [
     {

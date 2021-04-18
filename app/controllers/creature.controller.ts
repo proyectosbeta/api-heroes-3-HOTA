@@ -1,6 +1,6 @@
 import { Creature } from "../models/Creature.ts";
-import { castleCreatures } from "../data/castleCreatures.ts";
-import { rampartCreatures } from "../data/rampartCreatures.ts";
+import { castleCreatures } from "../data/creatures/castle.ts";
+import { rampartCreatures } from "../data/creatures/rampart.ts";
 
 let creatures: any;
 
