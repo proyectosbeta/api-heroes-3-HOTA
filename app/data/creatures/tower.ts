@@ -183,7 +183,7 @@ export const towerCreatures: Array<Creature> = [
       level: "6+",
       attack: 16,
       defense: 13,
-      damage: "302",
+      damage: "30",
       health: 110,
       speed: 7,
       size: 2,
