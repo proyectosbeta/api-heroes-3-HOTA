@@ -1,7 +1,7 @@
 import { Creature } from "../../models/Creature.ts";
-import { castleCreatures } from "../../data/castleCreatures.ts";
+import { rampartCreatures } from "../../data/rampartCreatures.ts";
 
-const creatures = new Creature(castleCreatures);
+const creatures = new Creature(rampartCreatures);
 
 // Return all creatures.
 const getCreatures = ({ response }: { response: any }) => {
@@ -28,3 +28,4 @@ const getCreature = ({
 };
 
 export { getCreatures, getCreature };
+

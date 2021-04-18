@@ -51,7 +51,7 @@ export const castleCreatures: Array<Creature> = [
     },
     {
       id: "4",
-      name: "Marksman ",
+      name: "Marksman",
       level: "2+",
       attack: 6,
       defense: 3,
