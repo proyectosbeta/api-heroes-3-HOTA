@@ -5,6 +5,7 @@ import { towerCreatures } from "../data/creatures/tower.ts";
 import { infernoCreatures } from "../data/creatures/inferno.ts";
 import { necropolisCreatures } from "../data/creatures/necropolis.ts";
 import { dungeonCreatures } from "../data/creatures/dungeon.ts";
+import { strongholdCreatures } from "../data/creatures/stronghold.ts";
 
 let creatures: any;
 
@@ -15,6 +16,7 @@ const factories: any = {
     'inferno': infernoCreatures,
     'necropolis': necropolisCreatures,
     'dungeon': dungeonCreatures,
+    'stronghold': strongholdCreatures,
 };
 
 const setFactory = (factory: string) => {
@@ -24,7 +26,7 @@ const setFactory = (factory: string) => {
 const getDataCreatures = (factory: string) => {
     var allCreatures = castleCreatures.concat(rampartCreatures,
       towerCreatures, infernoCreatures, necropolisCreatures,
-      dungeonCreatures);
+      dungeonCreatures, strongholdCreatures);
 
     return factories[factory] || allCreatures;
 };
