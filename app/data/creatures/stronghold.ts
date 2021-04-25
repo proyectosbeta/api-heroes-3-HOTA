@@ -199,7 +199,7 @@ export const strongholdCreatures: Array<Creature> = [
       level: "7",
       attack: 17,
       defense: 17,
-      damage: "400-50",
+      damage: "30-50",
       health: 160,
       speed: 6,
       size: 2,

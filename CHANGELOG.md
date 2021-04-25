@@ -8,3 +8,4 @@
 - Add the end point about Necropolis's creatures.
 - Add the end point about Dungeon's creatures.
 - Add the end point about Stronghold's creatures.
+- Add the end point about Fortress's creatures.
