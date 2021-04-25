@@ -36,6 +36,7 @@ denon start
   Method GET: /creature/dungeon --> Return all dungeon creatures
   Method GET: /creature/stronghold --> Return all stronghold creatures
   Method GET: /creature/fortress --> Return all fortress creatures
+  Method GET: /creature/conflux --> Return all conflux creatures
 ```
 
 ## Try in API client
@@ -52,4 +53,5 @@ Method GET:
   http://51.15.192.116:4500/creature/dungeon
   http://51.15.192.116:4500/creature/stronghold
   http://51.15.192.116:4500/creature/fortress
+  http://51.15.192.116:4500/creature/conflux
 ```
