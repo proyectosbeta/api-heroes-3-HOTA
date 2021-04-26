@@ -8,6 +8,7 @@ import { dungeonCreatures } from "../data/creatures/dungeon.ts";
 import { strongholdCreatures } from "../data/creatures/stronghold.ts";
 import { fortressCreatures } from "../data/creatures/fortress.ts";
 import { confluxCreatures } from "../data/creatures/conflux.ts";
+import { coveCreatures } from "../data/creatures/cove.ts";
 
 let creatures: any;
 
@@ -21,6 +22,7 @@ const factories: any = {
     'stronghold': strongholdCreatures,
     'fortress': fortressCreatures,
     'conflux': confluxCreatures,
+    'cove': coveCreatures,
 };
 
 const setFactory = (factory: string) => {
@@ -31,7 +33,7 @@ const getDataCreatures = (factory: string) => {
     var allCreatures = castleCreatures.concat(rampartCreatures,
       towerCreatures, infernoCreatures, necropolisCreatures,
       dungeonCreatures, strongholdCreatures, fortressCreatures,
-      confluxCreatures);
+      confluxCreatures, coveCreatures);
 
     return factories[factory] || allCreatures;
 };
