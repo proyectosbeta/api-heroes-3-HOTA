@@ -140,7 +140,7 @@ export const confluxCreatures: Array<Creature> = [
       speed: 4,
       size: 1,
       shots: 0,
-      growth: "43",
+      growth: "4",
       aiValue: 330,
       valueMoney: 400,
       specialAbilities: "Elemental, Immune to Armageddon - Lightning Bolt and Chain Lightning, Vulnerable to Meteor Shower",
