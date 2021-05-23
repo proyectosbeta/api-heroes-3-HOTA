@@ -42,6 +42,7 @@ denon start
   Method GET: /creature/cove --> Return all cove creatures
   Method GET: /spell --> All spells
   Method GET: /spell/fire --> Return all fire spell
+  Method GET: /spell/water --> Return all water spell
 ```
 
 ## Try in API client
@@ -62,4 +63,5 @@ Method GET:
   http://51.15.192.116:4500/creature/cove
   http://51.15.192.116:4500/spell/
   http://51.15.192.116:4500/spell/fire
+  http://51.15.192.116:4500/spell/water
 ```

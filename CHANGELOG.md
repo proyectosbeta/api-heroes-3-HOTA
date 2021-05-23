@@ -1,6 +1,7 @@
 #v0.2.0
 
 - Add fire spell end point.
+- Add water spell end point.
 
 #v0.1.0
 
