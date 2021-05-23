@@ -1,4 +1,8 @@
-#v0.1
+#v0.2.0
+
+- Add fire spell end point.
+
+#v0.1.0
 
 - Add the core of Heroes III (HOTA).
 - Add the end point about Castle's creatures.

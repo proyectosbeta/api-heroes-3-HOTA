@@ -5,6 +5,8 @@ Link:
 - https://heroes.thelazy.net//index.php/Main_Page
 - Creatures:
   - https://heroes.thelazy.net/index.php/List_of_creatures
+- Spells
+  - https://heroes.thelazy.net/index.php/List_of_spells_(HotA)
 
 # Tecnologies
 
