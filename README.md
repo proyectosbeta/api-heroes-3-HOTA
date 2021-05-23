@@ -26,7 +26,29 @@ deno install --allow-read --allow-run --allow-write -f --unstable https://deno.l
 denon start
 ```
 
-## Requests
+# Production
+
+Use pm2 for production.
+
+## Install pm2
+
+```bash
+  sudo npm install pm2 -g
+```
+
+## Start pm2
+
+```bash
+  pm2 start /home/proyectosbeta/repositoriosGit/api-heroes-3-HOTA/app.ts --interpreter="deno" --interpreter-args="run --allow-net" --name api-heroes-3-hota
+```
+
+## Startup server pm2
+
+```bash
+  pm2 startup
+```
+
+# Requests
 
 ```text
   Method GET: /creature --> All creatures
@@ -45,7 +67,7 @@ denon start
   Method GET: /spell/water --> Return all water spell
 ```
 
-## Try in API client
+# Try in API client
 
 Method GET:
 
