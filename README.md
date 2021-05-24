@@ -33,7 +33,7 @@ Use pm2 for production.
 ## Install pm2
 
 ```bash
-  sudo npm install pm2 -g
+  npm install pm2 -g
 ```
 
 ## Start pm2
