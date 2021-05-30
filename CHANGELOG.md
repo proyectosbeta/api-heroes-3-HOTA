@@ -3,6 +3,7 @@
 - Add fire spell end point.
 - Add water spell end point.
 - Add air spell end point.
+- Add earth spell end point.
 
 #v0.1.0
 

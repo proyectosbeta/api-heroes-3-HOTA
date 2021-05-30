@@ -2,6 +2,7 @@ import { Spell } from "../models/Spell.ts";
 import { fireSpell } from "../data/spells/fire.ts";
 import { waterSpell } from "../data/spells/water.ts";
 import { airSpell } from "../data/spells/air.ts";
+import { earthSpell } from "../data/spells/earth.ts";
 
 let spells: any;
 
@@ -9,6 +10,7 @@ const magics: any = {
     'fire': fireSpell,
     'water': waterSpell,
     'air': airSpell,
+    'earth': earthSpell,
 };
 
 const setMagic = (magic: string) => {
@@ -16,7 +18,8 @@ const setMagic = (magic: string) => {
 };
 
 const getDataSpells = (magic: string) => {
-    var allSpells = fireSpell.concat(waterSpell, airSpell);
+    var allSpells = fireSpell.concat(waterSpell, 
+      airSpell, earthSpell);
 
     return magics[magic] || allSpells;
 };
