@@ -65,6 +65,7 @@ Use pm2 for production.
   Method GET: /spell --> All spells
   Method GET: /spell/fire --> Return all fire spell
   Method GET: /spell/water --> Return all water spell
+  Method GET: /spell/air --> Return all air spell
 ```
 
 # Try in API client
@@ -86,4 +87,5 @@ Method GET:
   http://51.15.192.116:4500/spell/
   http://51.15.192.116:4500/spell/fire
   http://51.15.192.116:4500/spell/water
+  http://51.15.192.116:4500/spell/air
 ```

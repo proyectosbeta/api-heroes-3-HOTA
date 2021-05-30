@@ -1,7 +1,7 @@
 import { Spell } from "../../types/spell.ts";
 
 export const fireSpell: Array<Spell> = [
-    {
+  {
       id: "1",
       name: "Bloodlust",
       level: 1,
