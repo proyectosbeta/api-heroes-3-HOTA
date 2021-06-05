@@ -1,3 +1,8 @@
+#v0.3.0
+
+- Add Castle's creatures images.
+- Add Rampart's creatures images.
+
 #v0.2.0
 
 - Add fire spell end point.
