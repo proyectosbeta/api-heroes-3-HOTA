@@ -162,7 +162,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Permanent morale +1",
     },
     {
-      id: "78",
+      id: "79",
       name: "Manticore",
       level: "6",
       attack: 15,
@@ -178,7 +178,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "79",
+      id: "80",
       name: "Scorpicore",
       level: "6+",
       attack: 16,
@@ -194,7 +194,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Paralyzing Venom",
     },
     {
-      id: "80",
+      id: "81",
       name: "Red Dragon",
       level: "7",
       attack: 19,
@@ -210,7 +210,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Dragon, Breath attack, Immune to spells level 1–3",
     },
     {
-      id: "81",
+      id: "82",
       name: "Black Dragon",
       level: "7+",
       attack: 25,

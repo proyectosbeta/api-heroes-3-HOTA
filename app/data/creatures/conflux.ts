@@ -2,7 +2,7 @@ import { Creature } from "../../types/creature.ts";
 
 export const confluxCreatures: Array<Creature> = [
     {
-      id: "110",
+      id: "111",
       name: "Pixie",
       level: "1",
       attack: 2,
@@ -18,7 +18,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "111",
+      id: "112",
       name: "Sprite",
       level: "1+",
       attack: 2,
@@ -34,7 +34,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "No enemy retaliation",
     },
     {
-      id: "112",
+      id: "113",
       name: "Air Elemental",
       level: "2",
       attack: 9,
@@ -50,7 +50,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "Elemental, Immune to Meteor Shower, Vulnerable to Lightning Bolt, Chain Lightning and Armageddon",
     },
     {
-      id: "113",
+      id: "114",
       name: "Storm Elemental",
       level: "2+",
       attack: 9,
@@ -66,7 +66,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "Elemental, Immune to Meteor Shower, Vulnerable to Lightning Bolt, Chain Lightning and Armageddon, Spellcaster (Protection from Air), Ranged attack",
     },
     {
-      id: "114",
+      id: "115",
       name: "Water Elemental",
       level: "3",
       attack: 8,
@@ -82,7 +82,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "Elemental, Immune to to Ice Bolt and Frost Ring, Vulnerable to Armageddon, Fireball, Inferno",
     },
     {
-      id: "115",
+      id: "116",
       name: "Ice Elemental",
       level: "3+",
       attack: 8,
@@ -98,7 +98,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, Elemental, Immune to to Ice Bolt and Frost Ring, Vulnerable to Armageddon, Fireball, Inferno",
     },
     {
-      id: "116",
+      id: "117",
       name: "Fire Elemental",
       level: "4",
       attack: 10,
@@ -114,7 +114,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "Elemental, Immune to fire (Magic Arrow included), Vulnerable to Ice Bolt and Frost Ring",
     },
     {
-      id: "117",
+      id: "118",
       name: "Energy Elemental",
       level: "4+",
       attack: 12,
@@ -130,7 +130,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "Elemental, Immune to fire (Magic Arrow included), Vulnerable to Ice Bolt and Frost Ring, Spellcaster (Protection from Fire)",
     },
     {
-      id: "118",
+      id: "119",
       name: "Earth Elemental",
       level: "5",
       attack: 10,
@@ -146,7 +146,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "Elemental, Immune to Armageddon - Lightning Bolt and Chain Lightning, Vulnerable to Meteor Shower",
     },
     {
-      id: "119",
+      id: "120",
       name: "Magma Elemental",
       level: "5+",
       attack: 11,
@@ -162,7 +162,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "Elemental, Immune to Armageddon - Lightning Bolt and Chain Lightning, Vulnerable to Meteor Shower, Spellcaster (Protection from Earth)",
     },
     {
-      id: "120",
+      id: "121",
       name: "Psychic Elemental",
       level: "6",
       attack: 15,
@@ -178,7 +178,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "Elemental, No enemy retaliation, Attacks all adjacent hexes",
     },
     {
-      id: "121",
+      id: "122",
       name: "Magic Elemental",
       level: "6+",
       attack: 15,
@@ -194,7 +194,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "Elemental, No enemy retaliation, Attacks all adjacent hexes, Immune to all magic",
     },
     {
-      id: "122",
+      id: "123",
       name: "Firebird",
       level: "7",
       attack: 18,
@@ -210,7 +210,7 @@ export const confluxCreatures: Array<Creature> = [
       specialAbilities: "Immune to fire (Magic Arrow included), (50% fire resistance), Breath attack",
     },
     {
-      id: "123",
+      id: "124",
       name: "Phoenix",
       level: "7+",
       attack: 21,

@@ -2,7 +2,7 @@ import { Creature } from "../../types/creature.ts";
 
 export const fortressCreatures: Array<Creature> = [
     {
-      id: "96",
+      id: "97",
       name: "Gnoll",
       level: "1",
       attack: 3,
@@ -18,7 +18,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "97",
+      id: "98",
       name: "Gnoll Marauder",
       level: "1+",
       attack: 4,
@@ -34,7 +34,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "98",
+      id: "99",
       name: "Lizardman",
       level: "2",
       attack: 5,
@@ -50,7 +50,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack",
     },
     {
-      id: "99",
+      id: "100",
       name: "Lizard Warrior",
       level: "2+",
       attack: 6,
@@ -66,7 +66,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack",
     },
     {
-      id: "100",
+      id: "101",
       name: "Serpent Fly",
       level: "3",
       attack: 7,
@@ -82,7 +82,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "Dispels benefical spells",
     },
     {
-      id: "101",
+      id: "102",
       name: "Dragon Fly",
       level: "3+",
       attack: 8,
@@ -98,7 +98,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "Dispels benefical spells, Inflicts weakness (advanced)",
     },
     {
-      id: "102",
+      id: "103",
       name: "Basilisk",
       level: "4",
       attack: 11,
@@ -114,7 +114,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "Petrifying attack 20%",
     },
     {
-      id: "103",
+      id: "104",
       name: "Greater Basilisk",
       level: "4+",
       attack: 12,
@@ -130,7 +130,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "Petrifying attack 20%",
     },
     {
-      id: "104",
+      id: "105",
       name: "Gorgon",
       level: "5",
       attack: 10,
@@ -146,7 +146,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "105",
+      id: "106",
       name: "Mighty Gorgon",
       level: "5+",
       attack: 11,
@@ -162,7 +162,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "Death stare",
     },
     {
-      id: "106",
+      id: "107",
       name: "Wyvern",
       level: "6",
       attack: 14,
@@ -178,7 +178,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "107",
+      id: "108",
       name: "Wyvern Monarch",
       level: "6+",
       attack: 14,
@@ -194,7 +194,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "Poisonous",
     },
     {
-      id: "108",
+      id: "109",
       name: "Hydra",
       level: "7",
       attack: 16,
@@ -210,7 +210,7 @@ export const fortressCreatures: Array<Creature> = [
       specialAbilities: "Attack all adjacent enemies, No enemy retaliation",
     },
     {
-      id: "109",
+      id: "110",
       name: "Chaos Hydra",
       level: "7+",
       attack: 18,
