@@ -49,7 +49,7 @@ const getSpell = ({
 
   if (spell) {
       response.status = 200;
-      response.body = spells;
+      response.body = spell;
   } else {
       response.status = 404;
       response.body = { message: "404 Not found" };

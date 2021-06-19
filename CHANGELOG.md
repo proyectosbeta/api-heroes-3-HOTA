@@ -1,6 +1,7 @@
 #v0.3.1
 
 - Add air, earth, fire and water spells for the effect.
+- Add endpoint by ID of creature and magic.
 
 #v0.3.0
 
