@@ -2,7 +2,7 @@ import { Creature } from "../../types/creature.ts";
 
 export const coveCreatures: Array<Creature> = [
     {
-      id: "125",
+      id: "127",
       name: "Nymph",
       level: "1",
       attack: 5,
@@ -18,7 +18,7 @@ export const coveCreatures: Array<Creature> = [
       specialAbilities: "Immune to Ice Bolt and Frost Ring",
     },
     {
-      id: "126",
+      id: "128",
       name: "Oceanid",
       level: "1+",
       attack: 6,
@@ -34,7 +34,7 @@ export const coveCreatures: Array<Creature> = [
       specialAbilities: "Immune to Ice Bolt and Frost Ring",
     },
     {
-      id: "127",
+      id: "129",
       name: "Crew Mate",
       level: "2",
       attack: 7,
@@ -50,7 +50,7 @@ export const coveCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "128",
+      id: "130",
       name: "Seaman",
       level: "2+",
       attack: 8,
@@ -66,7 +66,7 @@ export const coveCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "129",
+      id: "131",
       name: "Pirate",
       level: "3",
       attack: 8,
@@ -82,7 +82,7 @@ export const coveCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, No melee penalty",
     },
     {
-      id: "130",
+      id: "132",
       name: "Corsair",
       level: "3+",
       attack: 10,
@@ -99,7 +99,7 @@ export const coveCreatures: Array<Creature> = [
         "No enemy retaliation",
     },
     {
-      id: "131",
+      id: "133",
       name: "Sea Dog",
       level: "3++",
       attack: 12,
@@ -124,7 +124,7 @@ export const coveCreatures: Array<Creature> = [
         "shooting at creatures behind walls",
     },
     {
-      id: "132",
+      id: "134",
       name: "Stormbird",
       level: "4",
       attack: 10,
@@ -140,7 +140,7 @@ export const coveCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "133",
+      id: "135",
       name: "Ayssid",
       level: "4+",
       attack: 11,
@@ -157,7 +157,7 @@ export const coveCreatures: Array<Creature> = [
         "by the attack, a second blow is inflicted",
     },
     {
-      id: "134",
+      id: "136",
       name: "Sea Witch",
       level: "5",
       attack: 12,
@@ -176,7 +176,7 @@ export const coveCreatures: Array<Creature> = [
         "casts Disrupting Ray",
     },
     {
-      id: "135",
+      id: "137",
       name: "Sorceress",
       level: "5+",
       attack: 12,
@@ -194,7 +194,7 @@ export const coveCreatures: Array<Creature> = [
         "stack. If Weakness is already applied, casts Disrupting Ray",
     },
     {
-      id: "136",
+      id: "138",
       name: "Nix",
       level: "6",
       attack: 13,
@@ -212,7 +212,7 @@ export const coveCreatures: Array<Creature> = [
         "a creature attacks Nix)",
     },
     {
-      id: "137",
+      id: "139",
       name: "Nix Warrior",
       level: "6+",
       attack: 14,
@@ -230,7 +230,7 @@ export const coveCreatures: Array<Creature> = [
         "when a creature attacks Nix Warrior)",
     },
     {
-      id: "138",
+      id: "140",
       name: "Sea Serpent",
       level: "7",
       attack: 22,
@@ -250,7 +250,7 @@ export const coveCreatures: Array<Creature> = [
         "total decremented Health",
     },
     {
-      id: "139",
+      id: "141",
       name: "Haspid",
       level: "7+",
       attack: 29,

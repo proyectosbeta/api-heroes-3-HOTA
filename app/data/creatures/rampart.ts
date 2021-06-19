@@ -162,7 +162,7 @@ export const rampartCreatures: Array<Creature> = [
       specialAbilities: "Binding",
     },
     {
-      id: "24",
+      id: "25",
       name: "Unicorn",
       level: "6",
       attack: 15,
@@ -178,7 +178,7 @@ export const rampartCreatures: Array<Creature> = [
       specialAbilities: "Blinding 20%, Aura of magic resistance 20%",
     },
     {
-      id: "25",
+      id: "26",
       name: "War Unicorn",
       level: "6+",
       attack: 15,
@@ -194,7 +194,7 @@ export const rampartCreatures: Array<Creature> = [
       specialAbilities: "Blinding 20%, Aura of magic resistance 20%",
     },
     {
-      id: "26",
+      id: "27",
       name: "Green Dragon",
       level: "7",
       attack: 18,
@@ -210,7 +210,7 @@ export const rampartCreatures: Array<Creature> = [
       specialAbilities: "Breath attack, Immune to level 1–3 spells, Counts as dragon",
     },
     {
-      id: "27",
+      id: "28",
       name: "Gold Dragon",
       level: "7+",
       attack: 27,

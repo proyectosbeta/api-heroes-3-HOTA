@@ -2,7 +2,7 @@ import { Creature } from "../../types/creature.ts";
 
 export const towerCreatures: Array<Creature> = [
     {
-      id: "28",
+      id: "29",
       name: "Gremlin",
       level: "1",
       attack: 3,
@@ -18,7 +18,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "29",
+      id: "30",
       name: "Master Gremlin",
       level: "1+",
       attack: 4,
@@ -34,7 +34,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack",
     },
     {
-      id: "30",
+      id: "31",
       name: "Stone Gargoyle",
       level: "2",
       attack: 6,
@@ -50,7 +50,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "Non-living",
     },
     {
-      id: "31",
+      id: "32",
       name: "Obsidian Gargoyle",
       level: "2+",
       attack: 7,
@@ -66,7 +66,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "Non-living",
     },
     {
-      id: "32",
+      id: "33",
       name: "Stone Golem",
       level: "3",
       attack: 7,
@@ -82,7 +82,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "Spell damage resistance 50%, Golem",
     },
     {
-      id: "33",
+      id: "34",
       name: "Iron Golem",
       level: "3+",
       attack: 9,
@@ -98,7 +98,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "Spell damage resistance 75%, Golem",
     },
     {
-      id: "34",
+      id: "35",
       name: "Mage",
       level: "4",
       attack: 11,
@@ -114,7 +114,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, No melee penalty, Hero's combat spells cost 2 less mana, No Obstacle penalty",
     },
     {
-      id: "35",
+      id: "36",
       name: "Arch Mage",
       level: "4+",
       attack: 12,
@@ -130,7 +130,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, No melee penalty, Hero's combat spells cost 2 less mana, No Obstacle penalty",
     },
     {
-      id: "36",
+      id: "37",
       name: "Genie",
       level: "5",
       attack: 12,
@@ -146,7 +146,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "Hates efreeti",
     },
     {
-      id: "37",
+      id: "38",
       name: "Master Genie",
       level: "5+",
       attack: 12,
@@ -162,7 +162,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "Hates efreeti, Spellcaster",
     },
     {
-      id: "38",
+      id: "39",
       name: "Naga",
       level: "6",
       attack: 16,
@@ -178,7 +178,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "No enemy retaliation",
     },
     {
-      id: "39",
+      id: "40",
       name: "Naga Queen",
       level: "6+",
       attack: 16,
@@ -194,7 +194,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "No enemy retaliation",
     },
     {
-      id: "40",
+      id: "41",
       name: "Giant",
       level: "7",
       attack: 19,
@@ -210,7 +210,7 @@ export const towerCreatures: Array<Creature> = [
       specialAbilities: "Immunity to mind spells",
     },
     {
-      id: "41",
+      id: "42",
       name: "Titan",
       level: "7+",
       attack: 24,

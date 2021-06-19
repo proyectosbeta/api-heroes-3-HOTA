@@ -2,7 +2,7 @@ import { Creature } from "../../types/creature.ts";
 
 export const strongholdCreatures: Array<Creature> = [
     {
-      id: "83",
+      id: "85",
       name: "Goblin",
       level: "1",
       attack: 4,
@@ -18,7 +18,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "84",
+      id: "86",
       name: "Hobgoblin",
       level: "1+",
       attack: 5,
@@ -34,7 +34,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "85",
+      id: "87",
       name: "Wolf Rider",
       level: "2",
       attack: 7,
@@ -50,7 +50,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "86",
+      id: "88",
       name: "Wolf Raider",
       level: "2+",
       attack: 8,
@@ -66,7 +66,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "Double attack",
     },
     {
-      id: "87",
+      id: "89",
       name: "Orc",
       level: "3",
       attack: 8,
@@ -82,7 +82,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack",
     },
     {
-      id: "88",
+      id: "90",
       name: "Orc Chieftain",
       level: "3+",
       attack: 8,
@@ -98,7 +98,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack",
     },
     {
-      id: "89",
+      id: "91",
       name: "Ogre",
       level: "4",
       attack: 13,
@@ -114,7 +114,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "90",
+      id: "92",
       name: "Ogre Mage",
       level: "4+",
       attack: 13,
@@ -130,7 +130,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "Spellcaster (Bloodlust)",
     },
     {
-      id: "91",
+      id: "93",
       name: "Roc",
       level: "5",
       attack: 13,
@@ -146,7 +146,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "92",
+      id: "94",
       name: "Thunderbird",
       level: "5+",
       attack: 13,
@@ -162,7 +162,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "Lightning strike",
     },
     {
-      id: "93",
+      id: "95",
       name: "Cyclops",
       level: "6",
       attack: 15,
@@ -178,7 +178,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, Can attack siege walls",
     },
     {
-      id: "94",
+      id: "96",
       name: "Cyclops King",
       level: "6+",
       attack: 17,
@@ -194,7 +194,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, Can attack siege walls",
     },
     {
-      id: "95",
+      id: "97",
       name: "Behemoth",
       level: "7",
       attack: 17,
@@ -210,7 +210,7 @@ export const strongholdCreatures: Array<Creature> = [
       specialAbilities: "Attack reduces enemy's defense by 40% and 1 point temporarily",
     },
     {
-      id: "96",
+      id: "98",
       name: "Ancient Behemoth",
       level: "7+",
       attack: 19,

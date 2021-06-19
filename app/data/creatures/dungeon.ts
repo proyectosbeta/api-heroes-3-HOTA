@@ -2,7 +2,7 @@ import { Creature } from "../../types/creature.ts";
 
 export const dungeonCreatures: Array<Creature> = [
     {
-      id: "69",
+      id: "71",
       name: "Troglodyte",
       level: "1",
       attack: 4,
@@ -18,7 +18,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Immune to blinding, Immune to petrification",
     },
     {
-      id: "70",
+      id: "72",
       name: "Infernal Troglodyte",
       level: "1+",
       attack: 5,
@@ -34,7 +34,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Immune to blinding, Immune to petrification",
     },
     {
-      id: "71",
+      id: "73",
       name: "Harpy",
       level: "2",
       attack: 6,
@@ -50,7 +50,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Strike and return",
     },
     {
-      id: "72",
+      id: "74",
       name: "Harpy Hag",
       level: "2+",
       attack: 6,
@@ -66,7 +66,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Strike and return, No enemy retaliation",
     },
     {
-      id: "73",
+      id: "75",
       name: "Beholder",
       level: "3",
       attack: 9,
@@ -82,7 +82,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, No melee penalty",
     },
     {
-      id: "74",
+      id: "76",
       name: "Evil Eye",
       level: "3+",
       attack: 10,
@@ -98,7 +98,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, No melee penalty",
     },
     {
-      id: "75",
+      id: "77",
       name: "Medusa",
       level: "4",
       attack: 9,
@@ -114,7 +114,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, No melee penalty, Stone gaze 20%",
     },
     {
-      id: "76",
+      id: "78",
       name: "Medusa Queen",
       level: "4+",
       attack: 10,
@@ -130,7 +130,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, No melee penalty, Stone gaze 20%",
     },
     {
-      id: "77",
+      id: "79",
       name: "Minotaur",
       level: "5",
       attack: 14,
@@ -146,7 +146,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Permanent morale +1",
     },
     {
-      id: "78",
+      id: "80",
       name: "Minotaur King",
       level: "5+",
       attack: 15,
@@ -162,7 +162,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Permanent morale +1",
     },
     {
-      id: "79",
+      id: "81",
       name: "Manticore",
       level: "6",
       attack: 15,
@@ -178,7 +178,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "80",
+      id: "82",
       name: "Scorpicore",
       level: "6+",
       attack: 16,
@@ -194,7 +194,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Paralyzing Venom",
     },
     {
-      id: "81",
+      id: "83",
       name: "Red Dragon",
       level: "7",
       attack: 19,
@@ -210,7 +210,7 @@ export const dungeonCreatures: Array<Creature> = [
       specialAbilities: "Dragon, Breath attack, Immune to spells level 1–3",
     },
     {
-      id: "82",
+      id: "84",
       name: "Black Dragon",
       level: "7+",
       attack: 25,

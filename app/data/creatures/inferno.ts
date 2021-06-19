@@ -2,7 +2,7 @@ import { Creature } from "../../types/creature.ts";
 
 export const infernoCreatures: Array<Creature> = [
     {
-      id: "42",
+      id: "43",
       name: "Imp",
       level: "1",
       attack: 2,
@@ -18,7 +18,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "43",
+      id: "44",
       name: "Familiar",
       level: "1+",
       attack: 4,
@@ -34,7 +34,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "Magic channel",
     },
     {
-      id: "44",
+      id: "45",
       name: "Gog",
       level: "2",
       attack: 6,
@@ -50,7 +50,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack",
     },
     {
-      id: "45",
+      id: "46",
       name: "Magog",
       level: "2+",
       attack: 7,
@@ -66,7 +66,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, Fireball Attack",
     },
     {
-      id: "46",
+      id: "47",
       name: "Hell Hound",
       level: "3",
       attack: 10,
@@ -82,7 +82,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "47",
+      id: "48",
       name: "Cerberus",
       level: "3+",
       attack: 10,
@@ -98,7 +98,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "3-headed attack, No enemy retaliation",
     },
     {
-      id: "48",
+      id: "49",
       name: "Demon",
       level: "4",
       attack: 10,
@@ -114,7 +114,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "35",
+      id: "50",
       name: "Horned Demon",
       level: "4+",
       attack: 10,
@@ -130,7 +130,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "49",
+      id: "51",
       name: "Pit Fiend",
       level: "5",
       attack: 13,
@@ -146,7 +146,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "",
     },
     {
-      id: "50",
+      id: "52",
       name: "Pit Lord",
       level: "5+",
       attack: 13,
@@ -162,7 +162,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "Summon demons",
     },
     {
-      id: "51",
+      id: "53",
       name: "Efreet",
       level: "6",
       attack: 16,
@@ -178,7 +178,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "Immune to fire (Magic Arrow included), Hates genies",
     },
     {
-      id: "52",
+      id: "54",
       name: "Efreet Sultan",
       level: "6+",
       attack: 16,
@@ -194,7 +194,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "Immune to fire (Magic Arrow included), Hates genies, Fire Shield",
     },
     {
-      id: "53",
+      id: "55",
       name: "Devil",
       level: "7",
       attack: 19,
@@ -210,7 +210,7 @@ export const infernoCreatures: Array<Creature> = [
       specialAbilities: "-1 to enemy luck + no enemy retaliation + Hates angels",
     },
     {
-      id: "54",
+      id: "56",
       name: "Arch Devil",
       level: "7+",
       attack: 26,

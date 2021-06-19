@@ -2,7 +2,7 @@ import { Creature } from "../../types/creature.ts";
 
 export const necropolisCreatures: Array<Creature> = [
     {
-      id: "55",
+      id: "57",
       name: "Skeleton",
       level: "1",
       attack: 5,
@@ -18,7 +18,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead",
     },
     {
-      id: "56",
+      id: "58",
       name: "Skeleton Warrior",
       level: "1+",
       attack: 6,
@@ -34,7 +34,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead",
     },
     {
-      id: "57",
+      id: "59",
       name: "Walking Dead",
       level: "2",
       attack: 5,
@@ -50,7 +50,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead",
     },
     {
-      id: "58",
+      id: "60",
       name: "Zombie",
       level: "2+",
       attack: 5,
@@ -66,7 +66,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead, Disease",
     },
     {
-      id: "59",
+      id: "61",
       name: "Wight",
       level: "3",
       attack: 7,
@@ -82,7 +82,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead, Regeneration",
     },
     {
-      id: "60",
+      id: "62",
       name: "Wraith",
       level: "3+",
       attack: 7,
@@ -98,7 +98,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead, Regeneration, Mana drain",
     },
     {
-      id: "61",
+      id: "63",
       name: "Vampire",
       level: "4",
       attack: 10,
@@ -114,7 +114,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead, No enemy retaliation",
     },
     {
-      id: "62",
+      id: "64",
       name: "Vampire Lord",
       level: "4+",
       attack: 10,
@@ -130,7 +130,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead, No enemy retaliation, Life drain",
     },
     {
-      id: "63",
+      id: "65",
       name: "Lich",
       level: "5",
       attack: 13,
@@ -146,7 +146,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead, Ranged attack, Death cloud",
     },
     {
-      id: "64",
+      id: "66",
       name: "Power Lich",
       level: "5+",
       attack: 13,
@@ -162,7 +162,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead, Ranged attack, Death cloud",
     },
     {
-      id: "65",
+      id: "67",
       name: "Black Knight",
       level: "6",
       attack: 16,
@@ -178,7 +178,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead, Curses enemies",
     },
     {
-      id: "66",
+      id: "68",
       name: "Dread Knight",
       level: "6+",
       attack: 18,
@@ -194,7 +194,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead, Curses enemies, Death blow attack",
     },
     {
-      id: "67",
+      id: "69",
       name: "Bone Dragon",
       level: "7",
       attack: 17,
@@ -210,7 +210,7 @@ export const necropolisCreatures: Array<Creature> = [
       specialAbilities: "Undead, Decreases enemy morale by -1, Dragon",
     },
     {
-      id: "68",
+      id: "70",
       name: "Ghost Dragon",
       level: "7+",
       attack: 19,
