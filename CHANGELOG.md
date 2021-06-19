@@ -1,3 +1,7 @@
+#v0.3.1
+
+- Add air, earth, fire and water spells for the effect.
+
 #v0.3.0
 
 - Add Castle's creatures images.
