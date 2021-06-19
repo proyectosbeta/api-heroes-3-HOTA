@@ -7,7 +7,6 @@ const PORT = 4500;
 const app = new Application();
 
 app.use(router.routes());
-//app.use(router.allowedMethods());
 
 console.log(`Listening on port ${PORT} ...`);
 await app.listen(`${HOST}:${PORT}`);
