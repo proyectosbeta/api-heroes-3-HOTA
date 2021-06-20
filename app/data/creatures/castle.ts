@@ -1,7 +1,7 @@
 import { Creature } from "../../types/creature.ts";
 
-// const DOMAIN = 'http://51.15.192.116:4500/';
-const DOMAIN = 'http://localhost:4500/';
+const DOMAIN = 'http://51.15.192.116:4500/';
+// const DOMAIN = 'http://localhost:4500/';
 
 export const castleCreatures: Array<Creature> = [
     {
