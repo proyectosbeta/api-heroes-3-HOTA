@@ -1,4 +1,5 @@
 import { Creature } from "../../types/creature.ts";
+import { APP_DOMAIN } from '../../config/index.ts';
 
 export const strongholdCreatures: Array<Creature> = [
     {
@@ -16,7 +17,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 60,
       valueMoney: 40,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Goblin.gif`,
     },
     {
       id: "86",
@@ -33,7 +34,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 78,
       valueMoney: 50,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Hobgoblin.gif`,
     },
     {
       id: "87",
@@ -50,7 +51,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 130,
       valueMoney: 100,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Wolf_Rider.gif`,
     },
     {
       id: "88",
@@ -67,7 +68,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 203,
       valueMoney: 140,
       specialAbilities: "Double attack",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Wolf_Raider.gif`,
     },
     {
       id: "89",
@@ -84,7 +85,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 192,
       valueMoney: 150,
       specialAbilities: "Ranged attack",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Orc.gif`,
     },
     {
       id: "90",
@@ -101,7 +102,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 240,
       valueMoney: 165,
       specialAbilities: "Ranged attack",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Orc_Chieftain.gif`,
     },
     {
       id: "91",
@@ -118,7 +119,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 416,
       valueMoney: 300,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Ogre.gif`,
     },
     {
       id: "92",
@@ -135,7 +136,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 672,
       valueMoney: 400,
       specialAbilities: "Spellcaster (Bloodlust)",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Ogre_Mage.gif`,
     },
     {
       id: "93",
@@ -152,7 +153,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 1027,
       valueMoney: 600,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Roc.gif`,
     },
     {
       id: "94",
@@ -169,7 +170,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 1106,
       valueMoney: 700,
       specialAbilities: "Lightning strike",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Thunderbird.gif`,
     },
     {
       id: "95",
@@ -186,7 +187,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 1266,
       valueMoney: 750,
       specialAbilities: "Ranged attack, Can attack siege walls",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Cyclops.gif`,
     },
     {
       id: "96",
@@ -203,7 +204,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 1443,
       valueMoney: 1100,
       specialAbilities: "Ranged attack, Can attack siege walls",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Cyclops_King.gif`,
     },
     {
       id: "97",
@@ -221,7 +222,7 @@ export const strongholdCreatures: Array<Creature> = [
       valueMoney: 1500,
       specialAbilities: "Attack reduces enemy's defense by 40% " +
         "and 1 point temporarily",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Behemoth.gif`,
     },
     {
       id: "98",
@@ -239,6 +240,6 @@ export const strongholdCreatures: Array<Creature> = [
       valueMoney: 3000,
       specialAbilities: "Attack reduces enemy's defense by 80% " +
         "and 1 point temporarily",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Ancient_Behemoth.gif`,
     },
 ];
