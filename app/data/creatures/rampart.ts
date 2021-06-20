@@ -1,4 +1,5 @@
 import { Creature } from "../../types/creature.ts";
+import { APP_DOMAIN } from '../../config/index.ts';
 
 export const rampartCreatures: Array<Creature> = [
     {
@@ -16,7 +17,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 100,
       valueMoney: 70,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Centaur.gif`,
     },
     {
       id: "16",
@@ -33,7 +34,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 138,
       valueMoney: 90,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Centaur_Captain.gif`,
     },
     {
       id: "17",
@@ -50,7 +51,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 138,
       valueMoney: 120,
       specialAbilities: "Magic resistance 20%",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Dwarf.gif`,
     },
     {
       id: "18",
@@ -67,7 +68,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 209,
       valueMoney: 150,
       specialAbilities: "Magic resistance 40%",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Battle_Dwarf.gif`,
     },
     {
       id: "19",
@@ -84,7 +85,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 234,
       valueMoney: 200,
       specialAbilities: "Ranged attack",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Wood_Elf.gif`,
     },
     {
       id: "20",
@@ -101,7 +102,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 331,
       valueMoney: 225,
       specialAbilities: "Ranged attack, Double attack",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Grand_Elf.gif`,
     },
     {
       id: "21",
@@ -118,7 +119,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 518,
       valueMoney: 250,
       specialAbilities: "Magic damper",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Pegasus.gif`,
     },
     {
       id: "22",
@@ -135,7 +136,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 532,
       valueMoney: 275,
       specialAbilities: "Magic damper",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Silver_Pegasus.gif`,
     },
     {
       id: "23",
@@ -152,7 +153,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 517,
       valueMoney: 350,
       specialAbilities: "Binding",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Dendroid_Guard.gif`,
     },
     {
       id: "24",
@@ -169,7 +170,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 803,
       valueMoney: 425,
       specialAbilities: "Binding",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Dendroid_Soldier.gif`,
     },
     {
       id: "25",
@@ -186,7 +187,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 1806,
       valueMoney: 850,
       specialAbilities: "Blinding 20%, Aura of magic resistance 20%",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Unicorn.gif`,
     },
     {
       id: "26",
@@ -203,7 +204,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 2030,
       valueMoney: 950,
       specialAbilities: "Blinding 20%, Aura of magic resistance 20%",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/War_Unicorn.gif`,
     },
     {
       id: "27",
@@ -221,7 +222,7 @@ export const rampartCreatures: Array<Creature> = [
       valueMoney: 2400,
       specialAbilities: "Breath attack, Immune to level 1–3 spells, " +
         "Counts as dragon",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Green_Dragon.gif`,
     },
     {
       id: "28",
@@ -239,6 +240,6 @@ export const rampartCreatures: Array<Creature> = [
       valueMoney: 4000,
       specialAbilities: "Breath attack, Immune to level 1–4 spells, " +
         "Counts as dragon",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Gold_Dragon.gif`,
     },
 ];
