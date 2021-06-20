@@ -1,4 +1,5 @@
 import { Creature } from "../../types/creature.ts";
+import { APP_DOMAIN } from '../../config/index.ts';
 
 export const fortressCreatures: Array<Creature> = [
     {
@@ -16,7 +17,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 56,
       valueMoney: 50,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Gnoll.gif`,
     },
     {
       id: "100",
@@ -33,7 +34,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 90,
       valueMoney: 70,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Gnoll.gif`,
     },
     {
       id: "101",
@@ -50,7 +51,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 126,
       valueMoney: 110,
       specialAbilities: "Ranged attack",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Lizardman.gif`,
     },
     {
       id: "102",
@@ -67,7 +68,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 156,
       valueMoney: 140,
       specialAbilities: "Ranged attack",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Lizard_Warrior.gif`,
     },
     {
       id: "103",
@@ -84,7 +85,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 268,
       valueMoney: 220,
       specialAbilities: "Dispels benefical spells",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Serpent_Fly.gif`,
     },
     {
       id: "104",
@@ -102,7 +103,7 @@ export const fortressCreatures: Array<Creature> = [
       valueMoney: 240,
       specialAbilities: "Dispels benefical spells, Inflicts weakness " +
         "(advanced)",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Dragon_Fly.gif`,
     },
     {
       id: "105",
@@ -119,7 +120,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 552,
       valueMoney: 325,
       specialAbilities: "Petrifying attack 20%",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Basilisk.gif`,
     },
     {
       id: "106",
@@ -136,7 +137,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 714,
       valueMoney: 400,
       specialAbilities: "Petrifying attack 20%",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Greater_Basilisk.gif`,
     },
     {
       id: "107",
@@ -153,7 +154,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 890,
       valueMoney: 525,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Gorgon.gif`,
     },
     {
       id: "108",
@@ -170,7 +171,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 1028,
       valueMoney: 600,
       specialAbilities: "Death stare",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Mighty_Gorgon.gif`,
     },
     {
       id: "109",
@@ -187,7 +188,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 1350,
       valueMoney: 800,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Wyvern.gif`,
     },
     {
       id: "110",
@@ -204,7 +205,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 1518,
       valueMoney: 1100,
       specialAbilities: "Poisonous",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Wyvern_Monarch.gif`,
     },
     {
       id: "111",
@@ -222,7 +223,7 @@ export const fortressCreatures: Array<Creature> = [
       valueMoney: 2200,
       specialAbilities: "Attack all adjacent enemies, " +
         "No enemy retaliation",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Hydra.gif`,
     },
     {
       id: "112",
@@ -240,6 +241,6 @@ export const fortressCreatures: Array<Creature> = [
       valueMoney: 3500,
       specialAbilities: "Attack all adjacent enemies, " +
         "No enemy retaliation",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Chaos_Hydra.gif`,
     },
 ];
