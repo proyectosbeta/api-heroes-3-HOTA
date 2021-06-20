@@ -3,7 +3,7 @@
 - Add air, earth, fire and water spells for the effect.
 - Add endpoint by ID of creature and magic.
 - Add image url in castle creature.
-- Add images in tower, inferno, necropolis creatures.
+- Add images in tower, inferno, necropolis, dungeon creatures.
 
 #v0.3.0
 

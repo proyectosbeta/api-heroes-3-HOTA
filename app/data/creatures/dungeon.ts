@@ -1,4 +1,5 @@
 import { Creature } from "../../types/creature.ts";
+import { APP_DOMAIN } from '../../config/index.ts';
 
 export const dungeonCreatures: Array<Creature> = [
     {
@@ -16,7 +17,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 59,
       valueMoney: 50,
       specialAbilities: "Immune to blinding, Immune to petrification",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Troglodyte.gif`,
     },
     {
       id: "72",
@@ -33,7 +34,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 84,
       valueMoney: 65,
       specialAbilities: "Immune to blinding, Immune to petrification",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Infernal_Troglodyte.gif`,
     },
     {
       id: "73",
@@ -50,7 +51,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 154,
       valueMoney: 130,
       specialAbilities: "Strike and return",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Harpy.gif`,
     },
     {
       id: "74",
@@ -67,7 +68,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 238,
       valueMoney: 170,
       specialAbilities: "Strike and return, No enemy retaliation",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Harpy_Hag.gif`,
     },
     {
       id: "75",
@@ -84,7 +85,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 336,
       valueMoney: 250,
       specialAbilities: "Ranged attack, No melee penalty",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Beholder.gif`,
     },
     {
       id: "76",
@@ -101,7 +102,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 367,
       valueMoney: 280,
       specialAbilities: "Ranged attack, No melee penalty",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Evil_Eye.gif`,
     },
     {
       id: "77",
@@ -118,7 +119,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 517,
       valueMoney: 300,
       specialAbilities: "Ranged attack, No melee penalty, Stone gaze 20%",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Medusa.gif`,
     },
     {
       id: "78",
@@ -135,7 +136,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 577,
       valueMoney: 330,
       specialAbilities: "Ranged attack, No melee penalty, Stone gaze 20%",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Medusa_Queen.gif`,
     },
     {
       id: "79",
@@ -152,7 +153,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 835,
       valueMoney: 500,
       specialAbilities: "Permanent morale +1",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Minotaur.gif`,
     },
     {
       id: "80",
@@ -169,7 +170,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 1068,
       valueMoney: 575,
       specialAbilities: "Permanent morale +1",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Minotaur_King.gif`,
     },
     {
       id: "81",
@@ -186,7 +187,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 1547,
       valueMoney: 850,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Manticore.gif`,
     },
     {
       id: "82",
@@ -203,7 +204,7 @@ export const dungeonCreatures: Array<Creature> = [
       aiValue: 1589,
       valueMoney: 1050,
       specialAbilities: "Paralyzing Venom",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Scorpicore.gif`,
     },
     {
       id: "83",
@@ -221,7 +222,7 @@ export const dungeonCreatures: Array<Creature> = [
       valueMoney: 2500,
       specialAbilities: "Dragon, Breath attack, Immune to " +
         "spells level 1–3",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Red_Dragon.gif`,
     },
     {
       id: "84",
@@ -239,6 +240,6 @@ export const dungeonCreatures: Array<Creature> = [
       valueMoney: 4000,
       specialAbilities: "Dragon, Breath attack, Immune to all " +
         "spells, Hates Titans",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Black_Dragon.gif`,
     },
 ];
