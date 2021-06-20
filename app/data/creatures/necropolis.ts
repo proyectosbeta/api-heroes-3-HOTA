@@ -1,4 +1,5 @@
 import { Creature } from "../../types/creature.ts";
+import { APP_DOMAIN } from '../../config/index.ts';
 
 export const necropolisCreatures: Array<Creature> = [
     {
@@ -16,7 +17,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 60,
       valueMoney: 60,
       specialAbilities: "Undead",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Skeleton.gif`,
     },
     {
       id: "58",
@@ -33,7 +34,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 85,
       valueMoney: 70,
       specialAbilities: "Undead",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Skeleton_Warrior.gif`,
     },
     {
       id: "59",
@@ -50,7 +51,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 98,
       valueMoney: 100,
       specialAbilities: "Undead",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Walking_Dead.gif`,
     },
     {
       id: "60",
@@ -67,7 +68,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 128,
       valueMoney: 125,
       specialAbilities: "Undead, Disease",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Zombie.gif`,
     },
     {
       id: "61",
@@ -84,7 +85,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 252,
       valueMoney: 200,
       specialAbilities: "Undead, Regeneration",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Wight.gif`,
     },
     {
       id: "62",
@@ -101,7 +102,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 315,
       valueMoney: 230,
       specialAbilities: "Undead, Regeneration, Mana drain",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Wraith.gif`,
     },
     {
       id: "63",
@@ -118,7 +119,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 555,
       valueMoney: 360,
       specialAbilities: "Undead, No enemy retaliation",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Vampire.gif`,
     },
     {
       id: "64",
@@ -135,7 +136,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 783,
       valueMoney: 500,
       specialAbilities: "Undead, No enemy retaliation, Life drain",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Vampire_Lord.gif`,
     },
     {
       id: "65",
@@ -152,7 +153,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 848,
       valueMoney: 550,
       specialAbilities: "Undead, Ranged attack, Death cloud",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Lich.gif`,
     },
     {
       id: "66",
@@ -169,7 +170,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 1079,
       valueMoney: 600,
       specialAbilities: "Undead, Ranged attack, Death cloud",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Power_Lich.gif`,
     },
     {
       id: "67",
@@ -186,7 +187,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 2087,
       valueMoney: 1200,
       specialAbilities: "Undead, Curses enemies",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Black_Knight.gif`,
     },
     {
       id: "68",
@@ -203,7 +204,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 2382,
       valueMoney: 1500,
       specialAbilities: "Undead, Curses enemies, Death blow attack",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Dread_Knight.gif`,
     },
     {
       id: "69",
@@ -220,7 +221,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 3388,
       valueMoney: 1800,
       specialAbilities: "Undead, Decreases enemy morale by -1, Dragon",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Bone_Dragon.gif`,
     },
     {
       id: "70",
@@ -238,6 +239,6 @@ export const necropolisCreatures: Array<Creature> = [
       valueMoney: 3000,
       specialAbilities: "Undead, Decreases enemy morale by -1, Dragon, " +
         "Aging 20%",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Ghost_Dragon.gif`,
     },
 ];
