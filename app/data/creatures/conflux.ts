@@ -16,6 +16,7 @@ export const confluxCreatures: Array<Creature> = [
       aiValue: 55,
       valueMoney: 25,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "114",
@@ -32,6 +33,7 @@ export const confluxCreatures: Array<Creature> = [
       aiValue: 95,
       valueMoney: 30,
       specialAbilities: "No enemy retaliation",
+      imageUrl: "",
     },
     {
       id: "115",
@@ -47,7 +49,9 @@ export const confluxCreatures: Array<Creature> = [
       growth: "6",
       aiValue: 356,
       valueMoney: 250,
-      specialAbilities: "Elemental, Immune to Meteor Shower, Vulnerable to Lightning Bolt, Chain Lightning and Armageddon",
+      specialAbilities: "Elemental, Immune to Meteor Shower, " +
+        "Vulnerable to Lightning Bolt, Chain Lightning and Armageddon",
+      imageUrl: "",
     },
     {
       id: "116",
@@ -63,7 +67,10 @@ export const confluxCreatures: Array<Creature> = [
       growth: "6",
       aiValue: 486,
       valueMoney: 275,
-      specialAbilities: "Elemental, Immune to Meteor Shower, Vulnerable to Lightning Bolt, Chain Lightning and Armageddon, Spellcaster (Protection from Air), Ranged attack",
+      specialAbilities: "Elemental, Immune to Meteor Shower, " +
+        "Vulnerable to Lightning Bolt, Chain Lightning and " +
+        "Armageddon, Spellcaster (Protection from Air), Ranged attack",
+      imageUrl: "",
     },
     {
       id: "117",
@@ -79,7 +86,9 @@ export const confluxCreatures: Array<Creature> = [
       growth: "6",
       aiValue: 325,
       valueMoney: 300,
-      specialAbilities: "Elemental, Immune to to Ice Bolt and Frost Ring, Vulnerable to Armageddon, Fireball, Inferno",
+      specialAbilities: "Elemental, Immune to to Ice Bolt and " +
+        "Frost Ring, Vulnerable to Armageddon, Fireball, Inferno",
+      imageUrl: "",
     },
     {
       id: "118",
@@ -95,7 +104,10 @@ export const confluxCreatures: Array<Creature> = [
       growth: "6",
       aiValue: 380,
       valueMoney: 375,
-      specialAbilities: "Ranged attack, Elemental, Immune to to Ice Bolt and Frost Ring, Vulnerable to Armageddon, Fireball, Inferno",
+      specialAbilities: "Ranged attack, Elemental, Immune to to " +
+        "Ice Bolt and Frost Ring, Vulnerable to Armageddon, " +
+        "Fireball, Inferno",
+      imageUrl: "",
     },
     {
       id: "119",
@@ -111,7 +123,9 @@ export const confluxCreatures: Array<Creature> = [
       growth: "5",
       aiValue: 345,
       valueMoney: 350,
-      specialAbilities: "Elemental, Immune to fire (Magic Arrow included), Vulnerable to Ice Bolt and Frost Ring",
+      specialAbilities: "Elemental, Immune to fire (Magic Arrow " +
+        "included), Vulnerable to Ice Bolt and Frost Ring",
+      imageUrl: "",
     },
     {
       id: "120",
@@ -127,7 +141,10 @@ export const confluxCreatures: Array<Creature> = [
       growth: "5",
       aiValue: 470,
       valueMoney: 400,
-      specialAbilities: "Elemental, Immune to fire (Magic Arrow included), Vulnerable to Ice Bolt and Frost Ring, Spellcaster (Protection from Fire)",
+      specialAbilities: "Elemental, Immune to fire (Magic Arrow included), " +
+        "Vulnerable to Ice Bolt and Frost Ring, Spellcaster " +
+        "(Protection from Fire)",
+      imageUrl: "",
     },
     {
       id: "121",
@@ -143,7 +160,9 @@ export const confluxCreatures: Array<Creature> = [
       growth: "4",
       aiValue: 330,
       valueMoney: 400,
-      specialAbilities: "Elemental, Immune to Armageddon - Lightning Bolt and Chain Lightning, Vulnerable to Meteor Shower",
+      specialAbilities: "Elemental, Immune to Armageddon - Lightning Bolt " +
+        "and Chain Lightning, Vulnerable to Meteor Shower",
+      imageUrl: "",
     },
     {
       id: "122",
@@ -159,7 +178,10 @@ export const confluxCreatures: Array<Creature> = [
       growth: "4",
       aiValue: 490,
       valueMoney: 500,
-      specialAbilities: "Elemental, Immune to Armageddon - Lightning Bolt and Chain Lightning, Vulnerable to Meteor Shower, Spellcaster (Protection from Earth)",
+      specialAbilities: "Elemental, Immune to Armageddon - Lightning Bolt " +
+        "and Chain Lightning, Vulnerable to Meteor Shower, " +
+        "Spellcaster (Protection from Earth)",
+      imageUrl: "",
     },
     {
       id: "123",
@@ -175,7 +197,9 @@ export const confluxCreatures: Array<Creature> = [
       growth: "2",
       aiValue: 1669,
       valueMoney: 950,
-      specialAbilities: "Elemental, No enemy retaliation, Attacks all adjacent hexes",
+      specialAbilities: "Elemental, No enemy retaliation, Attacks " +
+        "all adjacent hexes",
+      imageUrl: "",
     },
     {
       id: "124",
@@ -191,7 +215,9 @@ export const confluxCreatures: Array<Creature> = [
       growth: "2",
       aiValue: 2012,
       valueMoney: 1200,
-      specialAbilities: "Elemental, No enemy retaliation, Attacks all adjacent hexes, Immune to all magic",
+      specialAbilities: "Elemental, No enemy retaliation, Attacks " +
+        "all adjacent hexes, Immune to all magic",
+      imageUrl: "",
     },
     {
       id: "125",
@@ -207,7 +233,9 @@ export const confluxCreatures: Array<Creature> = [
       growth: "1",
       aiValue: 4336,
       valueMoney: 2000,
-      specialAbilities: "Immune to fire (Magic Arrow included), (50% fire resistance), Breath attack",
+      specialAbilities: "Immune to fire (Magic Arrow included), " +
+        "(50% fire resistance), Breath attack",
+      imageUrl: "",
     },
     {
       id: "126",
@@ -223,6 +251,8 @@ export const confluxCreatures: Array<Creature> = [
       growth: "1",
       aiValue: 6721,
       valueMoney: 3000,
-      specialAbilities: "Immune to fire (Magic Arrow included), Breath attack, Rebirth",
+      specialAbilities: "Immune to fire (Magic Arrow included), " +
+        "Breath attack, Rebirth",
+      imageUrl: "",
     },
 ];

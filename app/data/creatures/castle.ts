@@ -1,5 +1,8 @@
 import { Creature } from "../../types/creature.ts";
 
+// const DOMAIN = 'http://51.15.192.116:4500/';
+const DOMAIN = 'http://localhost:4500/';
+
 export const castleCreatures: Array<Creature> = [
     {
       id: "1",
@@ -16,6 +19,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 80,
       valueMoney: 60,
       specialAbilities: "Immune to jousting",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Pikeman.gif`,
     },
     {
       id: "2",
@@ -32,6 +36,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 115,
       valueMoney: 75,
       specialAbilities: "Immune to jousting",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Halberdier.gif`,
     },
     {
       id: "3",
@@ -48,6 +53,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 126,
       valueMoney: 100,
       specialAbilities: "Ranged attack",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Archer.gif`,
     },
     {
       id: "4",
@@ -64,6 +70,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 184,
       valueMoney: 150,
       specialAbilities: "Ranged attack, Double attack",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Marksman.gif`,
     },
     {
       id: "5",
@@ -80,6 +87,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 351,
       valueMoney: 200,
       specialAbilities: "Two retaliations",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Griffin.gif`,
     },
     {
       id: "6",
@@ -96,6 +104,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 448,
       valueMoney: 240,
       specialAbilities: "Unlimited retaliations",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Royal_Griffin.gif`,
     },
     {
       id: "7",
@@ -112,6 +121,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 445,
       valueMoney: 300,
       specialAbilities: "",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Swordsman.gif`,
     },
     {
       id: "8",
@@ -128,6 +138,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 588,
       valueMoney: 400,
       specialAbilities: "Double attack",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Crusader.gif`,
     },
     {
       id: "9",
@@ -144,6 +155,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 485,
       valueMoney: 400,
       specialAbilities: "Ranged attack",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Monk.gif`,
     },
     {
       id: "10",
@@ -160,6 +172,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 750,
       valueMoney: 450,
       specialAbilities: "Ranged attack, No melee penalty",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Zealot.gif`,
     },
     {
       id: "11",
@@ -176,6 +189,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 1946,
       valueMoney: 1000,
       specialAbilities: "Jousting bonus",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Cavalier.gif`,
     },
     {
       id: "12",
@@ -192,6 +206,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 2100,
       valueMoney: 1200,
       specialAbilities: "Jousting bonus",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Champion.gif`,
     },
     {
       id: "13",
@@ -208,6 +223,7 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 5019,
       valueMoney: 3000,
       specialAbilities: "Hates devils, +1 morale to creatures in hero's army",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Angel.gif`,
     },
     {
       id: "14",
@@ -224,5 +240,6 @@ export const castleCreatures: Array<Creature> = [
       aiValue: 8776,
       valueMoney: 5000,
       specialAbilities: "Hates devils, +1 morale to creatures in hero's army, Can cast resurrection",
+      imageUrl: `${DOMAIN}assets/images/creatures/castle/Archangel.gif`,
     },
 ];

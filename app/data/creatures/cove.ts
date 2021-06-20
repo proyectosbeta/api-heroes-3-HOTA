@@ -16,6 +16,7 @@ export const coveCreatures: Array<Creature> = [
       aiValue: 57,
       valueMoney: 35,
       specialAbilities: "Immune to Ice Bolt and Frost Ring",
+      imageUrl: "",
     },
     {
       id: "128",
@@ -32,6 +33,7 @@ export const coveCreatures: Array<Creature> = [
       aiValue: 75,
       valueMoney: 45,
       specialAbilities: "Immune to Ice Bolt and Frost Ring",
+      imageUrl: "",
     },
     {
       id: "129",
@@ -48,6 +50,7 @@ export const coveCreatures: Array<Creature> = [
       aiValue: 155,
       valueMoney: 110,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "130",
@@ -64,6 +67,7 @@ export const coveCreatures: Array<Creature> = [
       aiValue: 174,
       valueMoney: 140,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "131",
@@ -80,6 +84,7 @@ export const coveCreatures: Array<Creature> = [
       aiValue: 312,
       valueMoney: 225,
       specialAbilities: "Ranged attack, No melee penalty",
+      imageUrl: "",
     },
     {
       id: "132",
@@ -97,6 +102,7 @@ export const coveCreatures: Array<Creature> = [
       valueMoney: 275,
       specialAbilities: "Ranged attack, No melee penalty, " +
         "No enemy retaliation",
+      imageUrl: "",
     },
     {
       id: "133",
@@ -122,6 +128,7 @@ export const coveCreatures: Array<Creature> = [
         "multiplier for shooting without penalty and X = 2 " +
         "if shooting with penalty.Ability doesn't work if " +
         "shooting at creatures behind walls",
+      imageUrl: "",
     },
     {
       id: "134",
@@ -138,6 +145,7 @@ export const coveCreatures: Array<Creature> = [
       aiValue: 502,
       valueMoney: 275,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "135",
@@ -155,6 +163,7 @@ export const coveCreatures: Array<Creature> = [
       valueMoney: 325,
       specialAbilities: "Ferocity. If at least one creature was killed " +
         "by the attack, a second blow is inflicted",
+      imageUrl: "",
     },
     {
       id: "136",
@@ -174,6 +183,7 @@ export const coveCreatures: Array<Creature> = [
         "Casts after a shot (Basic level). Casts Weakness for 3 " +
         "rounds on an attacked stack. If Weakness is already applied, " +
         "casts Disrupting Ray",
+      imageUrl: "",  
     },
     {
       id: "137",
@@ -192,6 +202,7 @@ export const coveCreatures: Array<Creature> = [
       specialAbilities: "Ranged attack, Casts after the shot (Advanced " +
         "level). Casts Weakness for 3 rounds on an attacked " +
         "stack. If Weakness is already applied, casts Disrupting Ray",
+      imageUrl: "",
     },
     {
       id: "138",
@@ -210,6 +221,7 @@ export const coveCreatures: Array<Creature> = [
       specialAbilities: "Ignores 30% of enemy's attack skill " +
         "(= 30% of the attack parameter is ignored  " +
         "a creature attacks Nix)",
+      imageUrl: "",
     },
     {
       id: "139",
@@ -228,6 +240,7 @@ export const coveCreatures: Array<Creature> = [
       specialAbilities: "Ignores 60% of enemy's attack skill. " +
         "(= 60% of the attack parameter is ignored " +
         "when a creature attacks Nix Warrior)",
+      imageUrl: "",
     },
     {
       id: "140",
@@ -248,6 +261,7 @@ export const coveCreatures: Array<Creature> = [
         "instantly and at the beginning of every round. " +
         "Lasts for 3 rounds.Cannot exceed 50% of " +
         "total decremented Health",
+      imageUrl: "",
     },
     {
       id: "141",
@@ -272,5 +286,6 @@ export const coveCreatures: Array<Creature> = [
         "parameter before the attack by the following formula: " +
         "(((number of haspids at the beginning of the battle + 1) " +
         "* (1 haspid health) / (total health now + 1 haspid health) - 1) ^ 0.5) * 100%",
+      imageUrl: "",
     },
 ];

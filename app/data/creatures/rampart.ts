@@ -16,6 +16,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 100,
       valueMoney: 70,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "16",
@@ -32,6 +33,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 138,
       valueMoney: 90,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "17",
@@ -48,6 +50,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 138,
       valueMoney: 120,
       specialAbilities: "Magic resistance 20%",
+      imageUrl: "",
     },
     {
       id: "18",
@@ -64,6 +67,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 209,
       valueMoney: 150,
       specialAbilities: "Magic resistance 40%",
+      imageUrl: "",
     },
     {
       id: "19",
@@ -80,6 +84,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 234,
       valueMoney: 200,
       specialAbilities: "Ranged attack",
+      imageUrl: "",
     },
     {
       id: "20",
@@ -96,6 +101,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 331,
       valueMoney: 225,
       specialAbilities: "Ranged attack, Double attack",
+      imageUrl: "",
     },
     {
       id: "21",
@@ -112,6 +118,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 518,
       valueMoney: 250,
       specialAbilities: "Magic damper",
+      imageUrl: "",
     },
     {
       id: "22",
@@ -128,6 +135,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 532,
       valueMoney: 275,
       specialAbilities: "Magic damper",
+      imageUrl: "",
     },
     {
       id: "23",
@@ -144,6 +152,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 517,
       valueMoney: 350,
       specialAbilities: "Binding",
+      imageUrl: "",
     },
     {
       id: "24",
@@ -160,6 +169,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 803,
       valueMoney: 425,
       specialAbilities: "Binding",
+      imageUrl: "",
     },
     {
       id: "25",
@@ -176,6 +186,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 1806,
       valueMoney: 850,
       specialAbilities: "Blinding 20%, Aura of magic resistance 20%",
+      imageUrl: "",
     },
     {
       id: "26",
@@ -192,6 +203,7 @@ export const rampartCreatures: Array<Creature> = [
       aiValue: 2030,
       valueMoney: 950,
       specialAbilities: "Blinding 20%, Aura of magic resistance 20%",
+      imageUrl: "",
     },
     {
       id: "27",
@@ -207,7 +219,9 @@ export const rampartCreatures: Array<Creature> = [
       growth: "1",
       aiValue: 4872,
       valueMoney: 2400,
-      specialAbilities: "Breath attack, Immune to level 1–3 spells, Counts as dragon",
+      specialAbilities: "Breath attack, Immune to level 1–3 spells, " +
+        "Counts as dragon",
+      imageUrl: "",
     },
     {
       id: "28",
@@ -223,6 +237,8 @@ export const rampartCreatures: Array<Creature> = [
       growth: "1",
       aiValue: 8613,
       valueMoney: 4000,
-      specialAbilities: "Breath attack, Immune to level 1–4 spells, Counts as dragon",
+      specialAbilities: "Breath attack, Immune to level 1–4 spells, " +
+        "Counts as dragon",
+      imageUrl: "",
     },
 ];

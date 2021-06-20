@@ -13,4 +13,5 @@ export interface Creature {
     aiValue: number;
     valueMoney: number;
     specialAbilities: string;
+    imageUrl: string;
 };

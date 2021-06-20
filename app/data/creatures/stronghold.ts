@@ -16,6 +16,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 60,
       valueMoney: 40,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "86",
@@ -32,6 +33,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 78,
       valueMoney: 50,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "87",
@@ -48,6 +50,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 130,
       valueMoney: 100,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "88",
@@ -64,6 +67,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 203,
       valueMoney: 140,
       specialAbilities: "Double attack",
+      imageUrl: "",
     },
     {
       id: "89",
@@ -80,6 +84,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 192,
       valueMoney: 150,
       specialAbilities: "Ranged attack",
+      imageUrl: "",
     },
     {
       id: "90",
@@ -96,6 +101,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 240,
       valueMoney: 165,
       specialAbilities: "Ranged attack",
+      imageUrl: "",
     },
     {
       id: "91",
@@ -112,6 +118,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 416,
       valueMoney: 300,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "92",
@@ -128,6 +135,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 672,
       valueMoney: 400,
       specialAbilities: "Spellcaster (Bloodlust)",
+      imageUrl: "",
     },
     {
       id: "93",
@@ -144,6 +152,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 1027,
       valueMoney: 600,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "94",
@@ -160,6 +169,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 1106,
       valueMoney: 700,
       specialAbilities: "Lightning strike",
+      imageUrl: "",
     },
     {
       id: "95",
@@ -176,6 +186,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 1266,
       valueMoney: 750,
       specialAbilities: "Ranged attack, Can attack siege walls",
+      imageUrl: "",
     },
     {
       id: "96",
@@ -192,6 +203,7 @@ export const strongholdCreatures: Array<Creature> = [
       aiValue: 1443,
       valueMoney: 1100,
       specialAbilities: "Ranged attack, Can attack siege walls",
+      imageUrl: "",
     },
     {
       id: "97",
@@ -207,7 +219,9 @@ export const strongholdCreatures: Array<Creature> = [
       growth: "1",
       aiValue: 3162,
       valueMoney: 1500,
-      specialAbilities: "Attack reduces enemy's defense by 40% and 1 point temporarily",
+      specialAbilities: "Attack reduces enemy's defense by 40% " +
+        "and 1 point temporarily",
+      imageUrl: "",
     },
     {
       id: "98",
@@ -223,6 +237,8 @@ export const strongholdCreatures: Array<Creature> = [
       growth: "1",
       aiValue: 6168,
       valueMoney: 3000,
-      specialAbilities: "Attack reduces enemy's defense by 80% and 1 point temporarily",
+      specialAbilities: "Attack reduces enemy's defense by 80% " +
+        "and 1 point temporarily",
+      imageUrl: "",
     },
 ];

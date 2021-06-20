@@ -16,6 +16,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 60,
       valueMoney: 60,
       specialAbilities: "Undead",
+      imageUrl: "",
     },
     {
       id: "58",
@@ -32,6 +33,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 85,
       valueMoney: 70,
       specialAbilities: "Undead",
+      imageUrl: "",
     },
     {
       id: "59",
@@ -48,6 +50,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 98,
       valueMoney: 100,
       specialAbilities: "Undead",
+      imageUrl: "",
     },
     {
       id: "60",
@@ -64,6 +67,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 128,
       valueMoney: 125,
       specialAbilities: "Undead, Disease",
+      imageUrl: "",
     },
     {
       id: "61",
@@ -80,6 +84,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 252,
       valueMoney: 200,
       specialAbilities: "Undead, Regeneration",
+      imageUrl: "",
     },
     {
       id: "62",
@@ -96,6 +101,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 315,
       valueMoney: 230,
       specialAbilities: "Undead, Regeneration, Mana drain",
+      imageUrl: "",
     },
     {
       id: "63",
@@ -112,6 +118,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 555,
       valueMoney: 360,
       specialAbilities: "Undead, No enemy retaliation",
+      imageUrl: "",
     },
     {
       id: "64",
@@ -128,6 +135,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 783,
       valueMoney: 500,
       specialAbilities: "Undead, No enemy retaliation, Life drain",
+      imageUrl: "",
     },
     {
       id: "65",
@@ -144,6 +152,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 848,
       valueMoney: 550,
       specialAbilities: "Undead, Ranged attack, Death cloud",
+      imageUrl: "",
     },
     {
       id: "66",
@@ -160,6 +169,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 1079,
       valueMoney: 600,
       specialAbilities: "Undead, Ranged attack, Death cloud",
+      imageUrl: "",
     },
     {
       id: "67",
@@ -176,6 +186,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 2087,
       valueMoney: 1200,
       specialAbilities: "Undead, Curses enemies",
+      imageUrl: "",
     },
     {
       id: "68",
@@ -192,6 +203,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 2382,
       valueMoney: 1500,
       specialAbilities: "Undead, Curses enemies, Death blow attack",
+      imageUrl: "",
     },
     {
       id: "69",
@@ -208,6 +220,7 @@ export const necropolisCreatures: Array<Creature> = [
       aiValue: 3388,
       valueMoney: 1800,
       specialAbilities: "Undead, Decreases enemy morale by -1, Dragon",
+      imageUrl: "",
     },
     {
       id: "70",
@@ -223,6 +236,8 @@ export const necropolisCreatures: Array<Creature> = [
       growth: "1",
       aiValue: 4696,
       valueMoney: 3000,
-      specialAbilities: "Undead, Decreases enemy morale by -1, Dragon, Aging 20%",
+      specialAbilities: "Undead, Decreases enemy morale by -1, Dragon, " +
+        "Aging 20%",
+      imageUrl: "",
     },
 ];

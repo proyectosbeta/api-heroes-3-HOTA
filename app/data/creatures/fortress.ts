@@ -16,6 +16,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 56,
       valueMoney: 50,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "100",
@@ -32,6 +33,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 90,
       valueMoney: 70,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "101",
@@ -48,6 +50,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 126,
       valueMoney: 110,
       specialAbilities: "Ranged attack",
+      imageUrl: "",
     },
     {
       id: "102",
@@ -64,6 +67,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 156,
       valueMoney: 140,
       specialAbilities: "Ranged attack",
+      imageUrl: "",
     },
     {
       id: "103",
@@ -80,6 +84,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 268,
       valueMoney: 220,
       specialAbilities: "Dispels benefical spells",
+      imageUrl: "",
     },
     {
       id: "104",
@@ -95,7 +100,9 @@ export const fortressCreatures: Array<Creature> = [
       growth: "8",
       aiValue: 312,
       valueMoney: 240,
-      specialAbilities: "Dispels benefical spells, Inflicts weakness (advanced)",
+      specialAbilities: "Dispels benefical spells, Inflicts weakness " +
+        "(advanced)",
+      imageUrl: "",
     },
     {
       id: "105",
@@ -112,6 +119,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 552,
       valueMoney: 325,
       specialAbilities: "Petrifying attack 20%",
+      imageUrl: "",
     },
     {
       id: "106",
@@ -128,6 +136,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 714,
       valueMoney: 400,
       specialAbilities: "Petrifying attack 20%",
+      imageUrl: "",
     },
     {
       id: "107",
@@ -144,6 +153,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 890,
       valueMoney: 525,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "108",
@@ -160,6 +170,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 1028,
       valueMoney: 600,
       specialAbilities: "Death stare",
+      imageUrl: "",
     },
     {
       id: "109",
@@ -176,6 +187,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 1350,
       valueMoney: 800,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "110",
@@ -192,6 +204,7 @@ export const fortressCreatures: Array<Creature> = [
       aiValue: 1518,
       valueMoney: 1100,
       specialAbilities: "Poisonous",
+      imageUrl: "",
     },
     {
       id: "111",
@@ -207,7 +220,9 @@ export const fortressCreatures: Array<Creature> = [
       growth: "1",
       aiValue: 4120,
       valueMoney: 2200,
-      specialAbilities: "Attack all adjacent enemies, No enemy retaliation",
+      specialAbilities: "Attack all adjacent enemies, " +
+        "No enemy retaliation",
+      imageUrl: "",
     },
     {
       id: "112",
@@ -223,6 +238,8 @@ export const fortressCreatures: Array<Creature> = [
       growth: "1",
       aiValue: 5931,
       valueMoney: 3500,
-      specialAbilities: "Attack all adjacent enemies, No enemy retaliation",
+      specialAbilities: "Attack all adjacent enemies, " +
+        "No enemy retaliation",
+      imageUrl: "",
     },
 ];

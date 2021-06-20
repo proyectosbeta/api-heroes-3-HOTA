@@ -16,6 +16,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 50,
       valueMoney: 50,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "44",
@@ -32,6 +33,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 60,
       valueMoney: 60,
       specialAbilities: "Magic channel",
+      imageUrl: "",
     },
     {
       id: "45",
@@ -48,6 +50,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 159,
       valueMoney: 125,
       specialAbilities: "Ranged attack",
+      imageUrl: "",
     },
     {
       id: "46",
@@ -64,6 +67,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 240,
       valueMoney: 175,
       specialAbilities: "Ranged attack, Fireball Attack",
+      imageUrl: "",
     },
     {
       id: "47",
@@ -80,6 +84,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 357,
       valueMoney: 200,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "48",
@@ -96,6 +101,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 392,
       valueMoney: 250,
       specialAbilities: "3-headed attack, No enemy retaliation",
+      imageUrl: "",
     },
     {
       id: "49",
@@ -112,6 +118,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 445,
       valueMoney: 250,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "50",
@@ -128,6 +135,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 480,
       valueMoney: 270,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "51",
@@ -144,6 +152,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 765,
       valueMoney: 500,
       specialAbilities: "",
+      imageUrl: "",
     },
     {
       id: "52",
@@ -160,6 +169,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 1224,
       valueMoney: 700,
       specialAbilities: "Summon demons",
+      imageUrl: "",
     },
     {
       id: "53",
@@ -175,7 +185,9 @@ export const infernoCreatures: Array<Creature> = [
       growth: "2",
       aiValue: 1670,
       valueMoney: 900,
-      specialAbilities: "Immune to fire (Magic Arrow included), Hates genies",
+      specialAbilities: "Immune to fire (Magic Arrow included), " +
+        "Hates genies",
+      imageUrl: "",
     },
     {
       id: "54",
@@ -191,7 +203,9 @@ export const infernoCreatures: Array<Creature> = [
       growth: "2",
       aiValue: 1848,
       valueMoney: 1100,
-      specialAbilities: "Immune to fire (Magic Arrow included), Hates genies, Fire Shield",
+      specialAbilities: "Immune to fire (Magic Arrow included), " +
+        "Hates genies, Fire Shield",
+      imageUrl: "",
     },
     {
       id: "55",
@@ -207,7 +221,9 @@ export const infernoCreatures: Array<Creature> = [
       growth: "1",
       aiValue: 5101,
       valueMoney: 2700,
-      specialAbilities: "-1 to enemy luck + no enemy retaliation + Hates angels",
+      specialAbilities: "-1 to enemy luck + no enemy retaliation " +
+        "+ Hates angels",
+      imageUrl: "",
     },
     {
       id: "56",
@@ -223,6 +239,8 @@ export const infernoCreatures: Array<Creature> = [
       growth: "1",
       aiValue: 7115,
       valueMoney: 4500,
-      specialAbilities: "-1 (-2 in Horn of the Abyss ) to enemy luck + no enemy retaliation + Hates angels",
+      specialAbilities: "-1 (-2 in Horn of the Abyss ) to enemy luck " +
+        "+ no enemy retaliation + Hates angels",
+      imageUrl: "",
     },
 ];
