@@ -20,6 +20,12 @@ Link:
 deno install --allow-read --allow-run --allow-write -f --unstable https://deno.land/x/denon/denon.ts
 ```
 
+## Upgrade Deno
+
+```bash
+deno cache --reload app.ts
+```
+
 ## Run
 
 ```bash
