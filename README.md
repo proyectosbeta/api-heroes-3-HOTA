@@ -23,6 +23,7 @@ deno install --allow-read --allow-run --allow-write -f --unstable https://deno.l
 ## Upgrade Deno
 
 ```bash
+deno upgrade
 deno cache --reload app.ts
 ```
 
