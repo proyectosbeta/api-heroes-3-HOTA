@@ -1,4 +1,5 @@
 import { Creature } from "../../types/creature.ts";
+import { APP_DOMAIN } from '../../config/index.ts';
 
 export const infernoCreatures: Array<Creature> = [
     {
@@ -16,7 +17,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 50,
       valueMoney: 50,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Imp.gif`,
     },
     {
       id: "44",
@@ -33,7 +34,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 60,
       valueMoney: 60,
       specialAbilities: "Magic channel",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Familiar.gif`,
     },
     {
       id: "45",
@@ -50,7 +51,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 159,
       valueMoney: 125,
       specialAbilities: "Ranged attack",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Gog.gif`,
     },
     {
       id: "46",
@@ -67,7 +68,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 240,
       valueMoney: 175,
       specialAbilities: "Ranged attack, Fireball Attack",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Magog.gif`,
     },
     {
       id: "47",
@@ -84,7 +85,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 357,
       valueMoney: 200,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Hell_Hound.gif`,
     },
     {
       id: "48",
@@ -101,7 +102,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 392,
       valueMoney: 250,
       specialAbilities: "3-headed attack, No enemy retaliation",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Cerberus.gif`,
     },
     {
       id: "49",
@@ -118,7 +119,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 445,
       valueMoney: 250,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Demon.gif`,
     },
     {
       id: "50",
@@ -135,7 +136,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 480,
       valueMoney: 270,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Horned_Demon.gif`,
     },
     {
       id: "51",
@@ -152,7 +153,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 765,
       valueMoney: 500,
       specialAbilities: "",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Pit_Fiend.gif`,
     },
     {
       id: "52",
@@ -169,7 +170,7 @@ export const infernoCreatures: Array<Creature> = [
       aiValue: 1224,
       valueMoney: 700,
       specialAbilities: "Summon demons",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Pit_Lord.gif`,
     },
     {
       id: "53",
@@ -187,7 +188,7 @@ export const infernoCreatures: Array<Creature> = [
       valueMoney: 900,
       specialAbilities: "Immune to fire (Magic Arrow included), " +
         "Hates genies",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Efreet.gif`,
     },
     {
       id: "54",
@@ -205,7 +206,7 @@ export const infernoCreatures: Array<Creature> = [
       valueMoney: 1100,
       specialAbilities: "Immune to fire (Magic Arrow included), " +
         "Hates genies, Fire Shield",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Efreet_Sultan.gif`,
     },
     {
       id: "55",
@@ -223,7 +224,7 @@ export const infernoCreatures: Array<Creature> = [
       valueMoney: 2700,
       specialAbilities: "-1 to enemy luck + no enemy retaliation " +
         "+ Hates angels",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Devil.gif`,
     },
     {
       id: "56",
@@ -241,6 +242,6 @@ export const infernoCreatures: Array<Creature> = [
       valueMoney: 4500,
       specialAbilities: "-1 (-2 in Horn of the Abyss ) to enemy luck " +
         "+ no enemy retaliation + Hates angels",
-      imageUrl: "",
+      imageUrl: `${APP_DOMAIN}assets/images/creatures/inferno/Arch_Devil.gif`,
     },
 ];
