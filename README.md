@@ -20,7 +20,25 @@ Link:
 deno install --allow-read --allow-run --allow-write -f --unstable https://deno.land/x/denon/denon.ts
 ```
 
-## Upgrade Deno
+## Config
+
+Copy .env.example file
+
+```
+cp .env.example .env
+```
+
+#### Constants
+
+Change the constants.
+
+```
+APP_PORT=4500
+APP_HOST="0.0.0.0"
+APP_DOMAIN="http://xxx.xxx.xxx.xxx:4500/"
+```
+
+#### Upgrade Deno
 
 ```bash
 deno upgrade
