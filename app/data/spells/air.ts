@@ -7,12 +7,14 @@ export const airSpell: Array<Spell> = [
     level: 1,
     effect: "Target (or all) allied troop's speed is " +
       "increased by 3 (or 5) hexes per turn",
+    imageUrl: "",
   },
   {
     id: "35",
     name: "View Air",
     level: 1,
     effect: "Reveals location of all unclaimed artifacts",
+    imageUrl: "",
   },
   {
     id: "36",
@@ -20,6 +22,7 @@ export const airSpell: Array<Spell> = [
     level: 2,
     effect: "Modifies the army composition scouting report " +
       "visible to enemies",
+    imageUrl: "",
   },
   {
     id: "37",
@@ -27,18 +30,21 @@ export const airSpell: Array<Spell> = [
     level: 2,
     effect: "Reduces defense rating of a single enemy. " +
       "May be used repeatedly on the same target",
+    imageUrl: "",
   },
   {
     id: "38",
     name: "Fortune",
     level: 2,
     effect: "Increases luck. Basic: Single ally. Expert: All allies",
+    imageUrl: "",
   },
   {
     id: "39",
     name: "Lightning Bolt",
     level: 2,
     effect: "Inflicts magic damage on a single enemy",
+    imageUrl: "",
   },
   {
     id: "40",
@@ -46,6 +52,7 @@ export const airSpell: Array<Spell> = [
     level: 2,
     effect: " 	Increases ranged attack rating. Basic: Single " +
       "ally. Expert: All allies",
+    imageUrl: "",
   },
   {
     id: "41",
@@ -54,24 +61,28 @@ export const airSpell: Array<Spell> = [
     effect: "Reduces damage taken from air spells. Basic: " +
       "Single ally. Expert: All allies. Effect increased " +
       "from 30%-30%-50%-50% to 50%-50%-75%-75%. Horn of the Abyss",
+    imageUrl: "",
   },
   {
     id: "42",
     name: "Air Shield",
     level: 3,
     effect: " 	Reduces damage taken from ranged attacks",
+    imageUrl: "",
   },
   {
     id: "43",
     name: "Destroy Undead",
     level: 3,
     effect: "Inflicts magic damage on all undead creatures",
+    imageUrl: "",
   },
   {
     id: "44",
     name: "Hypnotize",
     level: 3,
     effect: "Allows control of actions taken by enemy creature",
+    imageUrl: "",
   },
   {
     id: "45",
@@ -79,6 +90,7 @@ export const airSpell: Array<Spell> = [
     level: 4,
     effect: "Inflicts magic damage on initial creature and " +
       "reduced damage on nearby creatures",
+    imageUrl: "",
   },
   {
     id: "46",
@@ -86,12 +98,14 @@ export const airSpell: Array<Spell> = [
     level: 4,
     effect: " 	Allows extra retaliations per round. Basic: " +
       "Single ally. Expert: All allies",
+    imageUrl: "",
   },
   {
     id: "47",
     name: "Dimension Door",
     level: 5,
     effect: "Teleports hero to visible location",
+    imageUrl: "",
   },
   {
     id: "48",
@@ -100,6 +114,7 @@ export const airSpell: Array<Spell> = [
     effect: "Allows movement to visible land over " +
       "all map obstacles. Cannot fly through cave " +
       "walls in the underground",
+    imageUrl: "",
   },
   {
     id: "49",
@@ -108,12 +123,14 @@ export const airSpell: Array<Spell> = [
     effect: "Reflects hostile spells to a random enemy. Basic: " +
       "20% chance of occurrence. Advanced: 30% chance. Expert: " +
       "40% chance",
+    imageUrl: "",
   },
   {
     id: "50",
     name: "Summon Air Elemental",
     level: 5,
     effect: "Summons allied Air Elementals for the duration of combat",
+    imageUrl: "",
   },
   {
     id: "51",
@@ -121,5 +138,6 @@ export const airSpell: Array<Spell> = [
     level: 5,
     effect: "Inflicts 600 magic damage on a single enemy. " +
       "Requires Titan's Thunder",
+    imageUrl: "",
   },
 ];

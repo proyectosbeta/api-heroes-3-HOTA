@@ -4,6 +4,7 @@
 - Add endpoint by ID of creature and magic.
 - Add image url in castle creature.
 - Add images in tower, inferno, necropolis, dungeon, stronghold, fortress, conflux and cove creatures.
+- Add images in fire spells.
 
 #v0.3.0
 
