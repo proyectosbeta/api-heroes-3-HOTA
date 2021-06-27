@@ -91,7 +91,7 @@ Use pm2 for production.
   Method GET: /spell/fire --> Return all fire spell
   Method GET: /spell/water --> Return all water spell
   Method GET: /spell/air --> Return all air spell
-  Method GET: /spell/air --> Return all earth spell
+  Method GET: /spell/earth --> Return all earth spell
 ```
 
 # Try in API client
