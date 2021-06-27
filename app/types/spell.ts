@@ -3,4 +3,5 @@ export interface Spell {
   name: string;
   level: number;
   effect: string;
+  imageUrl: string;
 };
