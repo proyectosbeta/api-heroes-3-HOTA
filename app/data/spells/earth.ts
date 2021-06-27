@@ -8,7 +8,7 @@ export const earthSpell: Array<Spell> = [
     level: 1,
     effect: "Reduces damage taken from hand-to-hand attacks. " + 
       "Basic: Single ally. Expert: All allies",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Shield.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Shield.png`,
   },
   {
     id: "53",
@@ -18,7 +18,7 @@ export const earthSpell: Array<Spell> = [
       "All enemies. Advanced/Expert Slow reduce speed by a " +
       "new reduced formula (old speed x 0.5 + 1). Horn of " +
       "the Abyss",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Slow.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Slow.png`,
   },
   {
     id: "54",
@@ -26,21 +26,21 @@ export const earthSpell: Array<Spell> = [
     level: 1,
     effect: "Increases defense rating. Basic: Single ally. " +
       "Expert: All allies",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Stone_Skin.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Stone_Skin.png`,
   },
   {
     id: "55",
     name: "View Earth",
     level: 1,
     effect: "Reveals location of all resources",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/View_Earth.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/View_Earth.png`,
   },
   {
     id: "56",
     name: "Death Ripple",
     level: 2,
     effect: "Inflicts magic damage on all living creatures",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Death_Ripple.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Death_Ripple.png`,
   },
   {
     id: "57",
@@ -50,7 +50,7 @@ export const earthSpell: Array<Spell> = [
       "Only visible to caster and creatures native to the terrain. " +
       "Creatures attempting to pass through quicksand become stuck " +
       "and make the location of the quicksand visible",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Quicksand.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Quicksand.png`,
   },
   {
     id: "58",
@@ -58,14 +58,14 @@ export const earthSpell: Array<Spell> = [
     level: 3,
     effect: "Reanimates killed undead creatures. Reanimated creatures " +
       "are not lost when combat ends",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Animate_Dead.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Animate_Dead.png`,
   },
   {
     id: "59",
     name: "Anti-Magic",
     level: 3,
     effect: "Grants spell immunity to a single creature",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Anti-Magic.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Anti-Magic.png`,
   },
   {
     id: "60",
@@ -73,7 +73,7 @@ export const earthSpell: Array<Spell> = [
     level: 3,
     effect: "Inflicts damage on random castle wall sections " +
       "during a siege",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Earthquake.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Earthquake.png`,
   },
   {
     id: "61",
@@ -81,7 +81,7 @@ export const earthSpell: Array<Spell> = [
     level: 3,
     effect: "Places force field at specified location. " +
       "Creatures cannot pass this field",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Force_Field.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Force_Field.png`,
   },
   {
     id: "62",
@@ -90,14 +90,14 @@ export const earthSpell: Array<Spell> = [
     effect: "Reduces damage taken from earth spells. Basic: " +
       "Single ally. Expert: All allies. Effect increased " +
       "from 30%-30%-50%-50% to 50%-50%-75%-75%. Horn of the Abyss",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Protection_from_Earth.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Protection_from_Earth.png`,
   },
   {
     id: "63",
     name: "Meteor Shower",
     level: 4,
     effect: "Inflicts magic damage on all creatures in area",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Meteor_Shower.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Meteor_Shower.png`,
   },
   {
     id: "64",
@@ -106,14 +106,14 @@ export const earthSpell: Array<Spell> = [
     effect: "Resurrects killed living creatures until the " +
       "end of combat. Advanced: Resurrected creatures are " +
       "not lost when combat ends",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Resurrection.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Resurrection.png`,
   },
   {
     id: "65",
     name: "Sorrow",
     level: 4,
     effect: "Reduces morale. Basic: Single enemy. Expert: All enemies",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Sorrow.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Sorrow.png`,
   },
   {
     id: "66",
@@ -121,20 +121,20 @@ export const earthSpell: Array<Spell> = [
     level: 4,
     effect: "Teleports hero to closest allied, unoccupied town. " +
       "Advanced: May choose any allied, unoccupied town",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Town_Portal.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Town_Portal.png`,
   },
   {
     id: "67",
     name: "Implosion",
     level: 5,
     effect: "Inflicts magic damage on a single enemy",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Implosion.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Implosion.png`,
   },
   {
     id: "68",
     name: "Summon Earth Elemental",
     level: 5,
     effect: "Summons allied Earth Elementals for the duration of combat",
-    imageUrl: `${APP_DOMAIN}assets/images/spell/earth/Summon_Earth_Elemental.png`,
+    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Summon_Earth_Elemental.png`,
   },
 ];
