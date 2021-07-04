@@ -18,6 +18,7 @@ export const fortressCreatures: Array<Creature> = [
     valueMoney: 50,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Gnoll.gif`,
+    factory: "fortress",
   },
   {
     id: "100",
@@ -35,6 +36,7 @@ export const fortressCreatures: Array<Creature> = [
     valueMoney: 70,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Gnoll.gif`,
+    factory: "fortress",
   },
   {
     id: "101",
@@ -52,6 +54,7 @@ export const fortressCreatures: Array<Creature> = [
     valueMoney: 110,
     specialAbilities: "Ranged attack",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Lizardman.gif`,
+    factory: "fortress",
   },
   {
     id: "102",
@@ -70,6 +73,7 @@ export const fortressCreatures: Array<Creature> = [
     specialAbilities: "Ranged attack",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/fortress/Lizard_Warrior.gif`,
+    factory: "fortress",
   },
   {
     id: "103",
@@ -87,6 +91,7 @@ export const fortressCreatures: Array<Creature> = [
     valueMoney: 220,
     specialAbilities: "Dispels benefical spells",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Serpent_Fly.gif`,
+    factory: "fortress",
   },
   {
     id: "104",
@@ -105,6 +110,7 @@ export const fortressCreatures: Array<Creature> = [
     specialAbilities: "Dispels benefical spells, Inflicts weakness " +
       "(advanced)",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Dragon_Fly.gif`,
+    factory: "fortress",
   },
   {
     id: "105",
@@ -122,6 +128,7 @@ export const fortressCreatures: Array<Creature> = [
     valueMoney: 325,
     specialAbilities: "Petrifying attack 20%",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Basilisk.gif`,
+    factory: "fortress",
   },
   {
     id: "106",
@@ -140,6 +147,7 @@ export const fortressCreatures: Array<Creature> = [
     specialAbilities: "Petrifying attack 20%",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/fortress/Greater_Basilisk.gif`,
+    factory: "fortress",
   },
   {
     id: "107",
@@ -157,6 +165,7 @@ export const fortressCreatures: Array<Creature> = [
     valueMoney: 525,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Gorgon.gif`,
+    factory: "fortress",
   },
   {
     id: "108",
@@ -174,6 +183,7 @@ export const fortressCreatures: Array<Creature> = [
     valueMoney: 600,
     specialAbilities: "Death stare",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Mighty_Gorgon.gif`,
+    factory: "fortress",
   },
   {
     id: "109",
@@ -191,6 +201,7 @@ export const fortressCreatures: Array<Creature> = [
     valueMoney: 800,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Wyvern.gif`,
+    factory: "fortress",
   },
   {
     id: "110",
@@ -209,6 +220,7 @@ export const fortressCreatures: Array<Creature> = [
     specialAbilities: "Poisonous",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/fortress/Wyvern_Monarch.gif`,
+    factory: "fortress",
   },
   {
     id: "111",
@@ -227,6 +239,7 @@ export const fortressCreatures: Array<Creature> = [
     specialAbilities: "Attack all adjacent enemies, " +
       "No enemy retaliation",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Hydra.gif`,
+    factory: "fortress",
   },
   {
     id: "112",
@@ -245,5 +258,6 @@ export const fortressCreatures: Array<Creature> = [
     specialAbilities: "Attack all adjacent enemies, " +
       "No enemy retaliation",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/fortress/Chaos_Hydra.gif`,
+    factory: "fortress",
   },
 ];

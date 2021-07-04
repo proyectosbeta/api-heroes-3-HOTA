@@ -18,6 +18,7 @@ export const coveCreatures: Array<Creature> = [
     valueMoney: 35,
     specialAbilities: "Immune to Ice Bolt and Frost Ring",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Nymph.gif`,
+    factory: "cove",
   },
   {
     id: "128",
@@ -35,6 +36,7 @@ export const coveCreatures: Array<Creature> = [
     valueMoney: 45,
     specialAbilities: "Immune to Ice Bolt and Frost Ring",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Oceanid.gif`,
+    factory: "cove",
   },
   {
     id: "129",
@@ -52,6 +54,7 @@ export const coveCreatures: Array<Creature> = [
     valueMoney: 110,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Crew_Mate.gif`,
+    factory: "cove",
   },
   {
     id: "130",
@@ -69,6 +72,7 @@ export const coveCreatures: Array<Creature> = [
     valueMoney: 140,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Seaman.gif`,
+    factory: "cove",
   },
   {
     id: "131",
@@ -86,6 +90,7 @@ export const coveCreatures: Array<Creature> = [
     valueMoney: 225,
     specialAbilities: "Ranged attack, No melee penalty",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Pirate.gif`,
+    factory: "cove",
   },
   {
     id: "132",
@@ -104,6 +109,7 @@ export const coveCreatures: Array<Creature> = [
     specialAbilities: "Ranged attack, No melee penalty, " +
       "No enemy retaliation",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Corsair.gif`,
+    factory: "cove",
   },
   {
     id: "133",
@@ -130,6 +136,7 @@ export const coveCreatures: Array<Creature> = [
       "if shooting with penalty.Ability doesn't work if " +
       "shooting at creatures behind walls",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Sea_Dog.gif`,
+    factory: "cove",
   },
   {
     id: "134",
@@ -147,6 +154,7 @@ export const coveCreatures: Array<Creature> = [
     valueMoney: 275,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Stormbird.gif`,
+    factory: "cove",
   },
   {
     id: "135",
@@ -165,6 +173,7 @@ export const coveCreatures: Array<Creature> = [
     specialAbilities: "Ferocity. If at least one creature was killed " +
       "by the attack, a second blow is inflicted",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Ayssid.gif`,
+    factory: "cove",
   },
   {
     id: "136",
@@ -185,6 +194,7 @@ export const coveCreatures: Array<Creature> = [
       "rounds on an attacked stack. If Weakness is already applied, " +
       "casts Disrupting Ray",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Sea_Witch.gif`,
+    factory: "cove",
   },
   {
     id: "137",
@@ -204,6 +214,7 @@ export const coveCreatures: Array<Creature> = [
       "level). Casts Weakness for 3 rounds on an attacked " +
       "stack. If Weakness is already applied, casts Disrupting Ray",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Sorceress.gif`,
+    factory: "cove",
   },
   {
     id: "138",
@@ -223,6 +234,7 @@ export const coveCreatures: Array<Creature> = [
       "(= 30% of the attack parameter is ignored  " +
       "a creature attacks Nix)",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Nix.gif`,
+    factory: "cove",
   },
   {
     id: "139",
@@ -242,6 +254,7 @@ export const coveCreatures: Array<Creature> = [
       "(= 60% of the attack parameter is ignored " +
       "when a creature attacks Nix Warrior)",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Nix_Warrior.gif`,
+    factory: "cove",
   },
   {
     id: "140",
@@ -263,6 +276,7 @@ export const coveCreatures: Array<Creature> = [
       "Lasts for 3 rounds.Cannot exceed 50% of " +
       "total decremented Health",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Sea_Serpent.gif`,
+    factory: "cove",
   },
   {
     id: "141",
@@ -288,5 +302,6 @@ export const coveCreatures: Array<Creature> = [
       "(((number of haspids at the beginning of the battle + 1) " +
       "* (1 haspid health) / (total health now + 1 haspid health) - 1) ^ 0.5) * 100%",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/cove/Haspid.gif`,
+    factory: "cove",
   },
 ];

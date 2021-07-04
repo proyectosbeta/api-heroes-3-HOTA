@@ -12,6 +12,20 @@ import { coveCreatures } from "../data/creatures/cove.ts";
 
 let creatures: any;
 
+const addCreatures = () => {
+  creatures = castleCreatures.concat(
+    rampartCreatures,
+    towerCreatures,
+    infernoCreatures,
+    necropolisCreatures,
+    dungeonCreatures,
+    strongholdCreatures,
+    fortressCreatures,
+    confluxCreatures,
+    coveCreatures,
+  );
+};
+
 const factories: any = {
   "castle": castleCreatures,
   "rampart": rampartCreatures,
@@ -30,22 +44,10 @@ const setFactory = (factory: string) => {
 };
 
 const getDataCreatures = (factory: string) => {
-  var allCreatures = castleCreatures.concat(
-    rampartCreatures,
-    towerCreatures,
-    infernoCreatures,
-    necropolisCreatures,
-    dungeonCreatures,
-    strongholdCreatures,
-    fortressCreatures,
-    confluxCreatures,
-    coveCreatures,
-  );
-
-  return factories[factory] || allCreatures;
+  return factories[factory] || false;
 };
 
-// Return all creatures.
+// Return all creatures for the specific factory.
 const getCreatures = ({
   params,
   response,
@@ -55,7 +57,13 @@ const getCreatures = ({
 }) => {
   setFactory(params.factory);
 
-  response.body = creatures.getCreatures();
+  if (creatures) {
+    response.status = 200;
+    response.body = creatures.getCreatures();
+  } else {
+    response.status = 404;
+    response.body = { message: "404 Not found" };
+  }
 };
 
 // Return creature by id.
@@ -63,10 +71,14 @@ const getCreature = ({
   params,
   response,
 }: {
-  params: { id: string };
+  params: { id: string, factory: string };
   response: any;
 }) => {
-  const creature = creatures.getCreature(params.id);
+  addCreatures();
+  const id = params.id;
+  const factory = params.factory;
+  const creature = creatures.filter((creature: any) => creature.id == id
+    && creature.factory === factory)[0];
 
   if (creature) {
     response.status = 200;

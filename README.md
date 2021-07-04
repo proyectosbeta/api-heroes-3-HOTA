@@ -77,18 +77,22 @@ pm2 startup
 
 # Requests
 
+Factory values:
+
+- castle
+- rampart
+- tower
+- inferno
+- necropolis
+- dungeon
+- stronghold
+- fortress
+- conflux
+- cove
+
 ```text
-Method GET: /creature --> All creatures
-  Method GET: /creature/castle --> Return all castle creatures
-  Method GET: /creature/rampart --> Return all rampart creatures
-  Method GET: /creature/tower --> Return all tower creatures
-  Method GET: /creature/inferno --> Return all inferno creatures
-  Method GET: /creature/necropolis --> Return all inferno creatures
-  Method GET: /creature/dungeon --> Return all dungeon creatures
-  Method GET: /creature/stronghold --> Return all stronghold creatures
-  Method GET: /creature/fortress --> Return all fortress creatures
-  Method GET: /creature/conflux --> Return all conflux creatures
-  Method GET: /creature/cove --> Return all cove creatures
+  Method GET: /creature/{factory} --> Return all factory creatures
+  Method GET: /creature/{factory}/{id} --> Return specific creature for the factory
   Method GET: /spell --> All spells
   Method GET: /spell/fire --> Return all fire spell
   Method GET: /spell/water --> Return all water spell
@@ -100,21 +104,20 @@ Method GET: /creature --> All creatures
 
 Method GET:
 
-```bash
-http://51.15.192.116:4500/creature/
-  http://51.15.192.116:4500/creature/castle
-  http://51.15.192.116:4500/creature/rampart
-  http://51.15.192.116:4500/creature/tower
-  http://51.15.192.116:4500/creature/inferno
-  http://51.15.192.116:4500/creature/necropolis
-  http://51.15.192.116:4500/creature/dungeon
-  http://51.15.192.116:4500/creature/stronghold
-  http://51.15.192.116:4500/creature/fortress
-  http://51.15.192.116:4500/creature/conflux
-  http://51.15.192.116:4500/creature/cove
-  http://51.15.192.116:4500/spell/
-  http://51.15.192.116:4500/spell/fire
-  http://51.15.192.116:4500/spell/water
-  http://51.15.192.116:4500/spell/air
-  http://51.15.192.116:4500/spell/earth
-```
+- [Castle](http://51.15.192.116:4500/creature/castle)
+- [Pikmen](http://51.15.192.116:4500/creature/castle/1)
+- [Rampart](http://51.15.192.116:4500/creature/rampart)
+- [Tower](http://51.15.192.116:4500/creature/tower)
+- [Inferno](http://51.15.192.116:4500/creature/inferno)
+- [Necropolis](http://51.15.192.116:4500/creature/necropolis)
+- [Dungeon](http://51.15.192.116:4500/creature/dungeon)
+- [Stronghold](http://51.15.192.116:4500/creature/stronghold)
+- [Fortress](http://51.15.192.116:4500/creature/fortress)
+- [Conflux](http://51.15.192.116:4500/creature/conflux)
+- [Inferno](http://51.15.192.116:4500/creature/inferno)
+- [Cove](http://51.15.192.116:4500/creature/cove)
+- [All spells](http://51.15.192.116:4500/spell/)
+- [Fire](http://51.15.192.116:4500/spell/fire)
+- [Water](http://51.15.192.116:4500/spell/water)
+- [Air](http://51.15.192.116:4500/spell/air)
+- [Earth](http://51.15.192.116:4500/spell/earth)

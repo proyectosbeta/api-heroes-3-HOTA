@@ -18,6 +18,7 @@ export const confluxCreatures: Array<Creature> = [
     valueMoney: 25,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/conflux/Pixie.gif`,
+    factory: "conflux",
   },
   {
     id: "114",
@@ -35,6 +36,7 @@ export const confluxCreatures: Array<Creature> = [
     valueMoney: 30,
     specialAbilities: "No enemy retaliation",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/conflux/Sprite.gif`,
+    factory: "conflux",
   },
   {
     id: "115",
@@ -53,6 +55,7 @@ export const confluxCreatures: Array<Creature> = [
     specialAbilities: "Elemental, Immune to Meteor Shower, " +
       "Vulnerable to Lightning Bolt, Chain Lightning and Armageddon",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/conflux/Air_Elemental.gif`,
+    factory: "conflux",
   },
   {
     id: "116",
@@ -73,6 +76,7 @@ export const confluxCreatures: Array<Creature> = [
       "Armageddon, Spellcaster (Protection from Air), Ranged attack",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/conflux/Storm_Elemental.gif`,
+    factory: "conflux",
   },
   {
     id: "117",
@@ -92,6 +96,7 @@ export const confluxCreatures: Array<Creature> = [
       "Frost Ring, Vulnerable to Armageddon, Fireball, Inferno",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/conflux/Water_Elemental.gif`,
+    factory: "conflux",
   },
   {
     id: "118",
@@ -111,6 +116,7 @@ export const confluxCreatures: Array<Creature> = [
       "Ice Bolt and Frost Ring, Vulnerable to Armageddon, " +
       "Fireball, Inferno",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/conflux/Ice_Elemental.gif`,
+    factory: "conflux",
   },
   {
     id: "119",
@@ -129,6 +135,7 @@ export const confluxCreatures: Array<Creature> = [
     specialAbilities: "Elemental, Immune to fire (Magic Arrow " +
       "included), Vulnerable to Ice Bolt and Frost Ring",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/conflux/Fire_Elemental.gif`,
+    factory: "conflux",
   },
   {
     id: "120",
@@ -149,6 +156,7 @@ export const confluxCreatures: Array<Creature> = [
       "(Protection from Fire)",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/conflux/Energy_Elemental.gif`,
+    factory: "conflux",
   },
   {
     id: "121",
@@ -168,6 +176,7 @@ export const confluxCreatures: Array<Creature> = [
       "and Chain Lightning, Vulnerable to Meteor Shower",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/conflux/Earth_Elemental.gif`,
+    factory: "conflux",
   },
   {
     id: "122",
@@ -188,6 +197,7 @@ export const confluxCreatures: Array<Creature> = [
       "Spellcaster (Protection from Earth)",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/conflux/Magma_Elemental.gif`,
+    factory: "conflux",
   },
   {
     id: "123",
@@ -207,6 +217,7 @@ export const confluxCreatures: Array<Creature> = [
       "all adjacent hexes",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/conflux/Psychic_Elemental.gif`,
+    factory: "conflux",
   },
   {
     id: "124",
@@ -226,6 +237,7 @@ export const confluxCreatures: Array<Creature> = [
       "all adjacent hexes, Immune to all magic",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/conflux/Magic_Elemental.gif`,
+    factory: "conflux",
   },
   {
     id: "125",
@@ -244,6 +256,7 @@ export const confluxCreatures: Array<Creature> = [
     specialAbilities: "Immune to fire (Magic Arrow included), " +
       "(50% fire resistance), Breath attack",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/conflux/Firebird.gif`,
+    factory: "conflux",
   },
   {
     id: "126",
@@ -262,5 +275,6 @@ export const confluxCreatures: Array<Creature> = [
     specialAbilities: "Immune to fire (Magic Arrow included), " +
       "Breath attack, Rebirth",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/conflux/Phoenix.gif`,
+    factory: "conflux",
   },
 ];
