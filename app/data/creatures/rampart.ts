@@ -18,7 +18,7 @@ export const rampartCreatures: Array<Creature> = [
     valueMoney: 70,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Centaur.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "16",
@@ -37,7 +37,7 @@ export const rampartCreatures: Array<Creature> = [
     specialAbilities: "",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/rampart/Centaur_Captain.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "17",
@@ -55,7 +55,7 @@ export const rampartCreatures: Array<Creature> = [
     valueMoney: 120,
     specialAbilities: "Magic resistance 20%",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Dwarf.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "18",
@@ -73,7 +73,7 @@ export const rampartCreatures: Array<Creature> = [
     valueMoney: 150,
     specialAbilities: "Magic resistance 40%",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Battle_Dwarf.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "19",
@@ -91,7 +91,7 @@ export const rampartCreatures: Array<Creature> = [
     valueMoney: 200,
     specialAbilities: "Ranged attack",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Wood_Elf.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "20",
@@ -109,7 +109,7 @@ export const rampartCreatures: Array<Creature> = [
     valueMoney: 225,
     specialAbilities: "Ranged attack, Double attack",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Grand_Elf.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "21",
@@ -127,7 +127,7 @@ export const rampartCreatures: Array<Creature> = [
     valueMoney: 250,
     specialAbilities: "Magic damper",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Pegasus.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "22",
@@ -145,7 +145,7 @@ export const rampartCreatures: Array<Creature> = [
     valueMoney: 275,
     specialAbilities: "Magic damper",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Silver_Pegasus.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "23",
@@ -163,7 +163,7 @@ export const rampartCreatures: Array<Creature> = [
     valueMoney: 350,
     specialAbilities: "Binding",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Dendroid_Guard.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "24",
@@ -182,7 +182,7 @@ export const rampartCreatures: Array<Creature> = [
     specialAbilities: "Binding",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/rampart/Dendroid_Soldier.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "25",
@@ -200,7 +200,7 @@ export const rampartCreatures: Array<Creature> = [
     valueMoney: 850,
     specialAbilities: "Blinding 20%, Aura of magic resistance 20%",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Unicorn.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "26",
@@ -218,7 +218,7 @@ export const rampartCreatures: Array<Creature> = [
     valueMoney: 950,
     specialAbilities: "Blinding 20%, Aura of magic resistance 20%",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/War_Unicorn.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "27",
@@ -237,7 +237,7 @@ export const rampartCreatures: Array<Creature> = [
     specialAbilities: "Breath attack, Immune to level 1–3 spells, " +
       "Counts as dragon",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Green_Dragon.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
   {
     id: "28",
@@ -256,6 +256,6 @@ export const rampartCreatures: Array<Creature> = [
     specialAbilities: "Breath attack, Immune to level 1–4 spells, " +
       "Counts as dragon",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/rampart/Gold_Dragon.gif`,
-    factory: "rampart",
+    town: "rampart",
   },
 ];

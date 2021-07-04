@@ -75,7 +75,7 @@ pm2 startup
 
 # Requests
 
-Factory values:
+Town values:
 
 - castle
 - rampart
@@ -89,8 +89,8 @@ Factory values:
 - cove
 
 ```text
-  Method GET: /creature/{factory} --> Return all factory creatures
-  Method GET: /creature/{factory}/{id} --> Return specific creature for the factory
+  Method GET: /creature/{town} --> Return all town creatures
+  Method GET: /creature/{town}/{id} --> Return specific creature for the town
   Method GET: /spell --> All spells
   Method GET: /spell/fire --> Return all fire spell
   Method GET: /spell/water --> Return all water spell

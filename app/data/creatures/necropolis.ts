@@ -18,7 +18,7 @@ export const necropolisCreatures: Array<Creature> = [
     valueMoney: 60,
     specialAbilities: "Undead",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Skeleton.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "58",
@@ -37,7 +37,7 @@ export const necropolisCreatures: Array<Creature> = [
     specialAbilities: "Undead",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/necropolis/Skeleton_Warrior.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "59",
@@ -56,7 +56,7 @@ export const necropolisCreatures: Array<Creature> = [
     specialAbilities: "Undead",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/necropolis/Walking_Dead.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "60",
@@ -74,7 +74,7 @@ export const necropolisCreatures: Array<Creature> = [
     valueMoney: 125,
     specialAbilities: "Undead, Disease",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Zombie.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "61",
@@ -92,7 +92,7 @@ export const necropolisCreatures: Array<Creature> = [
     valueMoney: 200,
     specialAbilities: "Undead, Regeneration",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Wight.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "62",
@@ -110,7 +110,7 @@ export const necropolisCreatures: Array<Creature> = [
     valueMoney: 230,
     specialAbilities: "Undead, Regeneration, Mana drain",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Wraith.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "63",
@@ -128,7 +128,7 @@ export const necropolisCreatures: Array<Creature> = [
     valueMoney: 360,
     specialAbilities: "Undead, No enemy retaliation",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Vampire.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "64",
@@ -147,7 +147,7 @@ export const necropolisCreatures: Array<Creature> = [
     specialAbilities: "Undead, No enemy retaliation, Life drain",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/necropolis/Vampire_Lord.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "65",
@@ -165,7 +165,7 @@ export const necropolisCreatures: Array<Creature> = [
     valueMoney: 550,
     specialAbilities: "Undead, Ranged attack, Death cloud",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Lich.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "66",
@@ -183,7 +183,7 @@ export const necropolisCreatures: Array<Creature> = [
     valueMoney: 600,
     specialAbilities: "Undead, Ranged attack, Death cloud",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Power_Lich.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "67",
@@ -202,7 +202,7 @@ export const necropolisCreatures: Array<Creature> = [
     specialAbilities: "Undead, Curses enemies",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/necropolis/Black_Knight.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "68",
@@ -221,7 +221,7 @@ export const necropolisCreatures: Array<Creature> = [
     specialAbilities: "Undead, Curses enemies, Death blow attack",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/necropolis/Dread_Knight.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "69",
@@ -239,7 +239,7 @@ export const necropolisCreatures: Array<Creature> = [
     valueMoney: 1800,
     specialAbilities: "Undead, Decreases enemy morale by -1, Dragon",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/necropolis/Bone_Dragon.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
   {
     id: "70",
@@ -259,6 +259,6 @@ export const necropolisCreatures: Array<Creature> = [
       "Aging 20%",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/necropolis/Ghost_Dragon.gif`,
-    factory: "necropolis",
+    town: "necropolis",
   },
 ];

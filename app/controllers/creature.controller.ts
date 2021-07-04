@@ -26,7 +26,7 @@ const addCreatures = () => {
   );
 };
 
-const factories: any = {
+const towns: any = {
   "castle": castleCreatures,
   "rampart": rampartCreatures,
   "tower": towerCreatures,
@@ -39,23 +39,23 @@ const factories: any = {
   "cove": coveCreatures,
 };
 
-const setFactory = (factory: string) => {
-  creatures = new Creature(getDataCreatures(factory));
+const setTown = (town: string) => {
+  creatures = new Creature(getDataCreatures(town));
 };
 
-const getDataCreatures = (factory: string) => {
-  return factories[factory] || false;
+const getDataCreatures = (town: string) => {
+  return towns[town] || false;
 };
 
-// Return all creatures for the specific factory.
+// Return all creatures for the specific town.
 const getCreatures = ({
   params,
   response,
 }: {
-  params: { factory: string };
+  params: { town: string };
   response: any;
 }) => {
-  setFactory(params.factory);
+  setTown(params.town);
 
   if (creatures) {
     response.status = 200;
@@ -71,14 +71,14 @@ const getCreature = ({
   params,
   response,
 }: {
-  params: { id: string, factory: string };
+  params: { id: string, town: string };
   response: any;
 }) => {
   addCreatures();
   const id = params.id;
-  const factory = params.factory;
+  const town = params.town;
   const creature = creatures.filter((creature: any) => creature.id == id
-    && creature.factory === factory)[0];
+    && creature.town === town)[0];
 
   if (creature) {
     response.status = 200;

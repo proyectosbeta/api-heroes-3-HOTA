@@ -14,5 +14,5 @@ export interface Creature {
   valueMoney: number;
   specialAbilities: string;
   imageUrl: string;
-  factory: string;
+  town: string;
 }

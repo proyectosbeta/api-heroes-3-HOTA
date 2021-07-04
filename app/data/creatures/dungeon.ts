@@ -18,7 +18,7 @@ export const dungeonCreatures: Array<Creature> = [
     valueMoney: 50,
     specialAbilities: "Immune to blinding, Immune to petrification",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Troglodyte.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "72",
@@ -37,7 +37,7 @@ export const dungeonCreatures: Array<Creature> = [
     specialAbilities: "Immune to blinding, Immune to petrification",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/dungeon/Infernal_Troglodyte.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "73",
@@ -55,7 +55,7 @@ export const dungeonCreatures: Array<Creature> = [
     valueMoney: 130,
     specialAbilities: "Strike and return",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Harpy.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "74",
@@ -73,7 +73,7 @@ export const dungeonCreatures: Array<Creature> = [
     valueMoney: 170,
     specialAbilities: "Strike and return, No enemy retaliation",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Harpy_Hag.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "75",
@@ -91,7 +91,7 @@ export const dungeonCreatures: Array<Creature> = [
     valueMoney: 250,
     specialAbilities: "Ranged attack, No melee penalty",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Beholder.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "76",
@@ -109,7 +109,7 @@ export const dungeonCreatures: Array<Creature> = [
     valueMoney: 280,
     specialAbilities: "Ranged attack, No melee penalty",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Evil_Eye.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "77",
@@ -127,7 +127,7 @@ export const dungeonCreatures: Array<Creature> = [
     valueMoney: 300,
     specialAbilities: "Ranged attack, No melee penalty, Stone gaze 20%",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Medusa.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "78",
@@ -145,7 +145,7 @@ export const dungeonCreatures: Array<Creature> = [
     valueMoney: 330,
     specialAbilities: "Ranged attack, No melee penalty, Stone gaze 20%",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Medusa_Queen.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "79",
@@ -163,7 +163,7 @@ export const dungeonCreatures: Array<Creature> = [
     valueMoney: 500,
     specialAbilities: "Permanent morale +1",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Minotaur.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "80",
@@ -181,7 +181,7 @@ export const dungeonCreatures: Array<Creature> = [
     valueMoney: 575,
     specialAbilities: "Permanent morale +1",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Minotaur_King.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "81",
@@ -199,7 +199,7 @@ export const dungeonCreatures: Array<Creature> = [
     valueMoney: 850,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Manticore.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "82",
@@ -217,7 +217,7 @@ export const dungeonCreatures: Array<Creature> = [
     valueMoney: 1050,
     specialAbilities: "Paralyzing Venom",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Scorpicore.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "83",
@@ -236,7 +236,7 @@ export const dungeonCreatures: Array<Creature> = [
     specialAbilities: "Dragon, Breath attack, Immune to " +
       "spells level 1–3",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Red_Dragon.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
   {
     id: "84",
@@ -255,6 +255,6 @@ export const dungeonCreatures: Array<Creature> = [
     specialAbilities: "Dragon, Breath attack, Immune to all " +
       "spells, Hates Titans",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/dungeon/Black_Dragon.gif`,
-    factory: "dungeon",
+    town: "dungeon",
   },
 ];

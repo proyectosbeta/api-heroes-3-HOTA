@@ -18,7 +18,7 @@ export const towerCreatures: Array<Creature> = [
     valueMoney: 30,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Gremlin.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "30",
@@ -36,7 +36,7 @@ export const towerCreatures: Array<Creature> = [
     valueMoney: 40,
     specialAbilities: "Ranged attack",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Master_Gremlin.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "31",
@@ -54,7 +54,7 @@ export const towerCreatures: Array<Creature> = [
     valueMoney: 130,
     specialAbilities: "Non-living",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Stone_Gargoyle.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "32",
@@ -73,7 +73,7 @@ export const towerCreatures: Array<Creature> = [
     specialAbilities: "Non-living",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/tower/Obsidian_Gargoyle.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "33",
@@ -91,7 +91,7 @@ export const towerCreatures: Array<Creature> = [
     valueMoney: 150,
     specialAbilities: "Spell damage resistance 50%, Golem",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Stone_Golem.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "34",
@@ -109,7 +109,7 @@ export const towerCreatures: Array<Creature> = [
     valueMoney: 200,
     specialAbilities: "Spell damage resistance 75%, Golem",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Iron_Golem.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "35",
@@ -128,7 +128,7 @@ export const towerCreatures: Array<Creature> = [
     specialAbilities: "Ranged attack, No melee penalty, Hero's " +
       "combat spells cost 2 less mana, No Obstacle penalty",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Mage.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "36",
@@ -147,7 +147,7 @@ export const towerCreatures: Array<Creature> = [
     specialAbilities: "Ranged attack, No melee penalty, Hero's " +
       "combat spells cost 2 less mana, No Obstacle penalty",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Arch_Mage.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "37",
@@ -165,7 +165,7 @@ export const towerCreatures: Array<Creature> = [
     valueMoney: 550,
     specialAbilities: "Hates efreeti",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Genie.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "38",
@@ -183,7 +183,7 @@ export const towerCreatures: Array<Creature> = [
     valueMoney: 600,
     specialAbilities: "Hates efreeti, Spellcaster",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Master_Genie.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "39",
@@ -201,7 +201,7 @@ export const towerCreatures: Array<Creature> = [
     valueMoney: 1100,
     specialAbilities: "No enemy retaliation",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Naga.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "40",
@@ -219,7 +219,7 @@ export const towerCreatures: Array<Creature> = [
     valueMoney: 1600,
     specialAbilities: "No enemy retaliation",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Naga_Queen.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "41",
@@ -237,7 +237,7 @@ export const towerCreatures: Array<Creature> = [
     valueMoney: 2000,
     specialAbilities: "Immunity to mind spells",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Giant.gif`,
-    factory: "tower",
+    town: "tower",
   },
   {
     id: "42",
@@ -256,6 +256,6 @@ export const towerCreatures: Array<Creature> = [
     specialAbilities: "Ranged attack, Immunity to mind spells, " +
       "No melee Penalty, Hates Black Dragons",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/tower/Titan.gif`,
-    factory: "tower",
+    town: "tower",
   },
 ];

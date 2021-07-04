@@ -18,7 +18,7 @@ export const strongholdCreatures: Array<Creature> = [
     valueMoney: 40,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Goblin.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "86",
@@ -36,7 +36,7 @@ export const strongholdCreatures: Array<Creature> = [
     valueMoney: 50,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Hobgoblin.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "87",
@@ -54,7 +54,7 @@ export const strongholdCreatures: Array<Creature> = [
     valueMoney: 100,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Wolf_Rider.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "88",
@@ -72,7 +72,7 @@ export const strongholdCreatures: Array<Creature> = [
     valueMoney: 140,
     specialAbilities: "Double attack",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Wolf_Raider.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "89",
@@ -90,7 +90,7 @@ export const strongholdCreatures: Array<Creature> = [
     valueMoney: 150,
     specialAbilities: "Ranged attack",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Orc.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "90",
@@ -109,7 +109,7 @@ export const strongholdCreatures: Array<Creature> = [
     specialAbilities: "Ranged attack",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/stronghold/Orc_Chieftain.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "91",
@@ -127,7 +127,7 @@ export const strongholdCreatures: Array<Creature> = [
     valueMoney: 300,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Ogre.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "92",
@@ -145,7 +145,7 @@ export const strongholdCreatures: Array<Creature> = [
     valueMoney: 400,
     specialAbilities: "Spellcaster (Bloodlust)",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Ogre_Mage.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "93",
@@ -163,7 +163,7 @@ export const strongholdCreatures: Array<Creature> = [
     valueMoney: 600,
     specialAbilities: "",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Roc.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "94",
@@ -181,7 +181,7 @@ export const strongholdCreatures: Array<Creature> = [
     valueMoney: 700,
     specialAbilities: "Lightning strike",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Thunderbird.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "95",
@@ -199,7 +199,7 @@ export const strongholdCreatures: Array<Creature> = [
     valueMoney: 750,
     specialAbilities: "Ranged attack, Can attack siege walls",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Cyclops.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "96",
@@ -218,7 +218,7 @@ export const strongholdCreatures: Array<Creature> = [
     specialAbilities: "Ranged attack, Can attack siege walls",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/stronghold/Cyclops_King.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "97",
@@ -237,7 +237,7 @@ export const strongholdCreatures: Array<Creature> = [
     specialAbilities: "Attack reduces enemy's defense by 40% " +
       "and 1 point temporarily",
     imageUrl: `${APP_DOMAIN}assets/images/creatures/stronghold/Behemoth.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
   {
     id: "98",
@@ -257,6 +257,6 @@ export const strongholdCreatures: Array<Creature> = [
       "and 1 point temporarily",
     imageUrl:
       `${APP_DOMAIN}assets/images/creatures/stronghold/Ancient_Behemoth.gif`,
-    factory: "stronghold",
+    town: "stronghold",
   },
 ];
