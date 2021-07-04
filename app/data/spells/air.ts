@@ -1,5 +1,5 @@
 import { Spell } from "../../types/spell.ts";
-import { APP_DOMAIN } from '../../config/index.ts';
+import { APP_DOMAIN } from "../../config/index.ts";
 
 export const airSpell: Array<Spell> = [
   {
@@ -139,6 +139,7 @@ export const airSpell: Array<Spell> = [
     level: 5,
     effect: "Inflicts 600 magic damage on a single enemy. " +
       "Requires Titan's Thunder",
-    imageUrl: `${APP_DOMAIN}assets/images/spells/air/Titan's_Lightning_Bolt.png`,
+    imageUrl:
+      `${APP_DOMAIN}assets/images/spells/air/Titan's_Lightning_Bolt.png`,
   },
 ];

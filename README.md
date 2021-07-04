@@ -1,7 +1,9 @@
 # Description
+
 API for the Game Heroes Of Might and Magic III (HOTA)
 
 Link:
+
 - https://heroes.thelazy.net//index.php/Main_Page
 - Creatures:
   - https://heroes.thelazy.net/index.php/List_of_creatures
@@ -58,25 +60,25 @@ Use pm2 for production.
 ## Install pm2
 
 ```bash
-  npm install pm2 -g
+npm install pm2 -g
 ```
 
 ## Start pm2
 
 ```bash
-  pm2 start /home/proyectosbeta/repositoriosGit/api-heroes-3-HOTA/app.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-read=." --name api-heroes-3-hota
+pm2 start /home/proyectosbeta/repositoriosGit/api-heroes-3-HOTA/app.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-read=." --name api-heroes-3-hota
 ```
 
 ## Startup server pm2
 
 ```bash
-  pm2 startup
+pm2 startup
 ```
 
 # Requests
 
 ```text
-  Method GET: /creature --> All creatures
+Method GET: /creature --> All creatures
   Method GET: /creature/castle --> Return all castle creatures
   Method GET: /creature/rampart --> Return all rampart creatures
   Method GET: /creature/tower --> Return all tower creatures
@@ -99,7 +101,7 @@ Use pm2 for production.
 Method GET:
 
 ```bash
-  http://51.15.192.116:4500/creature/
+http://51.15.192.116:4500/creature/
   http://51.15.192.116:4500/creature/castle
   http://51.15.192.116:4500/creature/rampart
   http://51.15.192.116:4500/creature/tower

@@ -1,5 +1,5 @@
 import { Spell } from "../../types/spell.ts";
-import { APP_DOMAIN } from '../../config/index.ts';
+import { APP_DOMAIN } from "../../config/index.ts";
 
 export const waterSpell: Array<Spell> = [
   {
@@ -31,10 +31,11 @@ export const waterSpell: Array<Spell> = [
     id: "20",
     name: "Protection from Water",
     level: 1,
-    effect: "Reduces damage taken from water spells. Basic: Single " + 
+    effect: "Reduces damage taken from water spells. Basic: Single " +
       "ally. Expert: All allies. Effect increased from 30%-30%-50%-50% " +
       "to 50%-50%-75%-75%. Horn of the Abyss",
-    imageUrl: `${APP_DOMAIN}assets/images/spells/water/Protection_from_Water.png`,
+    imageUrl:
+      `${APP_DOMAIN}assets/images/spells/water/Protection_from_Water.png`,
   },
   {
     id: "21",
@@ -55,7 +56,7 @@ export const waterSpell: Array<Spell> = [
     name: "Remove Obstacle",
     level: 2,
     effect: "Removes obstacles from the battlefield. Basic: Only " +
-      "trees, rocks and other natural obstacles may be removed. " + 
+      "trees, rocks and other natural obstacles may be removed. " +
       "Advanced: May also remove fire walls",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Remove_Obstacle.png`,
   },
@@ -132,6 +133,7 @@ export const waterSpell: Array<Spell> = [
     name: "Summon Water Elemental",
     level: 5,
     effect: "Summons allied Water Elementals for the duration of combat",
-    imageUrl: `${APP_DOMAIN}assets/images/spells/water/Summon_Water_Elemental.png`,
+    imageUrl:
+      `${APP_DOMAIN}assets/images/spells/water/Summon_Water_Elemental.png`,
   },
 ];

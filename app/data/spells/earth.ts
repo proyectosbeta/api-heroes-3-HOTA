@@ -1,12 +1,12 @@
 import { Spell } from "../../types/spell.ts";
-import { APP_DOMAIN } from '../../config/index.ts';
+import { APP_DOMAIN } from "../../config/index.ts";
 
 export const earthSpell: Array<Spell> = [
   {
     id: "52",
     name: "Shield",
     level: 1,
-    effect: "Reduces damage taken from hand-to-hand attacks. " + 
+    effect: "Reduces damage taken from hand-to-hand attacks. " +
       "Basic: Single ally. Expert: All allies",
     imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Shield.png`,
   },
@@ -90,7 +90,8 @@ export const earthSpell: Array<Spell> = [
     effect: "Reduces damage taken from earth spells. Basic: " +
       "Single ally. Expert: All allies. Effect increased " +
       "from 30%-30%-50%-50% to 50%-50%-75%-75%. Horn of the Abyss",
-    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Protection_from_Earth.png`,
+    imageUrl:
+      `${APP_DOMAIN}assets/images/spells/earth/Protection_from_Earth.png`,
   },
   {
     id: "63",
@@ -135,6 +136,7 @@ export const earthSpell: Array<Spell> = [
     name: "Summon Earth Elemental",
     level: 5,
     effect: "Summons allied Earth Elementals for the duration of combat",
-    imageUrl: `${APP_DOMAIN}assets/images/spells/earth/Summon_Earth_Elemental.png`,
+    imageUrl:
+      `${APP_DOMAIN}assets/images/spells/earth/Summon_Earth_Elemental.png`,
   },
 ];

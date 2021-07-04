@@ -1,14 +1,14 @@
 import { Spell } from "../../types/spell.ts";
-import { APP_DOMAIN } from '../../config/index.ts';
+import { APP_DOMAIN } from "../../config/index.ts";
 
 export const fireSpell: Array<Spell> = [
   {
-      id: "1",
-      name: "Bloodlust",
-      level: 1,
-      effect: "Increases the attack skill of target (or all) " +
-        "allied creature for melee attacks",
-      imageUrl: `${APP_DOMAIN}assets/images/spells/fire/Bloodlust.png`,
+    id: "1",
+    name: "Bloodlust",
+    level: 1,
+    effect: "Increases the attack skill of target (or all) " +
+      "allied creature for melee attacks",
+    imageUrl: `${APP_DOMAIN}assets/images/spells/fire/Bloodlust.png`,
   },
   {
     id: "2",
@@ -41,7 +41,7 @@ export const fireSpell: Array<Spell> = [
     name: "Fire Wall",
     level: 2,
     effect: "Creates wall of fire at target location " +
-      "that inflicts magic damage on creatures that" + 
+      "that inflicts magic damage on creatures that" +
       "pass through",
     imageUrl: `${APP_DOMAIN}assets/images/spells/fire/Fire_Wall.png`,
   },
@@ -72,7 +72,7 @@ export const fireSpell: Array<Spell> = [
     name: "Armageddon",
     level: 4,
     effect: "Inflicts magic damage on all creatures on the battlefield. " +
-      "Damage reduced from 50*(spell power) + 30/30/60/120 to 40*(spell power) " + 
+      "Damage reduced from 50*(spell power) + 30/30/60/120 to 40*(spell power) " +
       "+ 30/30/60/120. Horn of the Abyss",
     imageUrl: `${APP_DOMAIN}assets/images/spells/fire/Armageddon.png`,
   },
@@ -109,8 +109,8 @@ export const fireSpell: Array<Spell> = [
     id: "14",
     name: "Slayer",
     level: 4,
-    effect: " 	Increases attack rating of a single ally against " + 
-      "Dragons, Behemoths and Hydras. Advanced: Effect applies" + 
+    effect: " 	Increases attack rating of a single ally against " +
+      "Dragons, Behemoths and Hydras. Advanced: Effect applies" +
       "to Angels and Devils. Expert: Effect applies to Titans",
     imageUrl: `${APP_DOMAIN}assets/images/spells/fire/Slayer.png`,
   },
@@ -127,6 +127,7 @@ export const fireSpell: Array<Spell> = [
     name: "Summon Fire Elemental",
     level: 5,
     effect: "Summons allied Fire Elementals for the duration of combat",
-    imageUrl: `${APP_DOMAIN}assets/images/spells/fire/Summon_Fire_Elemental.png`,
+    imageUrl:
+      `${APP_DOMAIN}assets/images/spells/fire/Summon_Fire_Elemental.png`,
   },
 ];

@@ -1,6 +1,6 @@
-import { Router } from 'https://deno.land/x/oak/mod.ts'
-import { router as routerCreature } from './creature.ts';
-import { router as routerSpell } from './spell.ts';
+import { Router } from "../../deps.ts";
+import { router as routerCreature } from "./creature.ts";
+import { router as routerSpell } from "./spell.ts";
 
 const router = new Router();
 

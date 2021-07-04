@@ -12,39 +12,46 @@ import { coveCreatures } from "../data/creatures/cove.ts";
 
 let creatures: any;
 
-const factories: any = { 
-    'castle': castleCreatures,
-    'rampart': rampartCreatures,
-    'tower': towerCreatures,
-    'inferno': infernoCreatures,
-    'necropolis': necropolisCreatures,
-    'dungeon': dungeonCreatures,
-    'stronghold': strongholdCreatures,
-    'fortress': fortressCreatures,
-    'conflux': confluxCreatures,
-    'cove': coveCreatures,
+const factories: any = {
+  "castle": castleCreatures,
+  "rampart": rampartCreatures,
+  "tower": towerCreatures,
+  "inferno": infernoCreatures,
+  "necropolis": necropolisCreatures,
+  "dungeon": dungeonCreatures,
+  "stronghold": strongholdCreatures,
+  "fortress": fortressCreatures,
+  "conflux": confluxCreatures,
+  "cove": coveCreatures,
 };
 
 const setFactory = (factory: string) => {
-    creatures = new Creature(getDataCreatures(factory));
+  creatures = new Creature(getDataCreatures(factory));
 };
 
 const getDataCreatures = (factory: string) => {
-    var allCreatures = castleCreatures.concat(rampartCreatures,
-      towerCreatures, infernoCreatures, necropolisCreatures,
-      dungeonCreatures, strongholdCreatures, fortressCreatures,
-      confluxCreatures, coveCreatures);
+  var allCreatures = castleCreatures.concat(
+    rampartCreatures,
+    towerCreatures,
+    infernoCreatures,
+    necropolisCreatures,
+    dungeonCreatures,
+    strongholdCreatures,
+    fortressCreatures,
+    confluxCreatures,
+    coveCreatures,
+  );
 
-    return factories[factory] || allCreatures;
+  return factories[factory] || allCreatures;
 };
 
 // Return all creatures.
 const getCreatures = ({
-    params,
-    response 
+  params,
+  response,
 }: {
-    params: { factory: string };
-    response: any
+  params: { factory: string };
+  response: any;
 }) => {
   setFactory(params.factory);
 
@@ -53,21 +60,21 @@ const getCreatures = ({
 
 // Return creature by id.
 const getCreature = ({
-    params,
-    response,
+  params,
+  response,
 }: {
-    params: { id: string };
-    response: any;
+  params: { id: string };
+  response: any;
 }) => {
   const creature = creatures.getCreature(params.id);
 
   if (creature) {
-      response.status = 200;
-      response.body = creature;
+    response.status = 200;
+    response.body = creature;
   } else {
-      response.status = 404;
-      response.body = { message: "404 Not found" };
+    response.status = 404;
+    response.body = { message: "404 Not found" };
   }
 };
 
-export { getCreatures, getCreature };
+export { getCreature, getCreatures };
