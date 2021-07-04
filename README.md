@@ -4,11 +4,9 @@ API for the Game Heroes Of Might and Magic III (HOTA)
 
 Link:
 
-- https://heroes.thelazy.net//index.php/Main_Page
-- Creatures:
-  - https://heroes.thelazy.net/index.php/List_of_creatures
-- Spells
-  - https://heroes.thelazy.net/index.php/List_of_spells_(HotA)
+- [Main HOTA](https://heroes.thelazy.net//index.php/Main_Page)
+- [Creatures](https://heroes.thelazy.net/index.php/List_of_creatures)
+- [Spells](https://heroes.thelazy.net/index.php/List_of_spells)
 
 # Tecnologies
 
