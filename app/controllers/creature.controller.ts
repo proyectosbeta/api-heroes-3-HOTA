@@ -12,20 +12,6 @@ import { coveCreatures } from "../data/creatures/cove.ts";
 
 let creatures: any;
 
-const addCreatures = () => {
-  creatures = castleCreatures.concat(
-    rampartCreatures,
-    towerCreatures,
-    infernoCreatures,
-    necropolisCreatures,
-    dungeonCreatures,
-    strongholdCreatures,
-    fortressCreatures,
-    confluxCreatures,
-    coveCreatures,
-  );
-};
-
 const towns: any = {
   "castle": castleCreatures,
   "rampart": rampartCreatures,
@@ -44,7 +30,7 @@ const setTown = (town: string) => {
 };
 
 const getDataCreatures = (town: string) => {
-  return towns[town] || false;
+  return towns[town];
 };
 
 // Return all creatures for the specific town.
@@ -66,7 +52,7 @@ const getCreatures = ({
   }
 };
 
-// Return creature by id.
+// Return creature by id and specific town.
 const getCreature = ({
   params,
   response,
@@ -74,11 +60,12 @@ const getCreature = ({
   params: { id: string, town: string };
   response: any;
 }) => {
-  addCreatures();
   const id = params.id;
   const town = params.town;
-  const creature = creatures.filter((creature: any) => creature.id == id
-    && creature.town === town)[0];
+
+  setTown(town);
+  
+  const creature = creatures.getCreature(id, town);
 
   if (creature) {
     response.status = 200;
