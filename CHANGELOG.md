@@ -1,3 +1,8 @@
+#v0.4.0
+
+- Add specific endpoint for the town creatures.
+- Add middleware for the creatures endpoint.
+
 #v0.3.1
 
 - Add air, earth, fire and water spells for the effect.

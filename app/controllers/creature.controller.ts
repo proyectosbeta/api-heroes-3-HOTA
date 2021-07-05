@@ -1,4 +1,5 @@
 import { Creature } from "../models/Creature.ts";
+import { isValidTown } from "../middleware/townMiddleware.ts";
 import { castleCreatures } from "../data/creatures/castle.ts";
 import { rampartCreatures } from "../data/creatures/rampart.ts";
 import { towerCreatures } from "../data/creatures/tower.ts";
@@ -26,7 +27,9 @@ const towns: any = {
 };
 
 const setTown = (town: string) => {
-  creatures = new Creature(getDataCreatures(town));
+  const existTown = isValidTown(town);
+
+  creatures = (existTown)? new Creature(getDataCreatures(town)): false;
 };
 
 const getDataCreatures = (town: string) => {
