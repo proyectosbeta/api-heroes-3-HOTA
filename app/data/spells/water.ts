@@ -10,6 +10,7 @@ export const waterSpell: Array<Spell> = [
       "(or all) allied troop and heals it for (10/20/30 + " +
       "(power x 5)) health points",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Cure.png`,
+    magic: "water",
   },
   {
     id: "18",
@@ -18,6 +19,7 @@ export const waterSpell: Array<Spell> = [
     effect: "Water Magic 	Removes all spell effects from " +
       "target allied, enemy or all creatures and the battlefield",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Dispel.png`,
+    magic: "water",
   },
   {
     id: "19",
@@ -26,6 +28,7 @@ export const waterSpell: Array<Spell> = [
     effect: "Target (or all) allied creature(s) inflict maximum " +
       "damage (or maximum +1) when they attack",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Bless.png`,
+    magic: "water",
   },
   {
     id: "20",
@@ -36,6 +39,7 @@ export const waterSpell: Array<Spell> = [
       "to 50%-50%-75%-75%. Horn of the Abyss",
     imageUrl:
       `${APP_DOMAIN}assets/images/spells/water/Protection_from_Water.png`,
+    magic: "water",
   },
   {
     id: "21",
@@ -43,6 +47,7 @@ export const waterSpell: Array<Spell> = [
     level: 1,
     effect: "Summons unoccupied boat to nearby body of water",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Summon_Boat.png`,
+    magic: "water",
   },
   {
     id: "22",
@@ -50,6 +55,7 @@ export const waterSpell: Array<Spell> = [
     level: 2,
     effect: "Water Magic 	Inflicts magic damage on a single enemy",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Ice_Bolt.png`,
+    magic: "water",
   },
   {
     id: "23",
@@ -59,6 +65,7 @@ export const waterSpell: Array<Spell> = [
       "trees, rocks and other natural obstacles may be removed. " +
       "Advanced: May also remove fire walls",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Remove_Obstacle.png`,
+    magic: "water",
   },
   {
     id: "24",
@@ -66,6 +73,7 @@ export const waterSpell: Array<Spell> = [
     level: 2,
     effect: "Destroys nearby unoccupied boat",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Scuttle_Boat.png`,
+    magic: "water",
   },
   {
     id: "25",
@@ -74,6 +82,7 @@ export const waterSpell: Array<Spell> = [
     effect: "Reduces attack rating. Basic: Single enemy. " +
       "Expert: All enemies",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Weakness.png`,
+    magic: "water",
   },
   {
     id: "26",
@@ -82,6 +91,7 @@ export const waterSpell: Array<Spell> = [
     effect: "Prevents use of ranged attacks. Basic: Single " +
       "enemy. Expert: All enemies",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Forgetfulness.png`,
+    magic: "water",
   },
   {
     id: "27",
@@ -89,6 +99,7 @@ export const waterSpell: Array<Spell> = [
     level: 3,
     effect: "Inflicts magic damage on all creatures in area",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Frost_Ring.png`,
+    magic: "water",
   },
   {
     id: "28",
@@ -97,6 +108,7 @@ export const waterSpell: Array<Spell> = [
     effect: " 	Increases morale. Basic: Single ally. " +
       "Expert: All allies",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Mirth.png`,
+    magic: "water",
   },
   {
     id: "29",
@@ -105,6 +117,7 @@ export const waterSpell: Array<Spell> = [
     effect: "Teleports ally to location on the battlefield. " +
       "Expert: May teleport creature over castle walls",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Teleport.png`,
+    magic: "water",
   },
   {
     id: "30",
@@ -112,6 +125,7 @@ export const waterSpell: Array<Spell> = [
     level: 4,
     effect: "Creates clone of allied creature",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Clone.png`,
+    magic: "water",
   },
   {
     id: "31",
@@ -120,6 +134,7 @@ export const waterSpell: Array<Spell> = [
     effect: "Increases attack rating, defense rating and speed. " +
       "Basic: Single ally. Expert: All allies",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Prayer.png`,
+    magic: "water",
   },
   {
     id: "32",
@@ -127,6 +142,7 @@ export const waterSpell: Array<Spell> = [
     level: 4,
     effect: "Allows movement to visible land across bodies of water",
     imageUrl: `${APP_DOMAIN}assets/images/spells/water/Water_Walk.png`,
+    magic: "water",
   },
   {
     id: "33",
@@ -135,5 +151,6 @@ export const waterSpell: Array<Spell> = [
     effect: "Summons allied Water Elementals for the duration of combat",
     imageUrl:
       `${APP_DOMAIN}assets/images/spells/water/Summon_Water_Elemental.png`,
+    magic: "water",
   },
 ];

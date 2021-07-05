@@ -18,12 +18,10 @@ const setMagic = (magic: string) => {
 };
 
 const getDataSpells = (magic: string) => {
-  var allSpells = fireSpell.concat(waterSpell, airSpell, earthSpell);
-
-  return magics[magic] || allSpells;
+  return magics[magic];
 };
 
-// Return all spells.
+// Return all spells for the specific magic.
 const getSpells = ({
   params,
   response,
@@ -33,18 +31,29 @@ const getSpells = ({
 }) => {
   setMagic(params.magic);
 
-  response.body = spells.getSpells();
+  if (spells) {
+    response.status = 200;
+    response.body = spells.getSpells();
+  } else {
+    response.status = 404;
+    response.body = { message: "404 Not found" };
+  }
 };
 
-// Return spell by id.
+// Return spell by id and specific magic.
 const getSpell = ({
   params,
   response,
 }: {
-  params: { id: string };
+  params: { id: string, magic: string };
   response: any;
 }) => {
-  const spell = spells.getSpell(params.id);
+  const id = params.id;
+  const magic = params.magic;
+
+  setMagic(magic);
+
+  const spell = spells.getSpell(id, magic);
 
   if (spell) {
     response.status = 200;

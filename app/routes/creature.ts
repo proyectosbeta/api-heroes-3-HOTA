@@ -7,8 +7,6 @@ import {
 const router = new Router();
 
 router
-  // .get("/creature", getCreatures)
-  // .get('/creature/:id', getCreature)
   .get("/creature/:town", getCreatures)
   .get('/creature/:town/:id', getCreature);
 

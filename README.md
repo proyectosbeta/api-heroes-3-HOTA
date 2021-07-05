@@ -88,14 +88,18 @@ Town values:
 - conflux
 - cove
 
+Magic values:
+
+- fire
+- water
+- air
+- earth
+
 ```text
-  Method GET: /creature/{town} --> Return all town creatures
+  Method GET: /creature/{town}      --> Return all town creatures
   Method GET: /creature/{town}/{id} --> Return specific creature for the town
-  Method GET: /spell --> All spells
-  Method GET: /spell/fire --> Return all fire spell
-  Method GET: /spell/water --> Return all water spell
-  Method GET: /spell/air --> Return all air spell
-  Method GET: /spell/earth --> Return all earth spell
+  Method GET: /spell/{magic}        --> Return all magic spells
+  Method GET: /spell/{magic}/{id}   --> Return specific spell fot the magic
 ```
 
 # Try in API client
@@ -114,8 +118,8 @@ Method GET:
 - [Conflux](http://51.15.192.116:4500/creature/conflux)
 - [Inferno](http://51.15.192.116:4500/creature/inferno)
 - [Cove](http://51.15.192.116:4500/creature/cove)
-- [All spells](http://51.15.192.116:4500/spell/)
 - [Fire](http://51.15.192.116:4500/spell/fire)
+- [Bloodlust](http://51.15.192.116:4500/spell/fire/1)
 - [Water](http://51.15.192.116:4500/spell/water)
 - [Air](http://51.15.192.116:4500/spell/air)
 - [Earth](http://51.15.192.116:4500/spell/earth)

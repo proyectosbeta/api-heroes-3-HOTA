@@ -7,14 +7,15 @@ export class Spell {
     this.spells = spells;
   }
 
-  // Return all spells.
+  // Return all spells for specific magic.
   getSpells = () => {
     return this.spells;
   };
 
-  // Return spell by id.
-  getSpell = (id: string) => {
-    const spell = this.spells.filter((spell) => spell.id == id)[0];
+  // Return spell by id and magic.
+  getSpell = (id: string, magic: string) => {
+    const spell = this.spells.filter((spell) => spell.id == id
+     && spell.magic === magic)[0];
 
     return spell;
   };

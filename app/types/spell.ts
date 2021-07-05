@@ -4,4 +4,5 @@ export interface Spell {
   level: number;
   effect: string;
   imageUrl: string;
+  magic:string;
 }
