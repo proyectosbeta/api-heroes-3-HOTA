@@ -1,4 +1,5 @@
 import { Spell } from "../models/Spell.ts";
+import { isValidMagic } from "../middleware/magicMiddleware.ts";
 import { fireSpell } from "../data/spells/fire.ts";
 import { waterSpell } from "../data/spells/water.ts";
 import { airSpell } from "../data/spells/air.ts";
@@ -14,7 +15,9 @@ const magics: any = {
 };
 
 const setMagic = (magic: string) => {
-  spells = new Spell(getDataSpells(magic));
+  const existMagic = isValidMagic(magic);
+
+  spells = (existMagic)? new Spell(getDataSpells(magic)) : false;
 };
 
 const getDataSpells = (magic: string) => {

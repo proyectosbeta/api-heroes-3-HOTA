@@ -3,6 +3,7 @@
 - Add specific endpoint for the town creatures.
 - Add middleware for the creatures endpoint.
 - Add specific endpoint for the magic spells.
+- Add middleware for the spells endpoint.
 
 #v0.3.1
 
