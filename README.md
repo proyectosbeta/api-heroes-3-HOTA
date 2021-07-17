@@ -71,6 +71,7 @@ pm2 start /home/proyectosbeta/repositoriosGit/api-heroes-3-HOTA/app.ts --interpr
 
 ```bash
 pm2 startup
+sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u proyectosbeta --hp /home/proyectosbeta
 ```
 
 # Requests
