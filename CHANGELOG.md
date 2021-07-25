@@ -1,3 +1,7 @@
+# v0.5.0
+
+- Add middleware log and time request.
+
 # v0.4.0
 
 - Add specific endpoint for the town creatures.
