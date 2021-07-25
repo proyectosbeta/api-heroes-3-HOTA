@@ -4,7 +4,7 @@ import { APP_DOMAIN } from "../../config/index.ts";
 export const castleCreatures: Array<Creature> = [
   {
     id: "1",
-      name: "Pikeman",
+    name: "Pikeman",
     level: "1",
     attack: 4,
     defense: 5,

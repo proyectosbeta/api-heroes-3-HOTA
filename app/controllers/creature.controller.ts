@@ -56,19 +56,21 @@ const getCreatures = ({
 };
 
 // Return creature by id and specific town.
-const getCreature = ({
+const getCreature = async({
   params,
+  request,
   response,
 }: {
   params: { id: string, town: string };
+  request: any;
   response: any;
 }) => {
-  const id = params.id;
-  const town = params.town;
+  const { id } = params as { id: string };
+  const { town } = params as { town: string };
 
   setTown(town);
   
-  const creature = creatures.getCreature(id, town);
+  const creature = await creatures.getCreature(id, town);
 
   if (creature) {
     response.status = 200;
