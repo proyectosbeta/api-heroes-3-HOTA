@@ -64,7 +64,8 @@ npm install pm2 -g
 ## Start pm2
 
 ```bash
-pm2 start /home/proyectosbeta/repositoriosGit/api-heroes-3-HOTA/app.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-env --allow-read=." --name api-heroes-3-hota```
+pm2 start /home/proyectosbeta/repositoriosGit/api-heroes-3-HOTA/app.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-env --allow-read=." --name api-heroes-3-hota
+```
 
 ## Startup server pm2
 
