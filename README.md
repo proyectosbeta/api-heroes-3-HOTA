@@ -10,7 +10,10 @@ Link:
 
 # Tecnologies
 
-- DenoJS
+- DenoJS 1.23.xx
+- Typescript 4.7.xx
+- Docker 20.10.17
+- Docker compose 1.25.3
 
 # Development
 
@@ -49,6 +52,28 @@ deno cache --reload app.ts
 
 ```bash
 denon start
+```
+
+# Docker compose
+
+## Use
+
+```bash
+docker-compose build
+docker-compose up
+```
+
+## Monit
+
+```bash
+docker ps
+```
+
+## Browser
+
+```bash
+http://localhost:4500/
+http://localhost:4500/creature/castle
 ```
 
 # Production

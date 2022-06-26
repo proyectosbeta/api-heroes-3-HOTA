@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  deno:
+    container_name: api-heroes-3-HOTA
+    image: deno
+    restart: always
+    build:
+        context: .
+        dockerfile: Dockerfile
+        target: base
+    ports:
+        - "${APP_PORT}:${APP_PORT}"
