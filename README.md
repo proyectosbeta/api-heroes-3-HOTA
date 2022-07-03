@@ -89,13 +89,13 @@ npm install pm2 -g
 ## Start pm2
 
 ```bash
-pm2 start /home/proyectosbeta/repositoriosGit/api-heroes-3-HOTA/app.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-env --allow-read=." --name api-heroes-3-hota
+sudo pm2 start /home/proyectosbeta/repositoriosGit/api-heroes-3-HOTA/app.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-env --allow-read=." --name api-heroes-3-hota
 ```
 
 ## Startup server pm2
 
 ```bash
-pm2 startup
+sudo pm2 startup
 sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u proyectosbeta --hp /home/proyectosbeta
 ```
 
