@@ -10,8 +10,8 @@ Link:
 
 # Tecnologies
 
-- DenoJS 1.23.xx
-- Typescript 4.7.xx
+- DenoJS 1.24.0
+- Typescript 4.7.4
 - Docker 20.10.17
 - Docker compose 1.25.3
 
@@ -73,7 +73,7 @@ docker ps
 
 ```bash
 http://localhost:4500/
-http://localhost:4500/creature/castle
+http://localhost:4500/creatures/castle
 ```
 
 # Production
@@ -122,30 +122,30 @@ Magic values:
 - earth
 
 ```text
-  Method GET: /creature/{town}      --> Return all town creatures
-  Method GET: /creature/{town}/{id} --> Return specific creature for the town
-  Method GET: /spell/{magic}        --> Return all magic spells
-  Method GET: /spell/{magic}/{id}   --> Return specific spell fot the magic
+  Method GET: /creatures/{town}      --> Return all town creatures
+  Method GET: /creatures/{town}/{id} --> Return specific creature for the town
+  Method GET: /spells/{magic}        --> Return all magic spells
+  Method GET: /spells/{magic}/{id}   --> Return specific spell fot the magic
 ```
 
 # Try in API client
 
 Method GET:
 
-- [Castle](http://51.15.192.116:4500/creature/castle)
-- [Pikmen](http://51.15.192.116:4500/creature/castle/1)
-- [Rampart](http://51.15.192.116:4500/creature/rampart)
-- [Tower](http://51.15.192.116:4500/creature/tower)
-- [Inferno](http://51.15.192.116:4500/creature/inferno)
-- [Necropolis](http://51.15.192.116:4500/creature/necropolis)
-- [Dungeon](http://51.15.192.116:4500/creature/dungeon)
-- [Stronghold](http://51.15.192.116:4500/creature/stronghold)
-- [Fortress](http://51.15.192.116:4500/creature/fortress)
-- [Conflux](http://51.15.192.116:4500/creature/conflux)
-- [Inferno](http://51.15.192.116:4500/creature/inferno)
-- [Cove](http://51.15.192.116:4500/creature/cove)
-- [Fire](http://51.15.192.116:4500/spell/fire)
-- [Bloodlust](http://51.15.192.116:4500/spell/fire/1)
-- [Water](http://51.15.192.116:4500/spell/water)
-- [Air](http://51.15.192.116:4500/spell/air)
-- [Earth](http://51.15.192.116:4500/spell/earth)
+- [Castle](http://51.15.192.116:4500/creatures/castle)
+- [Pikmen](http://51.15.192.116:4500/creatures/castle/1)
+- [Rampart](http://51.15.192.116:4500/creatures/rampart)
+- [Tower](http://51.15.192.116:4500/creatures/tower)
+- [Inferno](http://51.15.192.116:4500/creatures/inferno)
+- [Necropolis](http://51.15.192.116:4500/creatures/necropolis)
+- [Dungeon](http://51.15.192.116:4500/creatures/dungeon)
+- [Stronghold](http://51.15.192.116:4500/creatures/stronghold)
+- [Fortress](http://51.15.192.116:4500/creatures/fortress)
+- [Conflux](http://51.15.192.116:4500/creatures/conflux)
+- [Inferno](http://51.15.192.116:4500/creatures/inferno)
+- [Cove](http://51.15.192.116:4500/creatures/cove)
+- [Fire](http://51.15.192.116:4500/spells/fire)
+- [Bloodlust](http://51.15.192.116:4500/spells/fire/1)
+- [Water](http://51.15.192.116:4500/spells/water)
+- [Air](http://51.15.192.116:4500/spells/air)
+- [Earth](http://51.15.192.116:4500/spells/earth)

@@ -1,3 +1,8 @@
+# v0.7.0
+
+- [refactor] Endpoints creatures and spells.
+- [docs] Update readme file.
+
 # v0.6.0
 
 - [feat] Add docker and docker-compose.
