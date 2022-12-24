@@ -1,5 +1,10 @@
 # Release Notes
 
+## v0.7.1
+
+- [fix] The server listen.
+- [docs] Update readme file.
+
 ## v0.7.0
 
 - [refactor] Endpoints creatures and spells.
