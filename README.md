@@ -38,8 +38,7 @@ Change the constants.
 
 ```
 APP_PORT=4500
-APP_HOST="0.0.0.0"
-APP_DOMAIN="http://xxx.xxx.xxx.xxx:4500/"
+APP_DOMAIN="https://api-heroes.proyectosbeta.net/"
 ```
 
 #### Upgrade Deno

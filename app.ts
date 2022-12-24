@@ -3,8 +3,8 @@ import { staticFileMiddleware } from "./app/middleware/staticFileMiddleware.ts";
 import router from "./app/routes/index.ts";
 import { logger } from "./app/middleware/loggerMiddleware.ts";
 import { timing } from "./app/middleware/timingMiddleware.ts";
-import notFound from './app/middleware/notFound.ts';
-import { APP_HOST, APP_PORT, APP_DOMAIN } from "./app/config/index.ts";
+import notFound from "./app/middleware/notFound.ts";
+import { APP_PORT, APP_DOMAIN } from "./app/config/index.ts";
 
 const app = new Application();
 
@@ -19,4 +19,4 @@ app.use(notFound);
 
 console.log(`${yellow("Listening on: ")} ${green(APP_DOMAIN)}`);
 
-await app.listen({port: APP_PORT});
+await app.listen({ port: APP_PORT });
