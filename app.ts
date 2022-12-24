@@ -19,4 +19,4 @@ app.use(notFound);
 
 console.log(`${yellow("Listening on: ")} ${green(APP_DOMAIN)}`);
 
-await app.listen(`${APP_HOST}:${APP_PORT}`);
+await app.listen({port: APP_PORT});
