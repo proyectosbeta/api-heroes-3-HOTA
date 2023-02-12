@@ -4,6 +4,7 @@
 
 - [feat] Add cors.
 - [feat] Add X-Total-Count header for castles.
+- [refactor] Castle.
 
 ## v0.7.1
 
