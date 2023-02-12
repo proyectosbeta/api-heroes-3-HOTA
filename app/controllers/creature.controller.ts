@@ -14,22 +14,22 @@ import { coveCreatures } from "../data/creatures/cove.ts";
 let creatures: any;
 
 const towns: any = {
-  "castle": castleCreatures,
-  "rampart": rampartCreatures,
-  "tower": towerCreatures,
-  "inferno": infernoCreatures,
-  "necropolis": necropolisCreatures,
-  "dungeon": dungeonCreatures,
-  "stronghold": strongholdCreatures,
-  "fortress": fortressCreatures,
-  "conflux": confluxCreatures,
-  "cove": coveCreatures,
+  castle: castleCreatures,
+  rampart: rampartCreatures,
+  tower: towerCreatures,
+  inferno: infernoCreatures,
+  necropolis: necropolisCreatures,
+  dungeon: dungeonCreatures,
+  stronghold: strongholdCreatures,
+  fortress: fortressCreatures,
+  conflux: confluxCreatures,
+  cove: coveCreatures,
 };
 
 const setTown = (town: string) => {
   const existTown = isValidTown(town);
 
-  creatures = (existTown)? new Creature(getDataCreatures(town)): false;
+  creatures = existTown ? new Creature(getDataCreatures(town)) : false;
 };
 
 const getDataCreatures = (town: string) => {
@@ -46,35 +46,36 @@ const getCreatures = ({
 }) => {
   setTown(params.town);
 
-  if (creatures) {
-    response.status = 200;
-    response.body = creatures.getCreatures();
-  } else {
-    response.status = 404;
-    response.body = { message: "404 Not found" };
-  }
+  const data = creatures.getCreatures();
+  setResponse(response, data, true);
 };
 
 // Return creature by id and specific town.
-const getCreature = async({
+const getCreature = async ({
   params,
-  request,
   response,
 }: {
-  params: { id: string, town: string };
-  request: any;
+  params: { id: string; town: string };
   response: any;
 }) => {
   const { id } = params as { id: string };
   const { town } = params as { town: string };
 
   setTown(town);
-  
-  const creature = await creatures.getCreature(id, town);
 
-  if (creature) {
+  const data = await creatures.getCreature(id, town);
+  setResponse(response, data, false);
+};
+
+const setResponse = (response: any, data: any, many: boolean) => {
+  if (data) {
+    const count = many ? Object.keys(data).length : 1;
+
     response.status = 200;
-    response.body = creature;
+    response.body = data;
+
+    response.headers.set("Access-Control-Expose-Headers", "X-Total-Count");
+    response.headers.set("X-Total-Count", count);
   } else {
     response.status = 404;
     response.body = { message: "404 Not found" };

@@ -3,6 +3,7 @@
 ## v0.8.0
 
 - [feat] Add cors.
+- [feat] Add X-Total-Count header for castles.
 
 ## v0.7.1
 
