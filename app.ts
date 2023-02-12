@@ -1,4 +1,4 @@
-import { Application, yellow, green } from "./deps.ts";
+import { Application, oakCors, yellow, green } from "./deps.ts";
 import { staticFileMiddleware } from "./app/middleware/staticFileMiddleware.ts";
 import router from "./app/routes/index.ts";
 import { logger } from "./app/middleware/loggerMiddleware.ts";
@@ -11,6 +11,11 @@ const app = new Application();
 app.use(staticFileMiddleware);
 app.use(logger);
 app.use(timing);
+app.use(
+  oakCors({
+    origin: "*",
+  })
+);
 app.use(router.routes());
 app.use(router.allowedMethods());
 

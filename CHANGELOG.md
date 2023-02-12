@@ -1,5 +1,9 @@
 # Release Notes
 
+## v0.8.0
+
+- [feat] Add cors.
+
 ## v0.7.1
 
 - [fix] The server listen.
