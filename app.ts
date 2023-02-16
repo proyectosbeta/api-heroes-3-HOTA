@@ -13,7 +13,7 @@ app.use(logger);
 app.use(timing);
 app.use(
   oakCors({
-    origin: "*",
+    origin: /^.+localhost:(3000|5173|8080)$/
   })
 );
 app.use(router.routes());
