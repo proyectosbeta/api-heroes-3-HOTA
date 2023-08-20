@@ -10,9 +10,9 @@ Link:
 
 # Tecnologies
 
-- DenoJS 1.30.3
-- v8 10.6.194.5
-- Typescript 4.7.4
+- DenoJS 1.36.1
+- v8 11.6.189.12
+- Typescript 5.1.6
 - Docker 20.10.17
 - Docker compose 1.25.3
 
