@@ -1,4 +1,4 @@
-import { Application, oakCors, yellow, green } from "./deps.ts";
+import { Application, oakCors } from "./deps.ts";
 import { staticFileMiddleware } from "./app/middleware/staticFileMiddleware.ts";
 import router from "./app/routes/index.ts";
 import { logger } from "./app/middleware/loggerMiddleware.ts";
@@ -21,7 +21,5 @@ app.use(router.allowedMethods());
 
 // 404 page.
 app.use(notFound);
-
-console.log(`${yellow("Listening on: ")} ${green(APP_DOMAIN)}`);
 
 await app.listen({ port: APP_PORT });
