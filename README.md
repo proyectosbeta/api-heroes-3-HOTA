@@ -13,7 +13,7 @@ Link:
 - DenoJS 2.0.2
 - v8 12.7.224.13
 - Typescript 5.5.2
-- Denon
+- Denon v2.5.0
 - Docker 27.3.1
 
 ## Development
@@ -59,14 +59,13 @@ denon start
 ### Use
 
 ```bash
-docker-compose build
-docker-compose up
+docker compose up --build -d
 ```
 
 ### Monit
 
 ```bash
-docker ps
+docker compose logs -f app
 ```
 
 ## Browser

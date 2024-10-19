@@ -1,6 +1,5 @@
 services:
-  deno:
-    container_name: api-heroes-3-HOTA
+  app:
     image: deno
     restart: always
     build:
