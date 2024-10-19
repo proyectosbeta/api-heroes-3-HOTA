@@ -3,8 +3,10 @@ services:
     image: deno
     restart: always
     build:
-        context: .
-        dockerfile: Dockerfile
-        target: base
+      context: .
+      dockerfile: Dockerfile
+      target: base
     ports:
-        - "${APP_PORT}:${APP_PORT}"
+      - "${APP_PORT}:${APP_PORT}"
+    volumes:
+      - .:/app
