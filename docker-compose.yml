@@ -1,4 +1,3 @@
-version: "3.7"
 services:
   deno:
     container_name: api-heroes-3-HOTA

@@ -10,12 +10,11 @@ Link:
 
 ## Tecnologies
 
-- DenoJS 1.45.5
+- DenoJS 2.0.2
 - v8 12.7.224.13
 - Typescript 5.5.2
 - Denon
-- Docker 20.10.17
-- Docker compose 1.25.3
+- Docker 27.3.1
 
 ## Development
 
@@ -73,8 +72,7 @@ docker ps
 ## Browser
 
 ```bash
-http://localhost:4500/
-http://localhost:4500/creatures/castle
+http://localhost:4500/api/v1/creatures/castle
 ```
 
 ## Production
@@ -133,20 +131,20 @@ Magic values:
 
 Method GET:
 
-- [Castle](https://api-heroes.proyectosbeta.net/creatures/castle)
-- [Pikmen](https://api-heroes.proyectosbeta.net/creatures/castle/1)
-- [Rampart](https://api-heroes.proyectosbeta.net/creatures/rampart)
-- [Tower](https://api-heroes.proyectosbeta.net/creatures/tower)
+- [Castle](https://api-heroes.proyectosbeta.net/api/v1/creatures/castle)
+- [Pikmen](https://api-heroes.proyectosbeta.net/api/v1/creatures/castle/1)
+- [Rampart](https://api-heroes.proyectosbeta.net/api/v1/creatures/rampart)
+- [Tower](https://api-heroes.proyectosbeta.net/api/v1/creatures/tower)
 - [Inferno](https://api-heroes.proyectosbeta.net/creatures/inferno)
-- [Necropolis](https://api-heroes.proyectosbeta.net/creatures/necropolis)
-- [Dungeon](https://api-heroes.proyectosbeta.net/creatures/dungeon)
-- [Stronghold](https://api-heroes.proyectosbeta.net/creatures/stronghold)
-- [Fortress](https://api-heroes.proyectosbeta.net/creatures/fortress)
-- [Conflux](https://api-heroes.proyectosbeta.net/creatures/conflux)
-- [Inferno](https://api-heroes.proyectosbeta.net/creatures/inferno)
-- [Cove](https://api-heroes.proyectosbeta.net/creatures/cove)
-- [Fire](https://api-heroes.proyectosbeta.net/spells/fire)
-- [Bloodlust](https://api-heroes.proyectosbeta.net/spells/fire/1)
-- [Water](https://api-heroes.proyectosbeta.net/spells/water)
-- [Air](https://api-heroes.proyectosbeta.net/spells/air)
-- [Earth](https://api-heroes.proyectosbeta.net/spells/earth)
+- [Necropolis](https://api-heroes.proyectosbeta.net/api/v1/creatures/necropolis)
+- [Dungeon](https://api-heroes.proyectosbeta.net/api/v1/creatures/dungeon)
+- [Stronghold](https://api-heroes.proyectosbeta.net/api/v1/creatures/stronghold)
+- [Fortress](https://api-heroes.proyectosbeta.net/api/v1/creatures/fortress)
+- [Conflux](https://api-heroes.proyectosbeta.net/api/v1/creatures/conflux)
+- [Inferno](https://api-heroes.proyectosbeta.net/api/v1/creatures/inferno)
+- [Cove](https://api-heroes.proyectosbeta.net/api/v1/creatures/cove)
+- [Fire](https://api-heroes.proyectosbeta.net/api/v1/spells/fire)
+- [Bloodlust](https://api-heroes.proyectosbeta.net/api/v1/spells/fire/1)
+- [Water](https://api-heroes.proyectosbeta.net/api/v1/spells/water)
+- [Air](https://api-heroes.proyectosbeta.net/api/v1/spells/air)
+- [Earth](https://api-heroes.proyectosbeta.net/api/v1/spells/earth)
