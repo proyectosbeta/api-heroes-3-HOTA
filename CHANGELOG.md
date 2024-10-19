@@ -7,6 +7,7 @@
 - [feat]: add middleware method not allowed.
 - [feat]: update to Deno 2.0.x
 - [feat]: add denon in docker app container
+- [refactor]: use deno lint and fix
 
 ## v0.9.0
 

@@ -41,17 +41,23 @@ APP_PORT=4500
 APP_DOMAIN="https://api-heroes.proyectosbeta.net/"
 ```
 
-## Upgrade Deno
+### Upgrade Deno
 
 ```bash
 deno upgrade
 deno cache --reload app.ts
 ```
 
-## Run
+### Run
 
 ```bash
 denon start
+```
+
+### Use lint
+
+```bash
+deno lint
 ```
 
 ## Docker compose
