@@ -8,7 +8,7 @@ Link:
 - [Creatures](https://heroes.thelazy.net/index.php/List_of_creatures)
 - [Spells](https://heroes.thelazy.net/index.php/List_of_spells)
 
-# Tecnologies
+## Tecnologies
 
 - DenoJS 1.45.5
 - v8 12.7.224.13
@@ -17,15 +17,15 @@ Link:
 - Docker 20.10.17
 - Docker compose 1.25.3
 
-# Development
+## Development
 
-## Install
+### Install
 
 ```bash
 deno install --allow-read --allow-run --allow-write -f --unstable https://deno.land/x/denon/denon.ts
 ```
 
-## Config
+### Config
 
 Copy .env.example file
 
@@ -42,7 +42,7 @@ APP_PORT=4500
 APP_DOMAIN="https://api-heroes.proyectosbeta.net/"
 ```
 
-#### Upgrade Deno
+## Upgrade Deno
 
 ```bash
 deno upgrade
@@ -55,16 +55,16 @@ deno cache --reload app.ts
 denon start
 ```
 
-# Docker compose
+## Docker compose
 
-## Use
+### Use
 
 ```bash
 docker-compose build
 docker-compose up
 ```
 
-## Monit
+### Monit
 
 ```bash
 docker ps
@@ -77,30 +77,30 @@ http://localhost:4500/
 http://localhost:4500/creatures/castle
 ```
 
-# Production
+## Production
 
 Use pm2 for production.
 
-## Install pm2
+### Install pm2
 
 ```bash
 npm install pm2 -g
 ```
 
-## Start pm2
+### Start pm2
 
 ```bash
 pm2 start /home/proyectosbeta/repositoriosGit/api-heroes-3-HOTA/app.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-env --allow-read" --name api-heroes-3-hota
 ```
 
-## Startup server pm2
+### Startup server pm2
 
 ```bash
 pm2 startup
 sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u proyectosbeta --hp /home/proyectosbeta
 ```
 
-# Requests
+## Requests
 
 Town values:
 
@@ -129,7 +129,7 @@ Magic values:
   Method GET: /spells/{magic}/{id}   --> Return specific spell fot the magic
 ```
 
-# Try in API client
+## Try in API client
 
 Method GET:
 

@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.0.0
+
+- [docs] update readme file.
+
 ## v0.9.0
 
 - [refactor] Server.
