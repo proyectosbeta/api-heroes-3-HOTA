@@ -4,5 +4,5 @@ export interface ISpell {
   level: number;
   effect: string;
   imageUrl: string;
-  magic:string;
+  magic: string;
 }

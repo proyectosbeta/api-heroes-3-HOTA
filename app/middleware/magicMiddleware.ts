@@ -10,7 +10,7 @@ const magics: { [key in Magic]: boolean } = {
 const getMagic = (magic: Magic): boolean => magics[magic] || false;
 
 const isValidMagic = (magic: Magic) => {
-    return getMagic(magic);
+  return getMagic(magic);
 };
 
 export { isValidMagic };

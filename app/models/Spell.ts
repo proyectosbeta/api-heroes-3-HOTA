@@ -14,6 +14,6 @@ export class Spell {
 
   // Return spell by id
   getSpell(id: string): ISpell | undefined {
-    return this.spells.find(spell => spell.id === id);
+    return this.spells.find((spell) => spell.id === id);
   }
 }

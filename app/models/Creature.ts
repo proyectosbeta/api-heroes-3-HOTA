@@ -14,6 +14,6 @@ export class Creature {
 
   // Return creature by id
   getCreature(id: string): ICreature | undefined {
-    return this.creatures.find(creature => creature.id === id);
+    return this.creatures.find((creature) => creature.id === id);
   }
 }

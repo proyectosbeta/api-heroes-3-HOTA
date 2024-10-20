@@ -1,7 +1,7 @@
 import { Spell } from "../models/Spell.ts";
 import { ISpell } from "../interfaces/ISpell.ts";
 import { Magic } from "../types/Magic.ts";
-import { fireSpell, waterSpell, airSpell, earthSpell } from "../data/spells.ts";
+import { airSpell, earthSpell, fireSpell, waterSpell } from "../data/spells.ts";
 import { isValidMagic } from "../middleware/magicMiddleware.ts";
 import { Response } from "../../deps.ts";
 
@@ -17,7 +17,7 @@ const magics: Record<Magic, ISpell[]> = {
 const setMagic = (magic: Magic) => {
   const existMagic = isValidMagic(magic);
 
-  spells = existMagic? new Spell(getDataSpells(magic)) : false;
+  spells = existMagic ? new Spell(getDataSpells(magic)) : false;
 };
 
 const getDataSpells = (magic: Magic) => {
@@ -48,7 +48,7 @@ const getSpell = ({
   params,
   response,
 }: {
-  params: { id: string, magic: Magic };
+  params: { id: string; magic: Magic };
   response: Response;
 }) => {
   const id = params.id;
@@ -56,7 +56,7 @@ const getSpell = ({
 
   setMagic(magic);
 
-  if(spells instanceof Spell) {
+  if (spells instanceof Spell) {
     const spell = spells.getSpell(id);
 
     if (spell) {

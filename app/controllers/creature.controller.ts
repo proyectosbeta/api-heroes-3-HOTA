@@ -2,24 +2,23 @@ import { Creature } from "../models/Creature.ts";
 import { ICreature } from "../interfaces/ICreature.ts";
 import { Town } from "../types/Town.ts";
 import { isValidTown } from "../middleware/townMiddleware.ts";
-import { 
+import {
   castleCreatures,
-  rampartCreatures,
-  towerCreatures,
+  confluxCreatures,
+  coveCreatures,
+  dungeonCreatures,
+  fortressCreatures,
   infernoCreatures,
   necropolisCreatures,
-  dungeonCreatures,
+  rampartCreatures,
   strongholdCreatures,
-  fortressCreatures,
-  confluxCreatures,
-  coveCreatures
+  towerCreatures,
 } from "../data/creatures.ts";
 import { Response } from "../../deps.ts";
 
-
 let creatures: Creature | false;
 
-const towns: Record <Town, ICreature[]> = {
+const towns: Record<Town, ICreature[]> = {
   castle: castleCreatures,
   rampart: rampartCreatures,
   tower: towerCreatures,
@@ -52,7 +51,7 @@ const getCreatures = ({
 }) => {
   setTown(params.town);
 
-  if(creatures instanceof Creature){
+  if (creatures instanceof Creature) {
     const data = creatures.getCreatures();
     setResponse(response, data, true);
   }
@@ -71,13 +70,17 @@ const getCreature = async ({
 
   setTown(town);
 
-  if(creatures instanceof Creature){
+  if (creatures instanceof Creature) {
     const data = await creatures.getCreature(id);
     setResponse(response, data, false);
   }
 };
 
-const setResponse = (response: Response, data: ICreature | ICreature[] | undefined, many: boolean) => {
+const setResponse = (
+  response: Response,
+  data: ICreature | ICreature[] | undefined,
+  many: boolean,
+) => {
   if (data) {
     const count = many ? Object.keys(data).length : 1;
 

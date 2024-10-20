@@ -10,14 +10,14 @@ import { confluxCreatures } from "./creatures/conflux.ts";
 import { coveCreatures } from "./creatures/cove.ts";
 
 export {
-    castleCreatures,
-    rampartCreatures,
-    towerCreatures,
-    infernoCreatures,
-    necropolisCreatures,
-    dungeonCreatures,
-    strongholdCreatures,
-    fortressCreatures,
-    confluxCreatures,
-    coveCreatures,
+  castleCreatures,
+  confluxCreatures,
+  coveCreatures,
+  dungeonCreatures,
+  fortressCreatures,
+  infernoCreatures,
+  necropolisCreatures,
+  rampartCreatures,
+  strongholdCreatures,
+  towerCreatures,
 };

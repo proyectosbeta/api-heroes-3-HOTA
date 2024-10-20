@@ -11,8 +11,8 @@ Link:
 ## Tecnologies
 
 - DenoJS 2.0.2
-- v8 12.7.224.13
-- Typescript 5.5.2
+- v8 12.9.202.13-rusty
+- Typescript 5.6.2
 - Denon v2.5.0
 - Docker 27.3.1
 
@@ -126,10 +126,10 @@ Magic values:
 - earth
 
 ```text
-  Method GET: /creatures/{town}      --> Return all town creatures
-  Method GET: /creatures/{town}/{id} --> Return specific creature for the town
-  Method GET: /spells/{magic}        --> Return all magic spells
-  Method GET: /spells/{magic}/{id}   --> Return specific spell fot the magic
+Method GET: /creatures/{town}      --> Return all town creatures
+Method GET: /creatures/{town}/{id} --> Return specific creature for the town
+Method GET: /spells/{magic}        --> Return all magic spells
+Method GET: /spells/{magic}/{id}   --> Return specific spell fot the magic
 ```
 
 ## Try in API client
