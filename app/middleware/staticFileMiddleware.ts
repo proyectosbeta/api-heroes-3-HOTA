@@ -1,6 +1,6 @@
 import { Context, send } from "../../deps.ts";
 
-export const staticFileMiddleware = async (ctx: Context, next: Function) => {
+export const staticFileMiddleware = async (ctx: Context, next: () => Promise<void>) => {
   const path = `${Deno.cwd()}/public${ctx.request.url.pathname}`;
 
   if (await fileExists(path)) {

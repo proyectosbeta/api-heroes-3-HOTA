@@ -11,6 +11,7 @@ import { fortressCreatures } from "../data/creatures/fortress.ts";
 import { confluxCreatures } from "../data/creatures/conflux.ts";
 import { coveCreatures } from "../data/creatures/cove.ts";
 import { Response } from "../../deps.ts";
+import { Town } from "../types/Town.ts";
 
 let creatures: any;
 
@@ -27,13 +28,13 @@ const towns: any = {
   cove: coveCreatures,
 };
 
-const setTown = (town: string) => {
+const setTown = (town: Town) => {
   const existTown = isValidTown(town);
 
   creatures = existTown ? new Creature(getDataCreatures(town)) : false;
 };
 
-const getDataCreatures = (town: string) => {
+const getDataCreatures = (town: Town) => {
   return towns[town];
 };
 
@@ -42,7 +43,7 @@ const getCreatures = ({
   params,
   response,
 }: {
-  params: { town: string };
+  params: { town: Town };
   response: Response;
 }) => {
   setTown(params.town);
@@ -56,11 +57,11 @@ const getCreature = async ({
   params,
   response,
 }: {
-  params: { id: string; town: string };
+  params: { id: string; town: Town };
   response: Response;
 }) => {
   const { id } = params as { id: string };
-  const { town } = params as { town: string };
+  const { town } = params as { town: Town };
 
   setTown(town);
 
