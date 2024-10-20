@@ -1,15 +1,12 @@
 import { Spell } from "../models/Spell.ts";
-import { isValidMagic } from "../middleware/magicMiddleware.ts";
-import { fireSpell } from "../data/spells/fire.ts";
-import { waterSpell } from "../data/spells/water.ts";
-import { airSpell } from "../data/spells/air.ts";
-import { earthSpell } from "../data/spells/earth.ts";
 import { Magic } from "../types/Magic.ts";
+import { fireSpell, waterSpell, airSpell, earthSpell } from "../data/spells.ts";
+import { isValidMagic } from "../middleware/magicMiddleware.ts";
 import { Response } from "../../deps.ts";
 
-let spells: any;
+let spells: Spell | false;
 
-const magics: any = {
+const magics: Record<Magic, any> = {
   "fire": fireSpell,
   "water": waterSpell,
   "air": airSpell,
@@ -19,10 +16,10 @@ const magics: any = {
 const setMagic = (magic: Magic) => {
   const existMagic = isValidMagic(magic);
 
-  spells = (existMagic)? new Spell(getDataSpells(magic)) : false;
+  spells = existMagic? new Spell(getDataSpells(magic)) : false;
 };
 
-const getDataSpells = (magic: string) => {
+const getDataSpells = (magic: Magic) => {
   return magics[magic];
 };
 
@@ -58,11 +55,16 @@ const getSpell = ({
 
   setMagic(magic);
 
-  const spell = spells.getSpell(id, magic);
+  if(spells instanceof Spell) {
+    const spell = spells.getSpell(id, magic);
 
-  if (spell) {
-    response.status = 200;
-    response.body = spell;
+    if (spell) {
+      response.status = 200;
+      response.body = spell;
+    } else {
+      response.status = 404;
+      response.body = { message: "404 Not found" };
+    }
   } else {
     response.status = 404;
     response.body = { message: "404 Not found" };
