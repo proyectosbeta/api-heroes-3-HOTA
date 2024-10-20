@@ -6,8 +6,9 @@
 - [feat]: add prefix api/v1
 - [feat]: add middleware method not allowed.
 - [feat]: update to Deno 2.0.x
-- [feat]: add denon in docker app container
-- [refactor]: use deno lint and fix
+- [feat]: add denon in docker app container.
+- [refactor]: use deno lint and fix.
+- [refactor]: spell and creature.
 
 ## v0.9.0
 
