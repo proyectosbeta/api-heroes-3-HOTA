@@ -1,6 +1,6 @@
 import { Context } from "../../deps.ts";
 
-export const timing = async (ctx: Context, next: () => any) => {
+export const timing = async (ctx: Context, next: () => Promise<void>) => {
   const start = Date.now();
   
   await next();

@@ -1,4 +1,6 @@
-export const methodNotAllowedMiddleware = async (context: any, next: any) => {
+import { Context } from "../../deps.ts";
+
+export const methodNotAllowedMiddleware = async (context: Context, next: () => Promise<void>) => {
     try {
         await next();
         if(context.request.method !== "GET" && !context.response.body){

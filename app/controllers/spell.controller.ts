@@ -4,6 +4,8 @@ import { fireSpell } from "../data/spells/fire.ts";
 import { waterSpell } from "../data/spells/water.ts";
 import { airSpell } from "../data/spells/air.ts";
 import { earthSpell } from "../data/spells/earth.ts";
+import { Magic } from "../types/Magic.ts";
+import { Response } from "../../deps.ts";
 
 let spells: any;
 
@@ -14,7 +16,7 @@ const magics: any = {
   "earth": earthSpell,
 };
 
-const setMagic = (magic: string) => {
+const setMagic = (magic: Magic) => {
   const existMagic = isValidMagic(magic);
 
   spells = (existMagic)? new Spell(getDataSpells(magic)) : false;
@@ -29,8 +31,8 @@ const getSpells = ({
   params,
   response,
 }: {
-  params: { magic: string };
-  response: any;
+  params: { magic: Magic };
+  response: Response;
 }) => {
   setMagic(params.magic);
 
@@ -48,8 +50,8 @@ const getSpell = ({
   params,
   response,
 }: {
-  params: { id: string, magic: string };
-  response: any;
+  params: { id: string, magic: Magic };
+  response: Response;
 }) => {
   const id = params.id;
   const magic = params.magic;

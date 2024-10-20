@@ -10,6 +10,7 @@ import { strongholdCreatures } from "../data/creatures/stronghold.ts";
 import { fortressCreatures } from "../data/creatures/fortress.ts";
 import { confluxCreatures } from "../data/creatures/conflux.ts";
 import { coveCreatures } from "../data/creatures/cove.ts";
+import { Response } from "../../deps.ts";
 
 let creatures: any;
 
@@ -42,7 +43,7 @@ const getCreatures = ({
   response,
 }: {
   params: { town: string };
-  response: any;
+  response: Response;
 }) => {
   setTown(params.town);
 
@@ -56,7 +57,7 @@ const getCreature = async ({
   response,
 }: {
   params: { id: string; town: string };
-  response: any;
+  response: Response;
 }) => {
   const { id } = params as { id: string };
   const { town } = params as { town: string };
@@ -67,7 +68,7 @@ const getCreature = async ({
   setResponse(response, data, false);
 };
 
-const setResponse = (response: any, data: any, many: boolean) => {
+const setResponse = (response: Response, data: any, many: boolean) => {
   if (data) {
     const count = many ? Object.keys(data).length : 1;
 
