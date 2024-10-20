@@ -140,10 +140,10 @@ Magic values:
 - earth
 
 ```text
-Method GET: /creatures/{town}      --> Return all town creatures
-Method GET: /creatures/{town}/{id} --> Return specific creature for the town
-Method GET: /spells/{magic}        --> Return all magic spells
-Method GET: /spells/{magic}/{id}   --> Return specific spell fot the magic
+Method GET: /api/v1/creatures/{town}      --> Return all town creatures
+Method GET: /api/v1//creatures/{town}/{id} --> Return specific creature for the town
+Method GET: /api/v1//spells/{magic}        --> Return all magic spells
+Method GET: /api/v1//spells/{magic}/{id}   --> Return specific spell fot the magic
 ```
 
 ## Try in API client
