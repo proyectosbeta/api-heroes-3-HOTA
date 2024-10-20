@@ -1,5 +1,4 @@
 import { ISpell } from "../interfaces/ISpell.ts";
-import { Magic } from "../types/Magic.ts";
 
 export class Spell {
   readonly spells: ISpell[];
@@ -13,11 +12,8 @@ export class Spell {
     return this.spells;
   };
 
-  // Return spell by id and magic.
-  getSpell = (id: string, magic: Magic): ISpell => {
-    const spell = this.spells.filter((spell) => spell.id == id
-     && spell.magic === magic)[0];
-
-    return spell;
-  };
+  // Return spell by id
+  getSpell(id: string): ISpell | undefined {
+    return this.spells.find(spell => spell.id === id);
+  }
 }

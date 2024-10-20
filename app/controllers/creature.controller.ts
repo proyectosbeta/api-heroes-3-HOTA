@@ -72,12 +72,12 @@ const getCreature = async ({
   setTown(town);
 
   if(creatures instanceof Creature){
-    const data = await creatures.getCreature(id, town);
+    const data = await creatures.getCreature(id);
     setResponse(response, data, false);
   }
 };
 
-const setResponse = (response: Response, data: ICreature | ICreature[], many: boolean) => {
+const setResponse = (response: Response, data: ICreature | ICreature[] | undefined, many: boolean) => {
   if (data) {
     const count = many ? Object.keys(data).length : 1;
 

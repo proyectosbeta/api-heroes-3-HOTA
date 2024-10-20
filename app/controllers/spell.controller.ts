@@ -57,7 +57,7 @@ const getSpell = ({
   setMagic(magic);
 
   if(spells instanceof Spell) {
-    const spell = spells.getSpell(id, magic);
+    const spell = spells.getSpell(id);
 
     if (spell) {
       response.status = 200;
