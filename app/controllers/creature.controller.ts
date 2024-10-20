@@ -1,21 +1,25 @@
 import { Creature } from "../models/Creature.ts";
-import { isValidTown } from "../middleware/townMiddleware.ts";
-import { castleCreatures } from "../data/creatures/castle.ts";
-import { rampartCreatures } from "../data/creatures/rampart.ts";
-import { towerCreatures } from "../data/creatures/tower.ts";
-import { infernoCreatures } from "../data/creatures/inferno.ts";
-import { necropolisCreatures } from "../data/creatures/necropolis.ts";
-import { dungeonCreatures } from "../data/creatures/dungeon.ts";
-import { strongholdCreatures } from "../data/creatures/stronghold.ts";
-import { fortressCreatures } from "../data/creatures/fortress.ts";
-import { confluxCreatures } from "../data/creatures/conflux.ts";
-import { coveCreatures } from "../data/creatures/cove.ts";
-import { Response } from "../../deps.ts";
+import { ICreature } from "../interfaces/ICreature.ts";
 import { Town } from "../types/Town.ts";
+import { isValidTown } from "../middleware/townMiddleware.ts";
+import { 
+  castleCreatures,
+  rampartCreatures,
+  towerCreatures,
+  infernoCreatures,
+  necropolisCreatures,
+  dungeonCreatures,
+  strongholdCreatures,
+  fortressCreatures,
+  confluxCreatures,
+  coveCreatures
+} from "../data/creatures.ts";
+import { Response } from "../../deps.ts";
 
-let creatures: any;
 
-const towns: any = {
+let creatures: Creature | false;
+
+const towns: Record <Town, ICreature[]> = {
   castle: castleCreatures,
   rampart: rampartCreatures,
   tower: towerCreatures,
@@ -48,8 +52,10 @@ const getCreatures = ({
 }) => {
   setTown(params.town);
 
-  const data = creatures.getCreatures();
-  setResponse(response, data, true);
+  if(creatures instanceof Creature){
+    const data = creatures.getCreatures();
+    setResponse(response, data, true);
+  }
 };
 
 // Return creature by id and specific town.
@@ -65,11 +71,13 @@ const getCreature = async ({
 
   setTown(town);
 
-  const data = await creatures.getCreature(id, town);
-  setResponse(response, data, false);
+  if(creatures instanceof Creature){
+    const data = await creatures.getCreature(id, town);
+    setResponse(response, data, false);
+  }
 };
 
-const setResponse = (response: Response, data: any, many: boolean) => {
+const setResponse = (response: Response, data: ICreature | ICreature[], many: boolean) => {
   if (data) {
     const count = many ? Object.keys(data).length : 1;
 

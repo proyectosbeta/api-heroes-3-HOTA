@@ -1,4 +1,5 @@
 import { Spell } from "../models/Spell.ts";
+import { ISpell } from "../interfaces/ISpell.ts";
 import { Magic } from "../types/Magic.ts";
 import { fireSpell, waterSpell, airSpell, earthSpell } from "../data/spells.ts";
 import { isValidMagic } from "../middleware/magicMiddleware.ts";
@@ -6,11 +7,11 @@ import { Response } from "../../deps.ts";
 
 let spells: Spell | false;
 
-const magics: Record<Magic, any> = {
-  "fire": fireSpell,
-  "water": waterSpell,
-  "air": airSpell,
-  "earth": earthSpell,
+const magics: Record<Magic, ISpell[]> = {
+  fire: fireSpell,
+  water: waterSpell,
+  air: airSpell,
+  earth: earthSpell,
 };
 
 const setMagic = (magic: Magic) => {
