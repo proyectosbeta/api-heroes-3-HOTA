@@ -1,7 +1,7 @@
-import { Creature } from "../../types/creature.ts";
+import { ICreature } from "../../interfaces/ICreature.ts";
 import { APP_DOMAIN } from "../../config/index.ts";
 
-export const infernoCreatures: Array<Creature> = [
+export const infernoCreatures: Array<ICreature> = [
   {
     id: "43",
     name: "Imp",

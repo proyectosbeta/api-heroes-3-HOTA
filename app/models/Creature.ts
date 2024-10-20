@@ -1,22 +1,19 @@
-import { Creature as ICreature } from "../types/creature.ts";
+import { ICreature as ICreature } from "../interfaces/ICreature.ts";
 
 export class Creature {
-  readonly creatures: Array<ICreature>;
+  readonly creatures: ICreature[];
 
-  constructor(creatures: Array<ICreature>) {
+  constructor(creatures: ICreature[]) {
     this.creatures = creatures;
   }
 
   // Return all creatures for specific town.
-  getCreatures = () => {
+  getCreatures = (): ICreature[] => {
     return this.creatures;
   };
 
-  // Return creature by id and town.
-  getCreature = (id: string, town: string) => {
-    const creature = this.creatures.filter((creature) =>
-      creature.id == id && creature.town === town)[0];
-
-    return creature;
-  };
+  // Return creature by id
+  getCreature(id: string): ICreature | undefined {
+    return this.creatures.find((creature) => creature.id === id);
+  }
 }

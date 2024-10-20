@@ -8,24 +8,23 @@ Link:
 - [Creatures](https://heroes.thelazy.net/index.php/List_of_creatures)
 - [Spells](https://heroes.thelazy.net/index.php/List_of_spells)
 
-# Tecnologies
+## Tecnologies
 
-- DenoJS 1.45.5
-- v8 12.7.224.13
-- Typescript 5.5.2
-- Denon
-- Docker 20.10.17
-- Docker compose 1.25.3
+- DenoJS 2.0.2
+- v8 12.9.202.13-rusty
+- Typescript 5.6.2
+- Denon v2.5.0
+- Docker 27.3.1
 
-# Development
+## Development
 
-## Install
+### Install
 
 ```bash
-deno install --allow-read --allow-run --allow-write -f --unstable https://deno.land/x/denon/denon.ts
+deno install --global -qAf --unstable https://deno.land/x/denon/denon.ts
 ```
 
-## Config
+### Config
 
 Copy .env.example file
 
@@ -42,65 +41,83 @@ APP_PORT=4500
 APP_DOMAIN="https://api-heroes.proyectosbeta.net/"
 ```
 
-#### Upgrade Deno
+### Upgrade Deno
 
 ```bash
 deno upgrade
 deno cache --reload app.ts
 ```
 
-## Run
+### Run
 
 ```bash
 denon start
 ```
 
-# Docker compose
-
-## Use
+### Use lint
 
 ```bash
-docker-compose build
-docker-compose up
+deno lint
 ```
 
-## Monit
+### Use code formatting
+
+#### Check
 
 ```bash
-docker ps
+deno fmt --check
+```
+
+#### Use
+
+```bash
+deno fmt
+```
+
+## Docker compose
+
+### Use
+
+```bash
+docker compose up --build -d
+```
+
+### Monit
+
+```bash
+docker compose logs -f app
 ```
 
 ## Browser
 
 ```bash
-http://localhost:4500/
-http://localhost:4500/creatures/castle
+http://localhost:4500/api/v1/creatures/castle
 ```
 
-# Production
+## Production
 
 Use pm2 for production.
 
-## Install pm2
+### Install pm2
 
 ```bash
 npm install pm2 -g
 ```
 
-## Start pm2
+### Start pm2
 
 ```bash
 pm2 start /home/proyectosbeta/repositoriosGit/api-heroes-3-HOTA/app.ts --interpreter="deno" --interpreter-args="run --allow-net --allow-env --allow-read" --name api-heroes-3-hota
 ```
 
-## Startup server pm2
+### Startup server pm2
 
 ```bash
 pm2 startup
 sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u proyectosbeta --hp /home/proyectosbeta
 ```
 
-# Requests
+## Requests
 
 Town values:
 
@@ -123,30 +140,30 @@ Magic values:
 - earth
 
 ```text
-  Method GET: /creatures/{town}      --> Return all town creatures
-  Method GET: /creatures/{town}/{id} --> Return specific creature for the town
-  Method GET: /spells/{magic}        --> Return all magic spells
-  Method GET: /spells/{magic}/{id}   --> Return specific spell fot the magic
+Method GET: /api/v1/creatures/{town}       --> Return all town creatures
+Method GET: /api/v1//creatures/{town}/{id} --> Return specific creature for the town
+Method GET: /api/v1//spells/{magic}        --> Return all magic spells
+Method GET: /api/v1//spells/{magic}/{id}   --> Return specific spell fot the magic
 ```
 
-# Try in API client
+## Try in API client
 
 Method GET:
 
-- [Castle](https://api-heroes.proyectosbeta.net/creatures/castle)
-- [Pikmen](https://api-heroes.proyectosbeta.net/creatures/castle/1)
-- [Rampart](https://api-heroes.proyectosbeta.net/creatures/rampart)
-- [Tower](https://api-heroes.proyectosbeta.net/creatures/tower)
+- [Castle](https://api-heroes.proyectosbeta.net/api/v1/creatures/castle)
+- [Pikmen](https://api-heroes.proyectosbeta.net/api/v1/creatures/castle/1)
+- [Rampart](https://api-heroes.proyectosbeta.net/api/v1/creatures/rampart)
+- [Tower](https://api-heroes.proyectosbeta.net/api/v1/creatures/tower)
 - [Inferno](https://api-heroes.proyectosbeta.net/creatures/inferno)
-- [Necropolis](https://api-heroes.proyectosbeta.net/creatures/necropolis)
-- [Dungeon](https://api-heroes.proyectosbeta.net/creatures/dungeon)
-- [Stronghold](https://api-heroes.proyectosbeta.net/creatures/stronghold)
-- [Fortress](https://api-heroes.proyectosbeta.net/creatures/fortress)
-- [Conflux](https://api-heroes.proyectosbeta.net/creatures/conflux)
-- [Inferno](https://api-heroes.proyectosbeta.net/creatures/inferno)
-- [Cove](https://api-heroes.proyectosbeta.net/creatures/cove)
-- [Fire](https://api-heroes.proyectosbeta.net/spells/fire)
-- [Bloodlust](https://api-heroes.proyectosbeta.net/spells/fire/1)
-- [Water](https://api-heroes.proyectosbeta.net/spells/water)
-- [Air](https://api-heroes.proyectosbeta.net/spells/air)
-- [Earth](https://api-heroes.proyectosbeta.net/spells/earth)
+- [Necropolis](https://api-heroes.proyectosbeta.net/api/v1/creatures/necropolis)
+- [Dungeon](https://api-heroes.proyectosbeta.net/api/v1/creatures/dungeon)
+- [Stronghold](https://api-heroes.proyectosbeta.net/api/v1/creatures/stronghold)
+- [Fortress](https://api-heroes.proyectosbeta.net/api/v1/creatures/fortress)
+- [Conflux](https://api-heroes.proyectosbeta.net/api/v1/creatures/conflux)
+- [Inferno](https://api-heroes.proyectosbeta.net/api/v1/creatures/inferno)
+- [Cove](https://api-heroes.proyectosbeta.net/api/v1/creatures/cove)
+- [Fire](https://api-heroes.proyectosbeta.net/api/v1/spells/fire)
+- [Bloodlust](https://api-heroes.proyectosbeta.net/api/v1/spells/fire/1)
+- [Water](https://api-heroes.proyectosbeta.net/api/v1/spells/water)
+- [Air](https://api-heroes.proyectosbeta.net/api/v1/spells/air)
+- [Earth](https://api-heroes.proyectosbeta.net/api/v1/spells/earth)

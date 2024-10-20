@@ -1,22 +1,19 @@
-import { Spell as ISpell } from "../types/spell.ts";
+import { ISpell } from "../interfaces/ISpell.ts";
 
 export class Spell {
-  readonly spells: Array<ISpell>;
+  readonly spells: ISpell[];
 
-  constructor(spells: Array<ISpell>) {
+  constructor(spells: ISpell[]) {
     this.spells = spells;
   }
 
   // Return all spells for specific magic.
-  getSpells = () => {
+  getSpells = (): ISpell[] => {
     return this.spells;
   };
 
-  // Return spell by id and magic.
-  getSpell = (id: string, magic: string) => {
-    const spell = this.spells.filter((spell) => spell.id == id
-     && spell.magic === magic)[0];
-
-    return spell;
-  };
+  // Return spell by id
+  getSpell(id: string): ISpell | undefined {
+    return this.spells.find((spell) => spell.id === id);
+  }
 }

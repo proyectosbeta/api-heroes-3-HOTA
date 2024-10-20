@@ -1,7 +1,7 @@
-import { Spell } from "../../types/spell.ts";
+import { ISpell } from "../../interfaces/ISpell.ts";
 import { APP_DOMAIN } from "../../config/index.ts";
 
-export const fireSpell: Array<Spell> = [
+export const fireSpell: Array<ISpell> = [
   {
     id: "1",
     name: "Bloodlust",

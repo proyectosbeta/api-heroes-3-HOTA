@@ -8,6 +8,6 @@ const router = new Router();
 
 router
   .get("/creatures/:town", getCreatures)
-  .get('/creatures/:town/:id', getCreature);
+  .get("/creatures/:town/:id", getCreature);
 
 export { router };

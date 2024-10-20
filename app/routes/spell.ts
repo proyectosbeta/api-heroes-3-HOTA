@@ -5,6 +5,6 @@ const router = new Router();
 
 router
   .get("/spells/:magic", getSpells)
-  .get('/spells/:magic/:id', getSpell);
+  .get("/spells/:magic/:id", getSpell);
 
 export { router };

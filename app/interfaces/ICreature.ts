@@ -1,4 +1,4 @@
-export interface Creature {
+export interface ICreature {
   id: string;
   name: string;
   level: string;
