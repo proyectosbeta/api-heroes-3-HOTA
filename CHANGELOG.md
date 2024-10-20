@@ -2,13 +2,14 @@
 
 ## v1.0.0
 
-- [docs]: update readme file.
+- [docs]: update readme, changlog and todo list
 - [feat]: add prefix api/v1
 - [feat]: add middleware method not allowed.
 - [feat]: update to Deno 2.0.x
 - [feat]: add denon in docker app container.
 - [refactor]: use deno lint and fix.
 - [refactor]: spell and creature.
+- [refactor]: use deno fmt.
 
 ## v0.9.0
 
