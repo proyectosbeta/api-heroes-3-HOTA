@@ -21,7 +21,7 @@ Link:
 ### Install
 
 ```bash
-deno install --allow-read --allow-run --allow-write -f --unstable https://deno.land/x/denon/denon.ts
+deno install --global -qAf --unstable https://deno.land/x/denon/denon.ts
 ```
 
 ### Config
@@ -58,6 +58,20 @@ denon start
 
 ```bash
 deno lint
+```
+
+### Use code formatting
+
+#### Check
+
+```bash
+deno fmt --check
+```
+
+#### Use
+
+```bash
+deno fmt
 ```
 
 ## Docker compose
