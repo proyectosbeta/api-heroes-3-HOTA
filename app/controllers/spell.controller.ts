@@ -2,7 +2,7 @@ import { Spell } from "../models/Spell.ts";
 import { ISpell } from "../interfaces/ISpell.ts";
 import { Magic } from "../types/Magic.ts";
 import { airSpell, earthSpell, fireSpell, waterSpell } from "../data/spells.ts";
-import { isValidMagic } from "../middleware/magicMiddleware.ts";
+import { isValidMagic } from "../utils/magicUtils.ts";
 import { Response } from "../../deps.ts";
 
 let spells: Spell | false;

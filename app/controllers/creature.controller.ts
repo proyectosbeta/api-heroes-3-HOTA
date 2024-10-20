@@ -1,7 +1,7 @@
 import { Creature } from "../models/Creature.ts";
 import { ICreature } from "../interfaces/ICreature.ts";
 import { Town } from "../types/Town.ts";
-import { isValidTown } from "../middleware/townMiddleware.ts";
+import { isValidTown } from "../utils/townUtils.ts";
 import {
   castleCreatures,
   confluxCreatures,
