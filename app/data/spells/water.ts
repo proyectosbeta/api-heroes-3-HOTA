@@ -1,7 +1,7 @@
-import { Spell } from "../../types/spell.ts";
+import { ISpell } from "../../interfaces/ISpell.ts";
 import { APP_DOMAIN } from "../../config/index.ts";
 
-export const waterSpell: Array<Spell> = [
+export const waterSpell: Array<ISpell> = [
   {
     id: "17",
     name: "Cure",

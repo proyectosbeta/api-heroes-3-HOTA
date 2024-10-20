@@ -1,7 +1,7 @@
-import { Creature } from "../../types/creature.ts";
+import { ICreature } from "../../interfaces/ICreature.ts";
 import { APP_DOMAIN } from "../../config/index.ts";
 
-export const rampartCreatures: Array<Creature> = [
+export const rampartCreatures: Array<ICreature> = [
   {
     id: "15",
     name: "Centaur",

@@ -1,4 +1,4 @@
-import { Spell as ISpell } from "../types/spell.ts";
+import { ISpell } from "../interfaces/ISpell.ts";
 
 export class Spell {
   readonly spells: Array<ISpell>;

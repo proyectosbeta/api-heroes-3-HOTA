@@ -1,7 +1,7 @@
-import { Creature } from "../../types/creature.ts";
+import { ICreature } from "../../interfaces/ICreature.ts";
 import { APP_DOMAIN } from "../../config/index.ts";
 
-export const necropolisCreatures: Array<Creature> = [
+export const necropolisCreatures: Array<ICreature> = [
   {
     id: "57",
     name: "Skeleton",

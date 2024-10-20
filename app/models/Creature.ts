@@ -1,4 +1,4 @@
-import { Creature as ICreature } from "../types/creature.ts";
+import { ICreature as ICreature } from "../interfaces/ICreature.ts";
 
 export class Creature {
   readonly creatures: Array<ICreature>;

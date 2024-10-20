@@ -1,4 +1,4 @@
-export interface Spell {
+export interface ISpell {
   id: string;
   name: string;
   level: number;

@@ -1,7 +1,7 @@
-import { Spell } from "../../types/spell.ts";
+import { ISpell } from "../../interfaces/ISpell.ts";
 import { APP_DOMAIN } from "../../config/index.ts";
 
-export const earthSpell: Array<Spell> = [
+export const earthSpell: Array<ISpell> = [
   {
     id: "52",
     name: "Shield",

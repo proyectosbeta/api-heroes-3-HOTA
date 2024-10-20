@@ -1,7 +1,7 @@
-import { Creature } from "../../types/creature.ts";
+import { ICreature } from "../../interfaces/ICreature.ts";
 import { APP_DOMAIN } from "../../config/index.ts";
 
-export const coveCreatures: Array<Creature> = [
+export const coveCreatures: Array<ICreature> = [
   {
     id: "127",
     name: "Nymph",

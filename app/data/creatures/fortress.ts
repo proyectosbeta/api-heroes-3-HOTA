@@ -1,7 +1,7 @@
-import { Creature } from "../../types/creature.ts";
+import { ICreature } from "../../interfaces/ICreature.ts";
 import { APP_DOMAIN } from "../../config/index.ts";
 
-export const fortressCreatures: Array<Creature> = [
+export const fortressCreatures: Array<ICreature> = [
   {
     id: "99",
     name: "Gnoll",
