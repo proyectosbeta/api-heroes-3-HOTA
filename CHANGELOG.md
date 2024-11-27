@@ -1,5 +1,15 @@
 # Release Notes
 
+## v1.1.0
+
+- [docs]: add swagger docs dev
+- [refactor]: use deno fmt
+- [fix]: fmt config
+- [build]: update to deno 2.1.1
+- [refactor]: use deno lint
+- [docs]: update swagger (creatures)
+- [docs]: update swagger (spells)
+
 ## v1.0.0
 
 - [docs]: update readme, changlog and todo list

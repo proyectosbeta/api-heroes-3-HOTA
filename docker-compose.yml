@@ -1,11 +1,10 @@
 services:
   app:
-    image: deno
     restart: always
+    container_name: app-api-heroes-3-HOTA
     build:
       context: .
       dockerfile: Dockerfile
-      target: base
     ports:
       - "${APP_PORT}:${APP_PORT}"
     volumes:

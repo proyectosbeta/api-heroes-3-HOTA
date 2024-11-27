@@ -5,6 +5,7 @@ import { logger } from "./app/middleware/loggerMiddleware.ts";
 import { timing } from "./app/middleware/timingMiddleware.ts";
 import notFound from "./app/middleware/notFound.ts";
 import { methodNotAllowedMiddleware } from "./app/middleware/methodNotAllowedMiddleware.ts";
+import { swaggerMiddleware } from "./app/middleware/swaggerMiddleware.ts";
 import { APP_PORT } from "./app/config/index.ts";
 
 const app = new Application();
@@ -20,6 +21,7 @@ app.use(
     origin: /^.+localhost:(3000|5173|8080)$/,
   }),
 );
+app.use(swaggerMiddleware);
 app.use(apiRouter.routes());
 app.use(methodNotAllowedMiddleware);
 

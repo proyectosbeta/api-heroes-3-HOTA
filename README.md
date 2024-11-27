@@ -57,7 +57,7 @@ denon start
 ### Use lint
 
 ```bash
-deno lint
+deno lint app deps.ts app.ts
 ```
 
 ### Use code formatting
@@ -79,19 +79,25 @@ deno fmt
 ### Use
 
 ```bash
-docker compose up --build -d
+docker compose up -d --build
 ```
 
 ### Monit
 
 ```bash
-docker compose logs -f app
+docker compose logs -f app-api-heroes-3-HOTA
 ```
 
 ## Browser
 
 ```bash
 http://localhost:4500/api/v1/creatures/castle
+```
+
+## Documentation Dec
+
+```bash
+http://localhost:4500/docs
 ```
 
 ## Production
