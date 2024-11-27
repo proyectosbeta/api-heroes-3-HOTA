@@ -12,7 +12,7 @@
 
 ## v1.0.0
 
-- [docs]: update readme, changlog and todo list
+- [docs]: update readme, changelog and todo list
 - [feat]: add prefix api/v1
 - [feat]: add middleware method not allowed.
 - [feat]: update to Deno 2.0.x

@@ -10,8 +10,8 @@ Link:
 
 ## Tecnologies
 
-- DenoJS 2.0.2
-- v8 12.9.202.13-rusty
+- DenoJS 2.1.1
+- v8 13.0.245.12-rusty
 - Typescript 5.6.2
 - Denon v2.5.0
 - Docker 27.3.1
@@ -90,15 +90,11 @@ docker compose logs -f app-api-heroes-3-HOTA
 
 ## Browser
 
-```bash
-http://localhost:4500/api/v1/creatures/castle
-```
+[Get Creatures Castle](http://localhost:4500/api/v1/creatures/castle)
 
-## Documentation Dec
+## Documentation Dev
 
-```bash
-http://localhost:4500/docs
-```
+- [Swagger](http://localhost:4500/docs)
 
 ## Production
 
@@ -123,36 +119,7 @@ pm2 startup
 sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u proyectosbeta --hp /home/proyectosbeta
 ```
 
-## Requests
-
-Town values:
-
-- castle
-- rampart
-- tower
-- inferno
-- necropolis
-- dungeon
-- stronghold
-- fortress
-- conflux
-- cove
-
-Magic values:
-
-- fire
-- water
-- air
-- earth
-
-```text
-Method GET: /api/v1/creatures/{town}       --> Return all town creatures
-Method GET: /api/v1//creatures/{town}/{id} --> Return specific creature for the town
-Method GET: /api/v1//spells/{magic}        --> Return all magic spells
-Method GET: /api/v1//spells/{magic}/{id}   --> Return specific spell fot the magic
-```
-
-## Try in API client
+## Demo
 
 Method GET:
 
