@@ -7,6 +7,7 @@
 - [fix]: fmt config
 - [build]: update to deno 2.1.1
 - [refactor]: use deno lint
+- [docs]: update swagger (creatures)
 
 ## v1.0.0
 

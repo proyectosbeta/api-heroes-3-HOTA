@@ -1,27 +1,294 @@
 {
-  "openapi": "3.0.0",
+  "openapi": "3.0.3",
   "info": {
+    "version": "v1.1.0",
     "title": "API Heroes 3 - HOTA",
-    "version": "v1.0.0",
-    "description": "API Documentation"
+    "description": "API Documentation for Heroes 3 - HOTA",
+    "contact": {
+      "email": "josego85@gmail.com"
+    }
   },
   "paths": {
     "/api/v1/creatures/castle": {
       "get": {
         "summary": "Get list of all Castle creatures",
+        "description": "Retrieves a list of all creatures from the Castle faction.",
         "responses": {
           "200": {
-            "description": "List of Castle's creatures",
+            "description": "A list of all Castle creatures.",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
-                    "type": "object"
+                    "$ref": "#/components/schemas/Creature"
                   }
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/v1/creatures/rampart": {
+      "get": {
+        "summary": "Get list of all Rampart creatures",
+        "description": "Retrieves a list of all creatures from the Rampart faction.",
+        "responses": {
+          "200": {
+            "description": "A list of all Rampart creatures.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Creature"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/creatures/tower": {
+      "get": {
+        "summary": "Get list of all Tower creatures",
+        "description": "Retrieves a list of all creatures from the Tower faction.",
+        "responses": {
+          "200": {
+            "description": "A list of all Tower creatures.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Creature"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/creatures/inferno": {
+      "get": {
+        "summary": "Get list of all Inferno creatures",
+        "description": "Retrieves a list of all creatures from the Inferno faction.",
+        "responses": {
+          "200": {
+            "description": "A list of all Inferno creatures.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Creature"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/creatures/necropolis": {
+      "get": {
+        "summary": "Get list of all Necropolis creatures",
+        "description": "Retrieves a list of all creatures from the Necropolis faction.",
+        "responses": {
+          "200": {
+            "description": "A list of all Necropolis creatures.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Creature"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/creatures/dungeon": {
+      "get": {
+        "summary": "Get list of all Dungeon creatures",
+        "description": "Retrieves a list of all creatures from the Dungeon faction.",
+        "responses": {
+          "200": {
+            "description": "A list of all Dungeon creatures.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Creature"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/creatures/stronghold": {
+      "get": {
+        "summary": "Get list of all Stronghold creatures",
+        "description": "Retrieves a list of all creatures from the Stronghold faction.",
+        "responses": {
+          "200": {
+            "description": "A list of all Stronghold creatures.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Creature"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/creatures/fortress": {
+      "get": {
+        "summary": "Get list of all Fortress creatures",
+        "description": "Retrieves a list of all creatures from the Fortress faction.",
+        "responses": {
+          "200": {
+            "description": "A list of all Fortress creatures.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Creature"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/creatures/conflux": {
+      "get": {
+        "summary": "Get list of all Conflux creatures",
+        "description": "Retrieves a list of all creatures from the Conflux faction.",
+        "responses": {
+          "200": {
+            "description": "A list of all Conflux creatures.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Creature"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/creatures/cove": {
+      "get": {
+        "summary": "Get list of all Cove creatures",
+        "description": "Retrieves a list of all creatures from the Cove faction.",
+        "responses": {
+          "200": {
+            "description": "A list of all Cove creatures.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Creature"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Creature": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the creature."
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the creature."
+          },
+          "level": {
+            "type": "string",
+            "description": "The level or tier of the creature."
+          },
+          "attack": {
+            "type": "integer",
+            "description": "The attack value of the creature, used to determine damage dealt."
+          },
+          "defense": {
+            "type": "integer",
+            "description": "The defense value of the creature, used to reduce incoming damage."
+          },
+          "damage": {
+            "type": "string",
+            "description": "The damage range (e.g., '5-10') that the creature can deal in a single attack."
+          },
+          "health": {
+            "type": "integer",
+            "description": "The total health points of the creature."
+          },
+          "speed": {
+            "type": "integer",
+            "description": "The movement speed of the creature, determining how far it can move in combat."
+          },
+          "size": {
+            "type": "integer",
+            "description": "The size of the creature in the battle grid (e.g., 1 for small, 2 for large)."
+          },
+          "shots": {
+            "type": "integer",
+            "description": "The number of ranged shots the creature can perform. If zero, the creature is melee only."
+          },
+          "growth": {
+            "type": "string",
+            "description": "The weekly growth rate of the creature, indicating how many can be recruited each week."
+          },
+          "aiValue": {
+            "type": "integer",
+            "description": "The AI value of the creature, used to assess its strength for computer-controlled players."
+          },
+          "valueMoney": {
+            "type": "number",
+            "format": "float",
+            "description": "The monetary value of the creature in gold."
+          },
+          "specialAbilities": {
+            "type": "string",
+            "description": "The special abilities or traits of the creature, if any (e.g., 'Flying', 'No retaliation')."
+          },
+          "imageUrl": {
+            "type": "string",
+            "description": "URL to an image representing the creature."
+          },
+          "town": {
+            "type": "string",
+            "description": "The name of the town or faction to which the creature belongs."
           }
         }
       }
