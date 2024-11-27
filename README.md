@@ -79,13 +79,13 @@ deno fmt
 ### Use
 
 ```bash
-docker compose up --build -d
+docker compose up -d --build
 ```
 
 ### Monit
 
 ```bash
-docker compose logs -f app
+docker compose logs -f app-api-heroes-3-HOTA
 ```
 
 ## Browser
