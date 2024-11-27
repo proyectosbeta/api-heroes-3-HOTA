@@ -94,6 +94,12 @@ docker compose logs -f app
 http://localhost:4500/api/v1/creatures/castle
 ```
 
+## Documentation Dec
+
+```bash
+http://localhost:4500/docs
+```
+
 ## Production
 
 Use pm2 for production.

@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.1.0
+
+- [docs]: add swagger docs dev
+
 ## v1.0.0
 
 - [docs]: update readme, changlog and todo list
