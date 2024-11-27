@@ -57,7 +57,7 @@ denon start
 ### Use lint
 
 ```bash
-deno lint
+deno lint app deps.ts app.ts
 ```
 
 ### Use code formatting

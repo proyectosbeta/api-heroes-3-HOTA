@@ -1,6 +1,6 @@
-import { send } from "../../deps.ts";
+import { Context, send } from "../../deps.ts";
 
-export const swaggerMiddleware = async (ctx: any, next: any) => {
+export const swaggerMiddleware = async (ctx: Context, next: () => Promise<void>) => {
   const { request, response } = ctx;
 
   if (request.url.pathname === "/swagger.json") {

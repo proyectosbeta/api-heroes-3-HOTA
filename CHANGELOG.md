@@ -6,6 +6,7 @@
 - [refactor]: use deno fmt
 - [fix]: fmt config
 - [build]: update to deno 2.1.1
+- [refactor]: use deno lint
 
 ## v1.0.0
 

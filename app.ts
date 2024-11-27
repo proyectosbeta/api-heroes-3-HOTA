@@ -1,4 +1,4 @@
-import { Application, oakCors, Router, send } from "./deps.ts";
+import { Application, oakCors, Router } from "./deps.ts";
 import { staticFileMiddleware } from "./app/middleware/staticFileMiddleware.ts";
 import router from "./app/routes/index.ts";
 import { logger } from "./app/middleware/loggerMiddleware.ts";
