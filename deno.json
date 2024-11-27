@@ -1,0 +1,9 @@
+
+{
+    "fmt": {
+      "include": ["./app/**/*.ts"],
+      "exclude": ["./swagger-ui/**"],
+    },
+    "useTabs": false,
+    "lineWidth": 80
+}

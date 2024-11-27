@@ -57,8 +57,8 @@
 - [feat]: add air, earth, fire and water spells for the effect.
 - [feat]: add endpoint by ID of creature and magic.
 - [feat]: add image url in castle creature.
-- [feat]: add images in tower, inferno, necropolis, dungeon, stronghold,
-  fortress, conflux and cove creatures.
+- [feat]: add images in tower, inferno, necropolis, dungeon, stronghold, fortress, conflux and cove
+  creatures.
 - [feat]: add images in fire, water, air and earth spells.
 
 ## v0.3.0
