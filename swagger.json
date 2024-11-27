@@ -8,9 +8,20 @@
       "email": "josego85@gmail.com"
     }
   },
+  "tags": [
+    {
+      "name": "Creatures",
+      "description": "Operations related to creatures from different factions."
+    },
+    {
+      "name": "Spells",
+      "description": "Operations related to spells from different schools of magic."
+    }
+  ],
   "paths": {
     "/api/v1/creatures/castle": {
       "get": {
+        "tags": ["Creatures"],
         "summary": "Get list of all Castle creatures",
         "description": "Retrieves a list of all creatures from the Castle faction.",
         "responses": {
@@ -19,10 +30,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Creature"
-                  }
+                  "$ref": "#/components/schemas/Creatures"
                 }
               }
             }
@@ -32,6 +40,7 @@
     },
     "/api/v1/creatures/rampart": {
       "get": {
+        "tags": ["Creatures"],
         "summary": "Get list of all Rampart creatures",
         "description": "Retrieves a list of all creatures from the Rampart faction.",
         "responses": {
@@ -40,10 +49,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Creature"
-                  }
+                  "$ref": "#/components/schemas/Creatures"
                 }
               }
             }
@@ -53,6 +59,7 @@
     },
     "/api/v1/creatures/tower": {
       "get": {
+        "tags": ["Creatures"],
         "summary": "Get list of all Tower creatures",
         "description": "Retrieves a list of all creatures from the Tower faction.",
         "responses": {
@@ -61,10 +68,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Creature"
-                  }
+                  "$ref": "#/components/schemas/Creatures"
                 }
               }
             }
@@ -74,6 +78,7 @@
     },
     "/api/v1/creatures/inferno": {
       "get": {
+        "tags": ["Creatures"],
         "summary": "Get list of all Inferno creatures",
         "description": "Retrieves a list of all creatures from the Inferno faction.",
         "responses": {
@@ -82,10 +87,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Creature"
-                  }
+                  "$ref": "#/components/schemas/Creatures"
                 }
               }
             }
@@ -95,6 +97,7 @@
     },
     "/api/v1/creatures/necropolis": {
       "get": {
+        "tags": ["Creatures"],
         "summary": "Get list of all Necropolis creatures",
         "description": "Retrieves a list of all creatures from the Necropolis faction.",
         "responses": {
@@ -103,10 +106,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Creature"
-                  }
+                  "$ref": "#/components/schemas/Creatures"
                 }
               }
             }
@@ -116,6 +116,7 @@
     },
     "/api/v1/creatures/dungeon": {
       "get": {
+        "tags": ["Creatures"],
         "summary": "Get list of all Dungeon creatures",
         "description": "Retrieves a list of all creatures from the Dungeon faction.",
         "responses": {
@@ -124,10 +125,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Creature"
-                  }
+                  "$ref": "#/components/schemas/Creatures"
                 }
               }
             }
@@ -137,6 +135,7 @@
     },
     "/api/v1/creatures/stronghold": {
       "get": {
+        "tags": ["Creatures"],
         "summary": "Get list of all Stronghold creatures",
         "description": "Retrieves a list of all creatures from the Stronghold faction.",
         "responses": {
@@ -145,10 +144,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Creature"
-                  }
+                  "$ref": "#/components/schemas/Creatures"
                 }
               }
             }
@@ -158,6 +154,7 @@
     },
     "/api/v1/creatures/fortress": {
       "get": {
+        "tags": ["Creatures"],
         "summary": "Get list of all Fortress creatures",
         "description": "Retrieves a list of all creatures from the Fortress faction.",
         "responses": {
@@ -166,10 +163,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Creature"
-                  }
+                  "$ref": "#/components/schemas/Creatures"
                 }
               }
             }
@@ -179,6 +173,7 @@
     },
     "/api/v1/creatures/conflux": {
       "get": {
+        "tags": ["Creatures"],
         "summary": "Get list of all Conflux creatures",
         "description": "Retrieves a list of all creatures from the Conflux faction.",
         "responses": {
@@ -187,10 +182,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Creature"
-                  }
+                  "$ref": "#/components/schemas/Creatures"
                 }
               }
             }
@@ -200,6 +192,7 @@
     },
     "/api/v1/creatures/cove": {
       "get": {
+        "tags": ["Creatures"],
         "summary": "Get list of all Cove creatures",
         "description": "Retrieves a list of all creatures from the Cove faction.",
         "responses": {
@@ -208,10 +201,83 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Creature"
-                  }
+                  "$ref": "#/components/schemas/Creatures"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/spells/fire": {
+      "get": {
+        "tags": ["Spells"],
+        "summary": "Get list of all Fire spells",
+        "description": "Retrieves a list of all spells from the Fire school of magic.",
+        "responses": {
+          "200": {
+            "description": "A list of all Fire spells.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Spells"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/spells/water": {
+      "get": {
+        "tags": ["Spells"],
+        "summary": "Get list of all Water spells",
+        "description": "Retrieves a list of all spells from the Water school of magic.",
+        "responses": {
+          "200": {
+            "description": "A list of all Water spells.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Spells"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/spells/air": {
+      "get": {
+        "tags": ["Spells"],
+        "summary": "Get list of all Air spells",
+        "description": "Retrieves a list of all spells from the Air school of magic.",
+        "responses": {
+          "200": {
+            "description": "A list of all Air spells.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Spells"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/spells/earth": {
+      "get": {
+        "tags": ["Spells"],
+        "summary": "Get list of all Earth spells",
+        "description": "Retrieves a list of all spells from the Earth school of magic.",
+        "responses": {
+          "200": {
+            "description": "A list of all Earth spells.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Spells"
                 }
               }
             }
@@ -290,6 +356,49 @@
             "type": "string",
             "description": "The name of the town or faction to which the creature belongs."
           }
+        }
+      },
+      "Creatures": {
+        "type": "array",
+        "description": "List of creatures.",
+        "items": {
+          "$ref": "#/components/schemas/Creature"
+        }
+      },
+      "Spell": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the spell."
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the spell."
+          },
+          "level": {
+            "type": "string",
+            "description": "The level or tier of the spell."
+          },
+          "effect": {
+            "type": "string",
+            "description": "The effect of the spell, describing what happens when it is cast."
+          },
+          "imageUrl": {
+            "type": "string",
+            "description": "URL to an image representing the spell."
+          },
+          "magic": {
+            "type": "string",
+            "description": "The school of magic to which the spell belongs (e.g., Fire, Water, Earth, Air)."
+          }
+        }
+      },
+      "Spells": {
+        "type": "array",
+        "description": "List of spells.",
+        "items": {
+          "$ref": "#/components/schemas/Spell"
         }
       }
     }

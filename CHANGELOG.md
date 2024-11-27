@@ -8,6 +8,7 @@
 - [build]: update to deno 2.1.1
 - [refactor]: use deno lint
 - [docs]: update swagger (creatures)
+- [docs]: update swagger (spells)
 
 ## v1.0.0
 
