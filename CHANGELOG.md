@@ -3,6 +3,7 @@
 ## v1.1.0
 
 - [docs]: add swagger docs dev
+- [refactor]: use deno fmt
 
 ## v1.0.0
 
