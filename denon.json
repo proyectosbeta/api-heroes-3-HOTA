@@ -1,9 +1,9 @@
 {
-	"$schema": "https://deno.land/x/denon/schema.json",
-	"env": {},
-	"scripts": {
-		"start": {
-			"cmd": "deno run --allow-net --allow-env --allow-read app.ts"
-		}
-	}
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "env": {},
+  "scripts": {
+    "start": {
+      "cmd": "deno run --allow-net --allow-env --allow-read app.ts"
+    }
+  }
 }

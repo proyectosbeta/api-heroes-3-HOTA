@@ -1,9 +1,23 @@
-
 {
-    "fmt": {
-      "include": ["./app/**/*.ts"],
-      "exclude": ["./swagger-ui/*"]
-    },
-    "useTabs": false,
-    "lineWidth": 80
+  "fmt": {
+    "include": [
+      "./app/**/*.ts",
+      "app.ts",
+      "CHANGELOG.md",
+      "deno.json",
+      "denon.json",
+      "deps.ts",
+      "docker-compose.yml",
+      "Dockerfile",
+      "README.md",
+      "swagger.json",
+      "TODO.md"
+    ],
+    "exclude": ["./swagger-ui/*"]
+  },
+  "useTabs": false,
+  "lineWidth": 80,
+  "indentWidth": 2,
+  "singleQuote": true,
+  "proseWrap": "always"
 }
