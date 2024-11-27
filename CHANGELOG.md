@@ -4,6 +4,7 @@
 
 - [docs]: add swagger docs dev
 - [refactor]: use deno fmt
+- [fix]: fmt config
 
 ## v1.0.0
 

@@ -2,7 +2,7 @@
 {
     "fmt": {
       "include": ["./app/**/*.ts"],
-      "exclude": ["./swagger-ui/**"],
+      "exclude": ["./swagger-ui/*"]
     },
     "useTabs": false,
     "lineWidth": 80
