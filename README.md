@@ -10,7 +10,7 @@ Link:
 
 ## Tecnologies
 
-- DenoJS 2.1.1
+- DenoJS 2.1.4
 - v8 13.0.245.12-rusty
 - Typescript 5.6.2
 - Denon v2.5.0

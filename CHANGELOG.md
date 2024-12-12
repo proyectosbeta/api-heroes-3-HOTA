@@ -1,5 +1,9 @@
 # Release Notes
 
+## v1.2.0
+
+- [build]: update to deno 2.1.4
+
 ## v1.1.0
 
 - [docs]: add swagger docs dev
